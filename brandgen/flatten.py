@@ -15,6 +15,10 @@ def flatten_to_csv(
 
     If a company has no brands an empty brand row is written.
     """
+    import logging
+    logger = logging.getLogger(__name__)
+    logger.info(f"Writing output to {csv_path}...")
+    
     fieldnames = [
         "industry_section",
         "company_name",

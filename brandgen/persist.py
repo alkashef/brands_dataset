@@ -25,6 +25,9 @@ def save_json(path: str, data: Any) -> None:
 
 def load_sections(path: str) -> Dict[int, str]:
     """Return mapping of section index -> label from industries JSON."""
+    import logging
+    logger = logging.getLogger(__name__)
+    logger.info(f"Opened file {path} for reading...")
     payload = load_json(path)
     sections = payload.get("sections", {}) if isinstance(payload, dict) else {}
     return {int(k): v for k, v in sections.items()}
@@ -32,6 +35,9 @@ def load_sections(path: str) -> Dict[int, str]:
 
 def load_companies(path: str) -> Dict[str, List[Dict[str, str]]]:
     """Load previously generated companies JSON (section label -> list of company dicts)."""
+    import logging
+    logger = logging.getLogger(__name__)
+    logger.info(f"Opened file {path} for reading...")
     data = load_json(path)
     return data if isinstance(data, dict) else {}
 
@@ -42,6 +48,9 @@ def load_isic_groups(path: str) -> Dict[str, Dict[str, str]]:
     Returns dict mapping group_name -> {section_name, division_name, group_name, includes, excludes}
     """
     import csv
+    import logging
+    logger = logging.getLogger(__name__)
+    logger.info(f"Opened file {path} for reading...")
     groups = {}
     
     try:

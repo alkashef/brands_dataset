@@ -247,6 +247,7 @@ def main() -> int:
 		# Load existing JSON artifacts only and regenerate CSV.
 		logger.info("Mode=csv: loading existing JSON artifacts for CSV regeneration")
 		section_responses = load_companies(str(companies_path))
+		logger.info(f"Opened file {brands_path} for reading...")
 		with brands_path.open("r", encoding="utf-8") as file:
 			brands_data: dict[str, list[dict[str, str]]] = json.load(file)
 		logger.info("Loaded brands JSON; writing CSV")
@@ -274,6 +275,7 @@ def main() -> int:
 		
 		logger.info(f"Companies phase elapsed: {time.time() - companies_phase_start:.2f}s")
 		companies_path.parent.mkdir(parents=True, exist_ok=True)
+		logger.info(f"Writing output to {companies_path}...")
 		with companies_path.open("w", encoding="utf-8") as file:
 			json.dump(section_responses, file, ensure_ascii=False, indent=2)
 		logger.info(f"Saved companies JSON to {companies_path}")
@@ -295,6 +297,7 @@ def main() -> int:
 	)
 	logger.info(f"Brands phase elapsed: {time.time() - brands_phase_start:.2f}s")
 	brands_path.parent.mkdir(parents=True, exist_ok=True)
+	logger.info(f"Writing output to {brands_path}...")
 	with brands_path.open("w", encoding="utf-8") as file:
 		json.dump(brands_data, file, ensure_ascii=False, indent=2)
 	logger.info(f"Saved brands JSON to {brands_path}")

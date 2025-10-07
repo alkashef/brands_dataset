@@ -23,7 +23,7 @@ def configure_logger(name: str = "brandgen", level: int = logging.INFO) -> loggi
         return logger
     logger.setLevel(level)
     handler = logging.StreamHandler(sys.stdout)
-    fmt = "[%(asctime)s] %(elapsed)s | %(levelname)s | %(message)s"
+    fmt = "[%(asctime)s] %(levelname)s | %(message)s"
     handler.setFormatter(_ElapsedFormatter(fmt=fmt, datefmt="%Y-%m-%d %H:%M:%S"))
     logger.addHandler(handler)
     logger.propagate = False
