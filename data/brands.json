@@ -1,179 +1,5 @@
 {
-  "ACWA Power": [
-    {
-      "name": "Rabigh Power Plant",
-      "type": "Power Generation",
-      "invoice_example": "Electricity Supply Invoice",
-      "gpc_segment": "Utilities",
-      "gpc_family": "Electricity",
-      "gpc_class": "Power Generation",
-      "gpc_brick": "Thermal Power Plant"
-    },
-    {
-      "name": "Shuaibah Water Desalination",
-      "type": "Water Desalination",
-      "invoice_example": "Water Supply Invoice",
-      "gpc_segment": "Utilities",
-      "gpc_family": "Water",
-      "gpc_class": "Desalination",
-      "gpc_brick": "Reverse Osmosis Plant"
-    },
-    {
-      "name": "Sakaka Solar Plant",
-      "type": "Renewable Energy",
-      "invoice_example": "Solar Energy Supply Invoice",
-      "gpc_segment": "Utilities",
-      "gpc_family": "Electricity",
-      "gpc_class": "Renewable Energy",
-      "gpc_brick": "Solar Power Plant"
-    }
-  ],
-  "AMC Cinemas Saudi Arabia": [
-    {
-      "name": "Movie Ticket",
-      "type": "Service",
-      "invoice_example": "AMC Cinemas - Movie Ticket",
-      "gpc_segment": "Entertainment",
-      "gpc_family": "Cinema",
-      "gpc_class": "Movie Screening",
-      "gpc_brick": "Cinema Ticket"
-    },
-    {
-      "name": "Popcorn",
-      "type": "Product",
-      "invoice_example": "AMC Cinemas - Popcorn",
-      "gpc_segment": "Food and Beverage",
-      "gpc_family": "Snacks",
-      "gpc_class": "Popcorn",
-      "gpc_brick": "Cinema Popcorn"
-    },
-    {
-      "name": "Soft Drink",
-      "type": "Product",
-      "invoice_example": "AMC Cinemas - Soft Drink",
-      "gpc_segment": "Food and Beverage",
-      "gpc_family": "Beverages",
-      "gpc_class": "Soft Drinks",
-      "gpc_brick": "Cinema Soft Drink"
-    }
-  ],
-  "Abdullah Al Othaim Markets": [
-    {
-      "name": "Al Othaim Rice",
-      "type": "Food Product",
-      "invoice_example": "Al Othaim Rice 5kg",
-      "gpc_segment": "10000000",
-      "gpc_family": "10010000",
-      "gpc_class": "10010100",
-      "gpc_brick": "10010101"
-    },
-    {
-      "name": "Al Othaim Cooking Oil",
-      "type": "Food Product",
-      "invoice_example": "Al Othaim Sunflower Oil 1L",
-      "gpc_segment": "10000000",
-      "gpc_family": "10020000",
-      "gpc_class": "10020100",
-      "gpc_brick": "10020101"
-    },
-    {
-      "name": "Al Othaim Detergent",
-      "type": "Household Product",
-      "invoice_example": "Al Othaim Liquid Detergent 2L",
-      "gpc_segment": "30000000",
-      "gpc_family": "30010000",
-      "gpc_class": "30010100",
-      "gpc_brick": "30010101"
-    }
-  ],
-  "Advanced Electronics Company (AEC)": [
-    {
-      "name": "AEC Radar Systems",
-      "type": "Product",
-      "invoice_example": "Radar System Model X",
-      "gpc_segment": "Electronics",
-      "gpc_family": "Communication Devices",
-      "gpc_class": "Radar Equipment",
-      "gpc_brick": "Radar Systems"
-    },
-    {
-      "name": "AEC Communication Solutions",
-      "type": "Service",
-      "invoice_example": "Communication Service Package",
-      "gpc_segment": "Services",
-      "gpc_family": "Telecommunications",
-      "gpc_class": "Communication Services",
-      "gpc_brick": "Telecom Services"
-    },
-    {
-      "name": "AEC Defense Electronics",
-      "type": "Product",
-      "invoice_example": "Defense Electronics Kit",
-      "gpc_segment": "Electronics",
-      "gpc_family": "Defense Equipment",
-      "gpc_class": "Military Electronics",
-      "gpc_brick": "Defense Electronics"
-    }
-  ],
-  "Al Harbi Trading & Contracting Co.": [
-    {
-      "name": "Concrete Mix",
-      "type": "Construction Material",
-      "invoice_example": "Concrete Mix - 50 tons",
-      "gpc_segment": "Building Materials",
-      "gpc_family": "Concrete & Cement",
-      "gpc_class": "Ready-Mix Concrete",
-      "gpc_brick": "Ready-Mix Concrete"
-    },
-    {
-      "name": "Steel Rebars",
-      "type": "Construction Material",
-      "invoice_example": "Steel Rebars - 1000 kg",
-      "gpc_segment": "Building Materials",
-      "gpc_family": "Metal",
-      "gpc_class": "Steel",
-      "gpc_brick": "Steel Rebar"
-    },
-    {
-      "name": "Electrical Wiring",
-      "type": "Electrical Supplies",
-      "invoice_example": "Electrical Wiring - 500 meters",
-      "gpc_segment": "Electrical Systems",
-      "gpc_family": "Cables & Wires",
-      "gpc_class": "Electrical Wire",
-      "gpc_brick": "Electrical Wire"
-    }
-  ],
-  "Al Hokair Group": [
-    {
-      "name": "Magic Planet",
-      "type": "Entertainment",
-      "invoice_example": "Magic Planet Entry Fee",
-      "gpc_segment": "Recreation",
-      "gpc_family": "Entertainment",
-      "gpc_class": "Amusement",
-      "gpc_brick": "Amusement Parks"
-    },
-    {
-      "name": "Fuddruckers",
-      "type": "Restaurant",
-      "invoice_example": "Fuddruckers Meal",
-      "gpc_segment": "Food & Beverage",
-      "gpc_family": "Dining",
-      "gpc_class": "Casual Dining",
-      "gpc_brick": "Burger Restaurants"
-    },
-    {
-      "name": "Saco",
-      "type": "Retail",
-      "invoice_example": "Saco Home Supplies",
-      "gpc_segment": "Retail",
-      "gpc_family": "Home Improvement",
-      "gpc_class": "Hardware",
-      "gpc_brick": "Home Improvement Stores"
-    }
-  ],
-  "Al Khodari Sons Company": [
+  "Arab Contractors": [
     {
       "name": "Construction Services",
       "type": "Service",
@@ -182,1013 +8,86 @@
       "gpc_family": "Construction Services",
       "gpc_class": "General Construction",
       "gpc_brick": "Residential Building Construction"
-    },
-    {
-      "name": "Heavy Equipment Rental",
-      "type": "Service",
-      "invoice_example": "Rental of cranes and excavators",
-      "gpc_segment": "Rental Services",
-      "gpc_family": "Equipment Rental",
-      "gpc_class": "Heavy Equipment Rental",
-      "gpc_brick": "Crane Rental"
-    },
-    {
-      "name": "Road Construction",
-      "type": "Service",
-      "invoice_example": "Asphalt paving and road maintenance",
-      "gpc_segment": "Building and Construction",
-      "gpc_family": "Infrastructure Construction",
-      "gpc_class": "Road Construction",
-      "gpc_brick": "Highway Construction"
     }
   ],
-  "Al Masane Al Kobra Mining Company": [
+  "Arab League": [
     {
-      "name": "Copper Concentrate",
-      "type": "Product",
-      "invoice_example": "Copper Concentrate 25 MT",
-      "gpc_segment": "Metals",
-      "gpc_family": "Non-Ferrous Metals",
-      "gpc_class": "Copper",
-      "gpc_brick": "Copper Concentrates"
-    },
+      "name": "Egyptian Cotton",
+      "type": "Textile",
+      "invoice_example": "Egyptian Cotton Bed Sheet Set",
+      "gpc_segment": "Textiles",
+      "gpc_family": "Fabrics & Linens",
+      "gpc_class": "Bed Linens",
+      "gpc_brick": "Bed Sheets"
+    }
+  ],
+  "Arab Organization for Industrialization": [
     {
-      "name": "Zinc Concentrate",
-      "type": "Product",
-      "invoice_example": "Zinc Concentrate 20 MT",
-      "gpc_segment": "Metals",
-      "gpc_family": "Non-Ferrous Metals",
-      "gpc_class": "Zinc",
-      "gpc_brick": "Zinc Concentrates"
-    },
+      "name": "Kader Factory for Developed Industries",
+      "type": "Defense Equipment",
+      "invoice_example": "Kader Armored Vehicle",
+      "gpc_segment": "Defense",
+      "gpc_family": "Military Vehicles",
+      "gpc_class": "Armored Vehicles",
+      "gpc_brick": "Tanks and Armored Vehicles"
+    }
+  ],
+  "Cairo University": [
     {
-      "name": "Gold Bullion",
-      "type": "Product",
-      "invoice_example": "Gold Bullion 1 KG",
-      "gpc_segment": "Metals",
+      "name": "Cairo University Tuition Fees",
+      "type": "Service",
+      "invoice_example": "Tuition Fees for Fall Semester",
+      "gpc_segment": "Education",
+      "gpc_family": "Higher Education",
+      "gpc_class": "University",
+      "gpc_brick": "Tuition Fees"
+    }
+  ],
+  "Centamin Egypt": [
+    {
+      "name": "Sukari Gold",
+      "type": "Mineral",
+      "invoice_example": "Sukari Gold Ore",
+      "gpc_segment": "Metals & Minerals",
       "gpc_family": "Precious Metals",
       "gpc_class": "Gold",
-      "gpc_brick": "Gold Bullion"
+      "gpc_brick": "Gold Ore"
     }
   ],
-  "Al Rajhi Bank": [
+  "Cleopatra Hospitals Group": [
     {
-      "name": "Al Rajhi Personal Loan",
+      "name": "General Consultation",
+      "type": "Service",
+      "invoice_example": "Consultation Fee",
+      "gpc_segment": "Healthcare Services",
+      "gpc_family": "Medical Services",
+      "gpc_class": "Consultation",
+      "gpc_brick": "General Medical Consultation"
+    }
+  ],
+  "Commercial International Bank (CIB)": [
+    {
+      "name": "CIB Personal Loan",
       "type": "Financial Service",
-      "invoice_example": "Personal Loan Processing Fee",
+      "invoice_example": "CIB Personal Loan Payment",
       "gpc_segment": "Financial Services",
-      "gpc_family": "Loan Services",
+      "gpc_family": "Loans",
       "gpc_class": "Personal Loans",
       "gpc_brick": "Personal Loan Services"
-    },
-    {
-      "name": "Al Rajhi Credit Card",
-      "type": "Financial Product",
-      "invoice_example": "Credit Card Annual Fee",
-      "gpc_segment": "Financial Services",
-      "gpc_family": "Credit Card Services",
-      "gpc_class": "Credit Cards",
-      "gpc_brick": "Credit Card Issuance"
-    },
-    {
-      "name": "Al Rajhi Car Lease",
-      "type": "Financial Service",
-      "invoice_example": "Car Lease Monthly Payment",
-      "gpc_segment": "Financial Services",
-      "gpc_family": "Leasing Services",
-      "gpc_class": "Vehicle Leasing",
-      "gpc_brick": "Car Leasing Services"
     }
   ],
-  "Al Rashid Trading & Contracting Co.": [
+  "EgyptAir": [
     {
-      "name": "Construction Materials",
-      "type": "Product",
-      "invoice_example": "Cement, Steel Bars",
-      "gpc_segment": "Building & Construction",
-      "gpc_family": "Construction Materials",
-      "gpc_class": "Structural Materials",
-      "gpc_brick": "Cement & Concrete Products"
-    },
-    {
-      "name": "Heavy Machinery Rental",
+      "name": "Economy Class Ticket",
       "type": "Service",
-      "invoice_example": "Excavator Rental",
-      "gpc_segment": "Rental & Leasing",
-      "gpc_family": "Equipment Rental",
-      "gpc_class": "Heavy Machinery Rental",
-      "gpc_brick": "Construction Equipment Rental"
-    },
-    {
-      "name": "Electrical Supplies",
-      "type": "Product",
-      "invoice_example": "Wiring, Switches",
-      "gpc_segment": "Electrical Systems",
-      "gpc_family": "Electrical Supplies",
-      "gpc_class": "Wiring & Accessories",
-      "gpc_brick": "Electrical Wiring & Accessories"
-    }
-  ],
-  "Al Salam Aerospace Industries": [
-    {
-      "name": "Aircraft Maintenance",
-      "type": "Service",
-      "invoice_example": "Aircraft Maintenance Service - Boeing 777",
-      "gpc_segment": "Service",
-      "gpc_family": "Aerospace Services",
-      "gpc_class": "Aircraft Maintenance",
-      "gpc_brick": "Commercial Aircraft Maintenance"
-    },
-    {
-      "name": "Component Overhaul",
-      "type": "Service",
-      "invoice_example": "Component Overhaul - Landing Gear",
-      "gpc_segment": "Service",
-      "gpc_family": "Aerospace Services",
-      "gpc_class": "Component Overhaul",
-      "gpc_brick": "Aircraft Component Overhaul"
-    },
-    {
-      "name": "Avionics Upgrade",
-      "type": "Service",
-      "invoice_example": "Avionics Upgrade Package",
-      "gpc_segment": "Service",
-      "gpc_family": "Aerospace Services",
-      "gpc_class": "Avionics Services",
-      "gpc_brick": "Avionics Upgrade Services"
-    }
-  ],
-  "Alfaisal University": [
-    {
-      "name": "Tuition Fees",
-      "type": "Service",
-      "invoice_example": "Undergraduate Tuition Fee",
-      "gpc_segment": "Education",
-      "gpc_family": "Higher Education",
-      "gpc_class": "University",
-      "gpc_brick": "Tuition"
-    },
-    {
-      "name": "Library Services",
-      "type": "Service",
-      "invoice_example": "Library Membership Fee",
-      "gpc_segment": "Education",
-      "gpc_family": "Higher Education",
-      "gpc_class": "University",
-      "gpc_brick": "Library Services"
-    },
-    {
-      "name": "Laboratory Fees",
-      "type": "Service",
-      "invoice_example": "Chemistry Lab Fee",
-      "gpc_segment": "Education",
-      "gpc_family": "Higher Education",
-      "gpc_class": "University",
-      "gpc_brick": "Laboratory Services"
-    }
-  ],
-  "Almarai": [
-    {
-      "name": "Almarai Fresh Milk",
-      "type": "Dairy Product",
-      "invoice_example": "Almarai Fresh Milk 1L",
-      "gpc_segment": "Beverages",
-      "gpc_family": "Dairy",
-      "gpc_class": "Milk",
-      "gpc_brick": "Fresh Milk"
-    },
-    {
-      "name": "Almarai Cheese Slices",
-      "type": "Dairy Product",
-      "invoice_example": "Almarai Cheese Slices 200g",
-      "gpc_segment": "Food",
-      "gpc_family": "Dairy",
-      "gpc_class": "Cheese",
-      "gpc_brick": "Cheese Slices"
-    },
-    {
-      "name": "Almarai Yogurt",
-      "type": "Dairy Product",
-      "invoice_example": "Almarai Yogurt 500g",
-      "gpc_segment": "Food",
-      "gpc_family": "Dairy",
-      "gpc_class": "Yogurt",
-      "gpc_brick": "Plain Yogurt"
-    }
-  ],
-  "Almarai Company": [
-    {
-      "name": "Almarai Fresh Milk",
-      "type": "Dairy Product",
-      "invoice_example": "Almarai Fresh Milk 1L",
-      "gpc_segment": "Dairy",
-      "gpc_family": "Milk",
-      "gpc_class": "Fresh Milk",
-      "gpc_brick": "Whole Milk"
-    },
-    {
-      "name": "Almarai Yogurt",
-      "type": "Dairy Product",
-      "invoice_example": "Almarai Yogurt 500g",
-      "gpc_segment": "Dairy",
-      "gpc_family": "Yogurt",
-      "gpc_class": "Plain Yogurt",
-      "gpc_brick": "Natural Yogurt"
-    },
-    {
-      "name": "Almarai Cheese",
-      "type": "Dairy Product",
-      "invoice_example": "Almarai Cheese Slices 200g",
-      "gpc_segment": "Dairy",
-      "gpc_family": "Cheese",
-      "gpc_class": "Processed Cheese",
-      "gpc_brick": "Cheese Slices"
-    }
-  ],
-  "Bahri": [
-    {
-      "name": "Bahri Oil Transport",
-      "type": "Service",
-      "invoice_example": "Crude oil shipment from Ras Tanura to Rotterdam",
-      "gpc_segment": "Logistics Services",
-      "gpc_family": "Transport Services",
-      "gpc_class": "Maritime Transport",
-      "gpc_brick": "Oil Tanker Services"
-    },
-    {
-      "name": "Bahri Chemicals",
-      "type": "Service",
-      "invoice_example": "Chemical transport from Jubail to Singapore",
-      "gpc_segment": "Logistics Services",
-      "gpc_family": "Transport Services",
-      "gpc_class": "Maritime Transport",
-      "gpc_brick": "Chemical Tanker Services"
-    },
-    {
-      "name": "Bahri Dry Bulk",
-      "type": "Service",
-      "invoice_example": "Grain shipment from Dammam to Alexandria",
-      "gpc_segment": "Logistics Services",
-      "gpc_family": "Transport Services",
-      "gpc_class": "Maritime Transport",
-      "gpc_brick": "Dry Bulk Carrier Services"
-    }
-  ],
-  "Dar Al Arkan Real Estate Development Company": [
-    {
-      "name": "Residential Apartments",
-      "type": "Real Estate",
-      "invoice_example": "Invoice for Apartment Sale",
-      "gpc_segment": "Real Estate",
-      "gpc_family": "Residential",
-      "gpc_class": "Apartments",
-      "gpc_brick": "Residential Apartments"
-    },
-    {
-      "name": "Commercial Spaces",
-      "type": "Real Estate",
-      "invoice_example": "Invoice for Commercial Space Lease",
-      "gpc_segment": "Real Estate",
-      "gpc_family": "Commercial",
-      "gpc_class": "Office Spaces",
-      "gpc_brick": "Commercial Office Spaces"
-    },
-    {
-      "name": "Retail Units",
-      "type": "Real Estate",
-      "invoice_example": "Invoice for Retail Unit Lease",
-      "gpc_segment": "Real Estate",
-      "gpc_family": "Commercial",
-      "gpc_class": "Retail Spaces",
-      "gpc_brick": "Retail Units"
-    }
-  ],
-  "Dr. Sulaiman Al Habib Medical Group": [
-    {
-      "name": "Consultation Services",
-      "type": "Service",
-      "invoice_example": "Consultation with Specialist",
-      "gpc_segment": "Healthcare Services",
-      "gpc_family": "Medical Services",
-      "gpc_class": "Consultation Services",
-      "gpc_brick": "Medical Consultation"
-    },
-    {
-      "name": "Radiology Services",
-      "type": "Service",
-      "invoice_example": "MRI Scan",
-      "gpc_segment": "Healthcare Services",
-      "gpc_family": "Diagnostic Services",
-      "gpc_class": "Radiology Services",
-      "gpc_brick": "Imaging Services"
-    },
-    {
-      "name": "Laboratory Tests",
-      "type": "Service",
-      "invoice_example": "Blood Test",
-      "gpc_segment": "Healthcare Services",
-      "gpc_family": "Diagnostic Services",
-      "gpc_class": "Laboratory Services",
-      "gpc_brick": "Pathology Services"
-    }
-  ],
-  "Gulf Cooperation Council (GCC)": [
-    {
-      "name": "Saudi Aramco",
-      "type": "Energy",
-      "invoice_example": "Crude Oil Supply",
-      "gpc_segment": "Energy & Utilities",
-      "gpc_family": "Fuels",
-      "gpc_class": "Petroleum",
-      "gpc_brick": "Crude Oil"
-    },
-    {
-      "name": "Almarai",
-      "type": "Food & Beverage",
-      "invoice_example": "Dairy Products",
-      "gpc_segment": "Food & Beverage",
-      "gpc_family": "Dairy",
-      "gpc_class": "Milk & Cream",
-      "gpc_brick": "Fresh Milk"
-    },
-    {
-      "name": "STC",
-      "type": "Telecommunications",
-      "invoice_example": "Mobile Services",
-      "gpc_segment": "Telecommunications",
-      "gpc_family": "Mobile Services",
-      "gpc_class": "Mobile Voice",
-      "gpc_brick": "Mobile Phone Services"
-    }
-  ],
-  "Herfy Food Services Co.": [
-    {
-      "name": "Herfy Burger",
-      "type": "Food Item",
-      "invoice_example": "Herfy Burger - Single",
-      "gpc_segment": "Food/Beverage/Tobacco",
-      "gpc_family": "Prepared/Preserved Foods",
-      "gpc_class": "Prepared Meals",
-      "gpc_brick": "Burgers"
-    },
-    {
-      "name": "Herfy Chicken Sandwich",
-      "type": "Food Item",
-      "invoice_example": "Herfy Chicken Sandwich - Combo",
-      "gpc_segment": "Food/Beverage/Tobacco",
-      "gpc_family": "Prepared/Preserved Foods",
-      "gpc_class": "Prepared Meals",
-      "gpc_brick": "Sandwiches"
-    },
-    {
-      "name": "Herfy Fries",
-      "type": "Food Item",
-      "invoice_example": "Herfy Fries - Large",
-      "gpc_segment": "Food/Beverage/Tobacco",
-      "gpc_family": "Prepared/Preserved Foods",
-      "gpc_class": "Prepared Meals",
-      "gpc_brick": "French Fries"
-    }
-  ],
-  "Islamic Development Bank": [
-    {
-      "name": "Islamic Finance Consultancy",
-      "type": "Service",
-      "invoice_example": "Consultancy Fee for Islamic Finance",
-      "gpc_segment": "Business Services",
-      "gpc_family": "Consulting Services",
-      "gpc_class": "Financial Consulting",
-      "gpc_brick": "Islamic Finance Consulting"
-    },
-    {
-      "name": "Project Financing",
-      "type": "Service",
-      "invoice_example": "Project Financing for Infrastructure",
-      "gpc_segment": "Financial Services",
-      "gpc_family": "Lending Services",
-      "gpc_class": "Project Financing",
-      "gpc_brick": "Infrastructure Financing"
-    },
-    {
-      "name": "Technical Assistance",
-      "type": "Service",
-      "invoice_example": "Technical Assistance for Capacity Building",
-      "gpc_segment": "Business Services",
-      "gpc_family": "Consulting Services",
-      "gpc_class": "Technical Assistance",
-      "gpc_brick": "Capacity Building"
-    }
-  ],
-  "Jabal Omar Development Company": [
-    {
-      "name": "Jabal Omar Hotels",
-      "type": "Service",
-      "invoice_example": "Hotel accommodation charges",
-      "gpc_segment": "Travel & Tourism",
-      "gpc_family": "Accommodation",
-      "gpc_class": "Hotels",
-      "gpc_brick": "Luxury Hotels"
-    },
-    {
-      "name": "Jabal Omar Malls",
-      "type": "Service",
-      "invoice_example": "Retail space rental",
-      "gpc_segment": "Real Estate",
-      "gpc_family": "Commercial Property",
-      "gpc_class": "Shopping Centers",
-      "gpc_brick": "Retail Malls"
-    },
-    {
-      "name": "Jabal Omar Residential Units",
-      "type": "Product",
-      "invoice_example": "Residential unit sales",
-      "gpc_segment": "Real Estate",
-      "gpc_family": "Residential Property",
-      "gpc_class": "Apartments",
-      "gpc_brick": "Luxury Apartments"
-    }
-  ],
-  "Jarir Marketing Company": [
-    {
-      "name": "Apple iPhone",
-      "type": "Electronics",
-      "invoice_example": "iPhone 14 Pro Max",
-      "gpc_segment": "10000000",
-      "gpc_family": "10001000",
-      "gpc_class": "10001001",
-      "gpc_brick": "10001001"
-    },
-    {
-      "name": "Samsung Galaxy",
-      "type": "Electronics",
-      "invoice_example": "Galaxy S23 Ultra",
-      "gpc_segment": "10000000",
-      "gpc_family": "10001000",
-      "gpc_class": "10001001",
-      "gpc_brick": "10001001"
-    },
-    {
-      "name": "HP Laptop",
-      "type": "Computers",
-      "invoice_example": "HP Pavilion 15",
-      "gpc_segment": "10000000",
-      "gpc_family": "10002000",
-      "gpc_class": "10002001",
-      "gpc_brick": "10002001"
-    }
-  ],
-  "Mobily": [
-    {
-      "name": "Mobily Prepaid SIM",
-      "type": "Telecommunications",
-      "invoice_example": "Mobily Prepaid SIM Card",
-      "gpc_segment": "Telecommunications",
-      "gpc_family": "Mobile Communications",
-      "gpc_class": "Mobile Services",
-      "gpc_brick": "Prepaid Mobile Services"
-    },
-    {
-      "name": "Mobily Postpaid Plan",
-      "type": "Telecommunications",
-      "invoice_example": "Mobily Postpaid Plan Subscription",
-      "gpc_segment": "Telecommunications",
-      "gpc_family": "Mobile Communications",
-      "gpc_class": "Mobile Services",
-      "gpc_brick": "Postpaid Mobile Services"
-    },
-    {
-      "name": "Mobily Fiber Internet",
-      "type": "Internet Services",
-      "invoice_example": "Mobily Fiber Internet Subscription",
-      "gpc_segment": "Telecommunications",
-      "gpc_family": "Internet Services",
-      "gpc_class": "Broadband Services",
-      "gpc_brick": "Fiber Internet Services"
-    }
-  ],
-  "National Agricultural Development Company (NADEC)": [
-    {
-      "name": "NADEC Milk",
-      "type": "Dairy Product",
-      "invoice_example": "NADEC Full Cream Milk 1L",
-      "gpc_segment": "Dairy Products",
-      "gpc_family": "Milk & Milk Substitutes",
-      "gpc_class": "Milk",
-      "gpc_brick": "Milk"
-    },
-    {
-      "name": "NADEC Cheese",
-      "type": "Dairy Product",
-      "invoice_example": "NADEC Cheddar Cheese 200g",
-      "gpc_segment": "Dairy Products",
-      "gpc_family": "Cheese",
-      "gpc_class": "Cheddar Cheese",
-      "gpc_brick": "Cheese"
-    },
-    {
-      "name": "NADEC Yogurt",
-      "type": "Dairy Product",
-      "invoice_example": "NADEC Plain Yogurt 500g",
-      "gpc_segment": "Dairy Products",
-      "gpc_family": "Yogurt",
-      "gpc_class": "Plain Yogurt",
-      "gpc_brick": "Yogurt"
-    }
-  ],
-  "National Commercial Bank": [
-    {
-      "name": "Current Account Services",
-      "type": "Financial Service",
-      "invoice_example": "Monthly account maintenance fee",
-      "gpc_segment": "Financial Services",
-      "gpc_family": "Banking",
-      "gpc_class": "Account Services",
-      "gpc_brick": "Current Accounts"
-    },
-    {
-      "name": "Savings Account Services",
-      "type": "Financial Service",
-      "invoice_example": "Interest payment",
-      "gpc_segment": "Financial Services",
-      "gpc_family": "Banking",
-      "gpc_class": "Account Services",
-      "gpc_brick": "Savings Accounts"
-    },
-    {
-      "name": "Personal Loans",
-      "type": "Financial Product",
-      "invoice_example": "Loan disbursement",
-      "gpc_segment": "Financial Services",
-      "gpc_family": "Lending",
-      "gpc_class": "Personal Loans",
-      "gpc_brick": "Unsecured Personal Loans"
-    }
-  ],
-  "National Grid SA": [
-    {
-      "name": "Electricity Transmission Services",
-      "type": "Service",
-      "invoice_example": "Transmission Service Fee",
-      "gpc_segment": "Utilities",
-      "gpc_family": "Electricity",
-      "gpc_class": "Transmission",
-      "gpc_brick": "Electricity Transmission Services"
-    },
-    {
-      "name": "Grid Maintenance",
-      "type": "Service",
-      "invoice_example": "Grid Maintenance Charges",
-      "gpc_segment": "Utilities",
-      "gpc_family": "Electricity",
-      "gpc_class": "Maintenance",
-      "gpc_brick": "Grid Maintenance Services"
-    },
-    {
-      "name": "Power Infrastructure Development",
-      "type": "Service",
-      "invoice_example": "Infrastructure Development Fee",
-      "gpc_segment": "Utilities",
-      "gpc_family": "Electricity",
-      "gpc_class": "Development",
-      "gpc_brick": "Power Infrastructure Development Services"
-    }
-  ],
-  "National Medical Care Company": [
-    {
-      "name": "Dialysis Services",
-      "type": "Service",
-      "invoice_example": "Dialysis session",
-      "gpc_segment": "Healthcare Services",
-      "gpc_family": "Medical Services",
-      "gpc_class": "Dialysis",
-      "gpc_brick": "Dialysis Services"
-    },
-    {
-      "name": "Medical Equipment Rental",
-      "type": "Service",
-      "invoice_example": "Monthly equipment rental",
-      "gpc_segment": "Healthcare Services",
-      "gpc_family": "Equipment Services",
-      "gpc_class": "Rental Services",
-      "gpc_brick": "Medical Equipment Rental"
-    },
-    {
-      "name": "Pharmaceutical Supplies",
-      "type": "Product",
-      "invoice_example": "Medication supply",
-      "gpc_segment": "Healthcare Products",
-      "gpc_family": "Pharmaceuticals",
-      "gpc_class": "Medicines",
-      "gpc_brick": "Pharmaceutical Supplies"
-    }
-  ],
-  "National Water Company": [
-    {
-      "name": "Water Supply Service",
-      "type": "Service",
-      "invoice_example": "Monthly Water Supply Charge",
-      "gpc_segment": "Utilities",
-      "gpc_family": "Water Services",
-      "gpc_class": "Water Supply",
-      "gpc_brick": "Residential Water Supply"
-    },
-    {
-      "name": "Sewage Treatment Service",
-      "type": "Service",
-      "invoice_example": "Sewage Treatment Fee",
-      "gpc_segment": "Utilities",
-      "gpc_family": "Water Services",
-      "gpc_class": "Sewage Treatment",
-      "gpc_brick": "Residential Sewage Treatment"
-    },
-    {
-      "name": "Industrial Water Supply",
-      "type": "Service",
-      "invoice_example": "Industrial Water Supply Charge",
-      "gpc_segment": "Utilities",
-      "gpc_family": "Water Services",
-      "gpc_class": "Water Supply",
-      "gpc_brick": "Industrial Water Supply"
-    }
-  ],
-  "Organization of Islamic Cooperation (OIC)": [
-    {
-      "name": "Zamzam Water",
-      "type": "Product",
-      "invoice_example": "Zamzam Water 500ml",
-      "gpc_segment": "Beverages",
-      "gpc_family": "Water",
-      "gpc_class": "Bottled Water",
-      "gpc_brick": "Natural Spring Water"
-    },
-    {
-      "name": "Saudi Dates",
-      "type": "Product",
-      "invoice_example": "Ajwa Dates 1kg",
-      "gpc_segment": "Food & Beverage",
-      "gpc_family": "Fruits",
-      "gpc_class": "Dried Fruits",
-      "gpc_brick": "Dates"
-    },
-    {
-      "name": "Islamic Books",
-      "type": "Product",
-      "invoice_example": "Quran with Translation",
-      "gpc_segment": "Media",
-      "gpc_family": "Books",
-      "gpc_class": "Religious Books",
-      "gpc_brick": "Islamic Literature"
-    }
-  ],
-  "Prince Sultan University": [
-    {
-      "name": "Tuition Fees",
-      "type": "Service",
-      "invoice_example": "Undergraduate Tuition Fee",
-      "gpc_segment": "Education",
-      "gpc_family": "Higher Education",
-      "gpc_class": "University",
-      "gpc_brick": "Tuition"
-    },
-    {
-      "name": "Library Membership",
-      "type": "Service",
-      "invoice_example": "Annual Library Membership Fee",
-      "gpc_segment": "Education",
-      "gpc_family": "Higher Education",
-      "gpc_class": "University",
-      "gpc_brick": "Library Services"
-    },
-    {
-      "name": "Accommodation Fees",
-      "type": "Service",
-      "invoice_example": "Student Dormitory Fee",
-      "gpc_segment": "Education",
-      "gpc_family": "Higher Education",
-      "gpc_class": "University",
-      "gpc_brick": "Accommodation"
-    }
-  ],
-  "SABIC": [
-    {
-      "name": "SABIC Polyethylene",
-      "type": "Product",
-      "invoice_example": "Polyethylene HDPE 5502",
-      "gpc_segment": "Chemicals",
-      "gpc_family": "Plastics",
-      "gpc_class": "Polyethylene",
-      "gpc_brick": "High Density Polyethylene"
-    },
-    {
-      "name": "SABIC Polypropylene",
-      "type": "Product",
-      "invoice_example": "Polypropylene PP 520L",
-      "gpc_segment": "Chemicals",
-      "gpc_family": "Plastics",
-      "gpc_class": "Polypropylene",
-      "gpc_brick": "Polypropylene Homopolymer"
-    },
-    {
-      "name": "SABIC Urea",
-      "type": "Product",
-      "invoice_example": "Urea Granular",
-      "gpc_segment": "Chemicals",
-      "gpc_family": "Fertilizers",
-      "gpc_class": "Nitrogen Fertilizers",
-      "gpc_brick": "Urea"
-    }
-  ],
-  "Saudi Agricultural and Livestock Investment Company (SALIC)": [
-    {
-      "name": "Almarai Milk",
-      "type": "Dairy Product",
-      "invoice_example": "Almarai Full Cream Milk 1L",
-      "gpc_segment": "Food/Beverage/Tobacco",
-      "gpc_family": "Dairy Products",
-      "gpc_class": "Milk",
-      "gpc_brick": "Milk - Fresh"
-    },
-    {
-      "name": "Almarai Cheese",
-      "type": "Dairy Product",
-      "invoice_example": "Almarai Cheddar Cheese 200g",
-      "gpc_segment": "Food/Beverage/Tobacco",
-      "gpc_family": "Dairy Products",
-      "gpc_class": "Cheese",
-      "gpc_brick": "Cheese - Hard"
-    },
-    {
-      "name": "Almarai Yogurt",
-      "type": "Dairy Product",
-      "invoice_example": "Almarai Plain Yogurt 500g",
-      "gpc_segment": "Food/Beverage/Tobacco",
-      "gpc_family": "Dairy Products",
-      "gpc_class": "Yogurt",
-      "gpc_brick": "Yogurt - Plain"
-    }
-  ],
-  "Saudi Airlines Catering Company": [
-    {
-      "name": "In-flight Catering Services",
-      "type": "Service",
-      "invoice_example": "Catering services for flight SV123",
-      "gpc_segment": "Travel & Transportation Services",
-      "gpc_family": "Airline Services",
-      "gpc_class": "In-flight Services",
-      "gpc_brick": "In-flight Catering"
-    },
-    {
-      "name": "Airport Lounge Catering",
-      "type": "Service",
-      "invoice_example": "Catering for Al-Fursan Lounge",
-      "gpc_segment": "Travel & Transportation Services",
-      "gpc_family": "Airport Services",
-      "gpc_class": "Lounge Services",
-      "gpc_brick": "Lounge Catering"
-    },
-    {
-      "name": "Event Catering",
-      "type": "Service",
-      "invoice_example": "Catering for corporate event",
-      "gpc_segment": "Event Services",
-      "gpc_family": "Catering Services",
-      "gpc_class": "Event Catering",
-      "gpc_brick": "Corporate Event Catering"
-    }
-  ],
-  "Saudi Arabian Airlines": [
-    {
-      "name": "Saudi Arabian Airlines Flight Ticket",
-      "type": "Service",
-      "invoice_example": "Flight ticket from Riyadh to Jeddah",
+      "invoice_example": "Economy Class Ticket - Cairo to London",
       "gpc_segment": "Travel & Transportation",
       "gpc_family": "Air Travel",
       "gpc_class": "Commercial Flights",
-      "gpc_brick": "Airline Tickets"
-    },
-    {
-      "name": "Saudi Arabian Airlines Cargo Service",
-      "type": "Service",
-      "invoice_example": "Cargo shipment from Dammam to Dubai",
-      "gpc_segment": "Logistics & Delivery",
-      "gpc_family": "Freight Services",
-      "gpc_class": "Air Freight",
-      "gpc_brick": "Air Cargo Services"
-    },
-    {
-      "name": "Alfursan Loyalty Program",
-      "type": "Service",
-      "invoice_example": "Alfursan membership renewal",
-      "gpc_segment": "Travel & Transportation",
-      "gpc_family": "Travel Services",
-      "gpc_class": "Loyalty Programs",
-      "gpc_brick": "Frequent Flyer Programs"
+      "gpc_brick": "Passenger Air Transport"
     }
   ],
-  "Saudi Arabian Military Industries (SAMI)": [
-    {
-      "name": "SAMI Armored Vehicles",
-      "type": "Product",
-      "invoice_example": "SAMI Armored Vehicle Model X",
-      "gpc_segment": "Defense",
-      "gpc_family": "Vehicles",
-      "gpc_class": "Armored Vehicles",
-      "gpc_brick": "Military Vehicles"
-    },
-    {
-      "name": "SAMI Aerospace Components",
-      "type": "Product",
-      "invoice_example": "SAMI Jet Engine Part Y",
-      "gpc_segment": "Aerospace",
-      "gpc_family": "Components",
-      "gpc_class": "Engine Parts",
-      "gpc_brick": "Aircraft Components"
-    },
-    {
-      "name": "SAMI Weapon Systems",
-      "type": "Product",
-      "invoice_example": "SAMI Missile System Z",
-      "gpc_segment": "Defense",
-      "gpc_family": "Weapons",
-      "gpc_class": "Missile Systems",
-      "gpc_brick": "Guided Missiles"
-    }
-  ],
-  "Saudi Arabian Mining Company (Ma'aden)": [
-    {
-      "name": "Phosphate Fertilizer",
-      "type": "Product",
-      "invoice_example": "Phosphate Fertilizer 50kg",
-      "gpc_segment": "Chemicals",
-      "gpc_family": "Fertilizers",
-      "gpc_class": "Phosphate Fertilizers",
-      "gpc_brick": "Granular Phosphate Fertilizers"
-    },
-    {
-      "name": "Aluminum Ingots",
-      "type": "Product",
-      "invoice_example": "Aluminum Ingot 99.7%",
-      "gpc_segment": "Metals",
-      "gpc_family": "Aluminum",
-      "gpc_class": "Primary Aluminum",
-      "gpc_brick": "Aluminum Ingots"
-    },
-    {
-      "name": "Gold Bullion",
-      "type": "Product",
-      "invoice_example": "Gold Bullion 1kg",
-      "gpc_segment": "Metals",
-      "gpc_family": "Precious Metals",
-      "gpc_class": "Gold",
-      "gpc_brick": "Gold Bullion"
-    }
-  ],
-  "Saudi Arabian Monetary Authority": [
-    {
-      "name": "Saudi Riyal Currency",
-      "type": "Currency",
-      "invoice_example": "Currency exchange services",
-      "gpc_segment": "Financial Services",
-      "gpc_family": "Currency Exchange",
-      "gpc_class": "Currency",
-      "gpc_brick": "Currency Exchange Services"
-    },
-    {
-      "name": "Monetary Policy Reports",
-      "type": "Report",
-      "invoice_example": "Subscription to monetary policy reports",
-      "gpc_segment": "Information Services",
-      "gpc_family": "Reports",
-      "gpc_class": "Financial Reports",
-      "gpc_brick": "Monetary Reports"
-    },
-    {
-      "name": "Bank Supervision Services",
-      "type": "Service",
-      "invoice_example": "Bank supervision and regulation fees",
-      "gpc_segment": "Financial Services",
-      "gpc_family": "Regulatory Services",
-      "gpc_class": "Bank Regulation",
-      "gpc_brick": "Bank Supervision Services"
-    }
-  ],
-  "Saudi Arabian Oil Company (Saudi Aramco)": [
-    {
-      "name": "Crude Oil",
-      "type": "Commodity",
-      "invoice_example": "Crude Oil - 1,000 barrels",
-      "gpc_segment": "Energy & Fuels",
-      "gpc_family": "Fossil Fuels",
-      "gpc_class": "Crude Oil",
-      "gpc_brick": "Crude Oil"
-    },
-    {
-      "name": "Refined Petroleum Products",
-      "type": "Commodity",
-      "invoice_example": "Diesel Fuel - 500 gallons",
-      "gpc_segment": "Energy & Fuels",
-      "gpc_family": "Refined Fuels",
-      "gpc_class": "Petroleum Products",
-      "gpc_brick": "Diesel Fuel"
-    },
-    {
-      "name": "Natural Gas",
-      "type": "Commodity",
-      "invoice_example": "Natural Gas - 1,000 cubic meters",
-      "gpc_segment": "Energy & Fuels",
-      "gpc_family": "Natural Gas",
-      "gpc_class": "Natural Gas",
-      "gpc_brick": "Natural Gas"
-    }
-  ],
-  "Saudi Aramco": [
-    {
-      "name": "Crude Oil",
-      "type": "Commodity",
-      "invoice_example": "Crude Oil - Arabian Light",
-      "gpc_segment": "Energy & Utilities",
-      "gpc_family": "Fuels",
-      "gpc_class": "Petroleum",
-      "gpc_brick": "Crude Oil"
-    },
-    {
-      "name": "Natural Gas",
-      "type": "Commodity",
-      "invoice_example": "Natural Gas - Methane",
-      "gpc_segment": "Energy & Utilities",
-      "gpc_family": "Fuels",
-      "gpc_class": "Natural Gas",
-      "gpc_brick": "Natural Gas"
-    },
-    {
-      "name": "Petrochemicals",
-      "type": "Product",
-      "invoice_example": "Polyethylene",
-      "gpc_segment": "Chemicals",
-      "gpc_family": "Plastics & Resins",
-      "gpc_class": "Polyethylene",
-      "gpc_brick": "Polyethylene"
-    }
-  ],
-  "Saudi Basic Industries Corporation (SABIC)": [
-    {
-      "name": "SABIC Polyethylene",
-      "type": "Polymer",
-      "invoice_example": "SABIC Polyethylene 25kg",
-      "gpc_segment": "Chemicals",
-      "gpc_family": "Polymers",
-      "gpc_class": "Polyethylene",
-      "gpc_brick": "Polyethylene Resins"
-    },
-    {
-      "name": "SABIC Polypropylene",
-      "type": "Polymer",
-      "invoice_example": "SABIC Polypropylene 25kg",
-      "gpc_segment": "Chemicals",
-      "gpc_family": "Polymers",
-      "gpc_class": "Polypropylene",
-      "gpc_brick": "Polypropylene Resins"
-    },
-    {
-      "name": "SABIC Polycarbonate",
-      "type": "Polymer",
-      "invoice_example": "SABIC Polycarbonate 25kg",
-      "gpc_segment": "Chemicals",
-      "gpc_family": "Polymers",
-      "gpc_class": "Polycarbonate",
-      "gpc_brick": "Polycarbonate Resins"
-    }
-  ],
-  "Saudi Binladin Group": [
-    {
-      "name": "Construction Services",
-      "type": "Service",
-      "invoice_example": "Construction of residential buildings",
-      "gpc_segment": "Building and Construction",
-      "gpc_family": "Construction Services",
-      "gpc_class": "General Construction",
-      "gpc_brick": "Residential Building Construction"
-    },
-    {
-      "name": "Project Management",
-      "type": "Service",
-      "invoice_example": "Project management for infrastructure projects",
-      "gpc_segment": "Business Services",
-      "gpc_family": "Management Services",
-      "gpc_class": "Project Management",
-      "gpc_brick": "Infrastructure Project Management"
-    },
-    {
-      "name": "Facility Management",
-      "type": "Service",
-      "invoice_example": "Facility management for commercial properties",
-      "gpc_segment": "Business Services",
-      "gpc_family": "Facility Management",
-      "gpc_class": "Property Management",
-      "gpc_brick": "Commercial Property Management"
-    }
-  ],
-  "Saudi Electricity Company": [
+  "Egyptian Electricity Holding Company": [
     {
       "name": "Electricity Supply",
       "type": "Service",
@@ -1197,314 +96,105 @@
       "gpc_family": "Energy",
       "gpc_class": "Electricity",
       "gpc_brick": "Electricity Supply Services"
-    },
+    }
+  ],
+  "Egyptian Media Production City": [
     {
-      "name": "Smart Meters",
+      "name": "Studio Rental",
+      "type": "Service",
+      "invoice_example": "Studio Rental Fee for Production",
+      "gpc_segment": "Business & Industrial",
+      "gpc_family": "Professional Services",
+      "gpc_class": "Media Production Services",
+      "gpc_brick": "Film & Video Production Services"
+    }
+  ],
+  "El Araby Group": [
+    {
+      "name": "Tornado",
+      "type": "Electronics",
+      "invoice_example": "Tornado LED TV 43 inch",
+      "gpc_segment": "Consumer Electronics",
+      "gpc_family": "Televisions & Video Displays",
+      "gpc_class": "Televisions",
+      "gpc_brick": "LED Televisions"
+    }
+  ],
+  "El Sewedy Electric": [
+    {
+      "name": "Power Cables",
       "type": "Product",
-      "invoice_example": "Smart meter installation fee",
-      "gpc_segment": "Utilities",
-      "gpc_family": "Energy",
-      "gpc_class": "Metering",
-      "gpc_brick": "Smart Meters"
-    },
-    {
-      "name": "Renewable Energy Solutions",
-      "type": "Service",
-      "invoice_example": "Solar panel installation",
-      "gpc_segment": "Utilities",
-      "gpc_family": "Energy",
-      "gpc_class": "Renewable Energy",
-      "gpc_brick": "Solar Energy Solutions"
+      "invoice_example": "1000 meters of XLPE Power Cable",
+      "gpc_segment": "Electrical",
+      "gpc_family": "Cables & Wires",
+      "gpc_class": "Power Cables",
+      "gpc_brick": "High Voltage Cables"
     }
   ],
-  "Saudi Electronic University": [
+  "Household Services Egypt": [
     {
-      "name": "Online Course Enrollment",
-      "type": "Service",
-      "invoice_example": "SEU-OC-2023-001",
-      "gpc_segment": "Education",
-      "gpc_family": "Higher Education",
-      "gpc_class": "Online Learning",
-      "gpc_brick": "University Courses"
-    },
-    {
-      "name": "E-Library Access",
-      "type": "Service",
-      "invoice_example": "SEU-EL-2023-002",
-      "gpc_segment": "Education",
-      "gpc_family": "Library Services",
-      "gpc_class": "Digital Library",
-      "gpc_brick": "E-Books"
-    },
-    {
-      "name": "Virtual Classroom Software",
-      "type": "Product",
-      "invoice_example": "SEU-VCS-2023-003",
-      "gpc_segment": "Technology",
-      "gpc_family": "Software",
-      "gpc_class": "Educational Software",
-      "gpc_brick": "Virtual Classroom"
+      "name": "Cairo Clean",
+      "type": "Cleaning Service",
+      "invoice_example": "Cairo Clean - Monthly Cleaning",
+      "gpc_segment": "Cleaning Services",
+      "gpc_family": "Home Services",
+      "gpc_class": "Residential Cleaning",
+      "gpc_brick": "House Cleaning"
     }
   ],
-  "Saudi Entertainment Ventures (SEVEN)": [
+  "Orange Egypt": [
     {
-      "name": "Riyadh Winter Wonderland",
-      "type": "Event",
-      "invoice_example": "Riyadh Winter Wonderland Ticket",
-      "gpc_segment": "Entertainment",
-      "gpc_family": "Events",
-      "gpc_class": "Theme Parks",
-      "gpc_brick": "Amusement Parks"
-    },
-    {
-      "name": "Jeddah Season",
-      "type": "Event",
-      "invoice_example": "Jeddah Season Entry Pass",
-      "gpc_segment": "Entertainment",
-      "gpc_family": "Events",
-      "gpc_class": "Festivals",
-      "gpc_brick": "Cultural Festivals"
-    },
-    {
-      "name": "Diriyah Season",
-      "type": "Event",
-      "invoice_example": "Diriyah Season Concert Ticket",
-      "gpc_segment": "Entertainment",
-      "gpc_family": "Events",
-      "gpc_class": "Cultural Events",
-      "gpc_brick": "Historical Events"
-    }
-  ],
-  "Saudi German Hospital Group": [
-    {
-      "name": "General Consultation",
+      "name": "Orange Mobile Plan",
       "type": "Service",
-      "invoice_example": "Consultation Fee",
-      "gpc_segment": "Healthcare Services",
-      "gpc_family": "Medical Services",
-      "gpc_class": "Consultations",
-      "gpc_brick": "General Medical Consultation"
-    },
-    {
-      "name": "Surgical Procedure",
-      "type": "Service",
-      "invoice_example": "Surgery Fee",
-      "gpc_segment": "Healthcare Services",
-      "gpc_family": "Surgical Services",
-      "gpc_class": "Surgical Procedures",
-      "gpc_brick": "General Surgery"
-    },
-    {
-      "name": "Inpatient Care",
-      "type": "Service",
-      "invoice_example": "Inpatient Stay",
-      "gpc_segment": "Healthcare Services",
-      "gpc_family": "Hospital Services",
-      "gpc_class": "Inpatient Services",
-      "gpc_brick": "Hospital Inpatient Care"
-    }
-  ],
-  "Saudi Investment Recycling Company": [
-    {
-      "name": "Recycled Plastics",
-      "type": "Product",
-      "invoice_example": "Recycled PET Granules",
-      "gpc_segment": "Plastics",
-      "gpc_family": "Recycled Materials",
-      "gpc_class": "Recycled Plastics",
-      "gpc_brick": "PET Granules"
-    },
-    {
-      "name": "Recycled Metals",
-      "type": "Product",
-      "invoice_example": "Recycled Aluminum Sheets",
-      "gpc_segment": "Metals",
-      "gpc_family": "Recycled Materials",
-      "gpc_class": "Recycled Metals",
-      "gpc_brick": "Aluminum Sheets"
-    },
-    {
-      "name": "Recycled Paper",
-      "type": "Product",
-      "invoice_example": "Recycled Paper Rolls",
-      "gpc_segment": "Paper",
-      "gpc_family": "Recycled Materials",
-      "gpc_class": "Recycled Paper",
-      "gpc_brick": "Paper Rolls"
-    }
-  ],
-  "Saudi Oger Ltd.": [
-    {
-      "name": "Construction Services",
-      "type": "Service",
-      "invoice_example": "Construction of residential buildings",
-      "gpc_segment": "Building and Construction",
-      "gpc_family": "Construction Services",
-      "gpc_class": "General Construction",
-      "gpc_brick": "Residential Building Construction"
-    },
-    {
-      "name": "Facility Management",
-      "type": "Service",
-      "invoice_example": "Maintenance of commercial properties",
-      "gpc_segment": "Facility Management",
-      "gpc_family": "Property Management",
-      "gpc_class": "Facility Services",
-      "gpc_brick": "Commercial Property Maintenance"
-    },
-    {
-      "name": "Telecommunications Infrastructure",
-      "type": "Service",
-      "invoice_example": "Installation of telecom networks",
-      "gpc_segment": "Telecommunications",
-      "gpc_family": "Infrastructure Services",
-      "gpc_class": "Network Installation",
-      "gpc_brick": "Telecom Network Installation"
-    }
-  ],
-  "Saudi Railway Company (SAR)": [
-    {
-      "name": "Passenger Rail Service",
-      "type": "Service",
-      "invoice_example": "Passenger ticket for Riyadh to Dammam",
-      "gpc_segment": "Transportation Services",
-      "gpc_family": "Passenger Transport",
-      "gpc_class": "Rail Transport",
-      "gpc_brick": "Passenger Rail Service"
-    },
-    {
-      "name": "Freight Rail Service",
-      "type": "Service",
-      "invoice_example": "Freight transport from Jeddah to Riyadh",
-      "gpc_segment": "Transportation Services",
-      "gpc_family": "Freight Transport",
-      "gpc_class": "Rail Transport",
-      "gpc_brick": "Freight Rail Service"
-    },
-    {
-      "name": "Rail Infrastructure Maintenance",
-      "type": "Service",
-      "invoice_example": "Annual rail track maintenance contract",
-      "gpc_segment": "Construction Services",
-      "gpc_family": "Infrastructure Maintenance",
-      "gpc_class": "Rail Infrastructure",
-      "gpc_brick": "Rail Maintenance Service"
-    }
-  ],
-  "Saudi Real Estate Company (Al Akaria)": [
-    {
-      "name": "Residential Apartments",
-      "type": "Real Estate",
-      "invoice_example": "Invoice for Residential Apartment Sale",
-      "gpc_segment": "Real Estate",
-      "gpc_family": "Residential Property",
-      "gpc_class": "Apartments",
-      "gpc_brick": "Residential Apartments"
-    },
-    {
-      "name": "Commercial Offices",
-      "type": "Real Estate",
-      "invoice_example": "Invoice for Commercial Office Lease",
-      "gpc_segment": "Real Estate",
-      "gpc_family": "Commercial Property",
-      "gpc_class": "Offices",
-      "gpc_brick": "Commercial Offices"
-    },
-    {
-      "name": "Retail Spaces",
-      "type": "Real Estate",
-      "invoice_example": "Invoice for Retail Space Lease",
-      "gpc_segment": "Real Estate",
-      "gpc_family": "Commercial Property",
-      "gpc_class": "Retail",
-      "gpc_brick": "Retail Spaces"
-    }
-  ],
-  "Saudi Telecom Company (STC)": [
-    {
-      "name": "STC Mobile Plan",
-      "type": "Service",
-      "invoice_example": "STC Mobile Plan - 5GB Data",
+      "invoice_example": "Monthly subscription fee",
       "gpc_segment": "Telecommunications",
       "gpc_family": "Mobile Services",
       "gpc_class": "Mobile Plans",
-      "gpc_brick": "Mobile Data Plans"
-    },
+      "gpc_brick": "Postpaid Plans"
+    }
+  ],
+  "Orascom Construction": [
     {
-      "name": "STC Home Internet",
-      "type": "Service",
-      "invoice_example": "STC Home Internet - Fiber 100Mbps",
-      "gpc_segment": "Telecommunications",
-      "gpc_family": "Internet Services",
-      "gpc_class": "Home Internet",
-      "gpc_brick": "Fiber Internet Plans"
-    },
-    {
-      "name": "STC Prepaid Recharge",
+      "name": "Orascom Cement",
       "type": "Product",
-      "invoice_example": "STC Prepaid Recharge - 50 SAR",
-      "gpc_segment": "Telecommunications",
-      "gpc_family": "Mobile Services",
-      "gpc_class": "Prepaid Services",
-      "gpc_brick": "Prepaid Mobile Recharge"
+      "invoice_example": "Cement bags",
+      "gpc_segment": "Building Materials",
+      "gpc_family": "Cement & Concrete",
+      "gpc_class": "Cement",
+      "gpc_brick": "Portland Cement"
     }
   ],
-  "Saudi Water Partnership Company": [
+  "Orascom Development Holding": [
     {
-      "name": "Desalinated Water Supply",
-      "type": "Service",
-      "invoice_example": "Desalinated Water Supply - Monthly",
-      "gpc_segment": "Utilities",
-      "gpc_family": "Water Supply",
-      "gpc_class": "Desalination",
-      "gpc_brick": "Desalinated Water Services"
-    },
-    {
-      "name": "Wastewater Treatment",
-      "type": "Service",
-      "invoice_example": "Wastewater Treatment - Quarterly",
-      "gpc_segment": "Utilities",
-      "gpc_family": "Water Treatment",
-      "gpc_class": "Wastewater",
-      "gpc_brick": "Wastewater Treatment Services"
-    },
-    {
-      "name": "Water Infrastructure Development",
-      "type": "Service",
-      "invoice_example": "Infrastructure Development - Project Phase 1",
-      "gpc_segment": "Construction",
-      "gpc_family": "Infrastructure",
-      "gpc_class": "Water Infrastructure",
-      "gpc_brick": "Water Infrastructure Projects"
+      "name": "El Gouna",
+      "type": "Tourism Destination",
+      "invoice_example": "Accommodation at El Gouna Resort",
+      "gpc_segment": "Travel & Tourism",
+      "gpc_family": "Tourism",
+      "gpc_class": "Tourist Destinations",
+      "gpc_brick": "Resorts"
     }
   ],
-  "Zain Saudi Arabia": [
+  "Palm Hills Developments": [
     {
-      "name": "Zain Prepaid Mobile Plan",
-      "type": "Telecommunications Service",
-      "invoice_example": "Zain Prepaid Mobile Plan - 100 SAR",
-      "gpc_segment": "Telecommunications",
-      "gpc_family": "Mobile Services",
-      "gpc_class": "Prepaid Mobile Plans",
-      "gpc_brick": "Prepaid Mobile Service Plans"
-    },
+      "name": "Golf Views",
+      "type": "Residential Development",
+      "invoice_example": "Golf Views Villa Purchase",
+      "gpc_segment": "Real Estate",
+      "gpc_family": "Residential Properties",
+      "gpc_class": "Luxury Homes",
+      "gpc_brick": "Villas"
+    }
+  ],
+  "Wadi Group": [
     {
-      "name": "Zain Postpaid Mobile Plan",
-      "type": "Telecommunications Service",
-      "invoice_example": "Zain Postpaid Mobile Plan - 200 SAR",
-      "gpc_segment": "Telecommunications",
-      "gpc_family": "Mobile Services",
-      "gpc_class": "Postpaid Mobile Plans",
-      "gpc_brick": "Postpaid Mobile Service Plans"
-    },
-    {
-      "name": "Zain Internet Data Package",
-      "type": "Telecommunications Service",
-      "invoice_example": "Zain Internet Data Package - 50 SAR",
-      "gpc_segment": "Telecommunications",
-      "gpc_family": "Internet Services",
-      "gpc_class": "Data Packages",
-      "gpc_brick": "Mobile Data Plans"
+      "name": "Wadi Poultry",
+      "type": "Product",
+      "invoice_example": "Wadi Poultry - 1000 units",
+      "gpc_segment": "Food/Beverage/Tobacco",
+      "gpc_family": "Meat/Seafood/Poultry",
+      "gpc_class": "Poultry",
+      "gpc_brick": "Fresh Poultry"
     }
   ]
 }

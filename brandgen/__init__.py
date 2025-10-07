@@ -18,8 +18,9 @@ from .prompt_builder import (
     build_prompt,
     build_companies_prompt,
     build_brands_prompt,
+    build_companies_groups_prompt,
 )
-from .persist import load_sections, load_json, save_json, load_companies
+from .persist import load_sections, load_json, save_json, load_companies, load_isic_groups
 from .flatten import flatten_to_csv
 from .logger import configure_logger
 
@@ -33,10 +34,12 @@ __all__ = [
     "build_prompt",
     "build_companies_prompt",
     "build_brands_prompt",
+    "build_companies_groups_prompt",
     "load_sections",
     "load_json",
     "save_json",
     "flatten_to_csv",
     "configure_logger",
     "load_companies",
+    "load_isic_groups",
 ]

@@ -11,6 +11,8 @@ from .prompt import (
     brands_prompt_template,
     companies_country_prompt_template,
     brands_country_prompt_template,
+    companies_groups_prompt_template,
+    companies_groups_country_prompt_template,
 )
 
 
@@ -29,6 +31,24 @@ def build_companies_prompt(section_label: str, country: str, use_country: bool) 
             .replace('{country}', country)
         )
     return companies_prompt_template.replace('{section}', section_label)
+
+
+def build_companies_groups_prompt(group_data: dict[str, str], country: str, use_country: bool) -> str:
+    """Return companies prompt for ISIC groups (level 3), optionally country-specific."""
+    template = companies_groups_country_prompt_template if use_country and country else companies_groups_prompt_template
+    
+    prompt = (template
+        .replace('{section_name}', group_data.get('section_name', ''))
+        .replace('{division_name}', group_data.get('division_name', ''))
+        .replace('{group_name}', group_data.get('group_name', ''))
+        .replace('{includes}', group_data.get('includes', ''))
+        .replace('{excludes}', group_data.get('excludes', ''))
+    )
+    
+    if use_country and country:
+        prompt = prompt.replace('{country}', country)
+    
+    return prompt
 
 
 def build_brands_prompt(company: str, country: str, use_country: bool) -> str:

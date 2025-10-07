@@ -107,6 +107,9 @@ python scripts/flatten_isic.py
 ### ISIC Sections
 When using level 1 (sections) in the environment configuration, the system uses ISIC Rev.4 sections from `data/industries.json`. For more detailed classifications, use the ISIC Rev.5 data described in the Data Sources section above.
 
+### Regional Brand References
+- **Egyptian Brands**: See `Egyptian_Brands.md` for a comprehensive source table of Egyptian business directories, government registries, brand databases, and APIs for collecting Egyptian company and brand data
+
 ### License
 
 Released under the MIT License. See `LICENSE` for details.

@@ -34,3 +34,32 @@ def load_companies(path: str) -> Dict[str, List[Dict[str, str]]]:
     """Load previously generated companies JSON (section label -> list of company dicts)."""
     data = load_json(path)
     return data if isinstance(data, dict) else {}
+
+
+def load_isic_groups(path: str) -> Dict[str, Dict[str, str]]:
+    """Load ISIC groups from flattened CSV file.
+    
+    Returns dict mapping group_name -> {section_name, division_name, group_name, includes, excludes}
+    """
+    import csv
+    groups = {}
+    
+    try:
+        with Path(path).open("r", encoding="utf-8") as fh:
+            reader = csv.DictReader(fh)
+            for row in reader:
+                group_name = row.get("group_name", "").strip()
+                if group_name:  # Only process rows with group names
+                    groups[group_name] = {
+                        "section_name": row.get("section_name", "").strip(),
+                        "division_name": row.get("division_name", "").strip(), 
+                        "group_name": group_name,
+                        "includes": row.get("includes", "").strip(),
+                        "excludes": row.get("excludes", "").strip(),
+                    }
+    except FileNotFoundError:
+        raise FileNotFoundError(f"ISIC flattened file not found at {path}")
+    except Exception as e:
+        raise ValueError(f"Error reading ISIC flattened file: {e}")
+    
+    return groups

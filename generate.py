@@ -22,12 +22,56 @@ from brandgen import (
 	build_prompt,
 	build_companies_prompt,
 	build_brands_prompt,
+	build_companies_groups_prompt,
 	load_companies,
+	load_isic_groups,
 	configure_logger,
 )
 import logging
 from tqdm import tqdm
 import time
+
+
+def _collect_group_responses(
+	client,
+	model: str,
+	groups: dict[str, dict[str, str]],
+	limit: int,
+	country: str,
+	use_country: bool,
+	logger,
+	dry_run: bool,
+) -> dict[str, list[dict[str, str]]]:
+	"""Fetch companies per ISIC group (level 3).
+
+	Logs progress and truncation events when limits are applied.
+	"""
+	responses: dict[str, list[dict[str, str]]] = {}
+	total = len(groups)
+	logger.info(f"Starting company generation for {total} ISIC groups (limit={limit or 'none'})")
+	for idx, (group_name, group_data) in enumerate(tqdm(groups.items(), desc="Groups", unit="group"), start=1):
+		if dry_run:
+			# Create 3 mock companies per group (or limit if smaller)
+			mock_count = 3 if limit == 0 else min(3, limit)
+			companies = [
+				{
+					"company_name": f"company{n}_group{idx}",
+					"headquarters_country": country or "Unknown",
+					"main_industry_activities": f"Activities for group {group_name}",
+				}
+				for n in range(1, mock_count + 1)
+			]
+		else:
+			question = build_companies_groups_prompt(group_data, country, use_country).strip()
+			prompt_str = build_prompt(question)
+			companies = ask_companies(client, model, prompt_str)
+		original_count = len(companies)
+		if limit > 0 and original_count > limit:
+			companies = companies[:limit]
+			logger.debug(f"Truncated companies {original_count}->{len(companies)} for group {group_name}")
+		responses[group_name] = companies
+	logger.info("Company generation complete")
+	return responses
 
 
 def _collect_section_responses(
@@ -167,11 +211,19 @@ def main() -> int:
 	mode = ask_run_mode(companies_path, brands_path)
 	if mode == "dry":
 		logger.info("Mode=dry: generating mock data (no API calls)")
-		sections = load_sections(cfg.industries_file)
 		companies_phase_start = time.time()
-		section_responses = _collect_section_responses(
-			client, cfg.model, sections, cfg.max_companies_per_industry, cfg.country, cfg.country_specific, logger, True
-		)
+		if cfg.level == 1:
+			sections = load_sections(cfg.industries_file)
+			section_responses = _collect_section_responses(
+				client, cfg.model, sections, cfg.max_companies_per_industry, cfg.country, cfg.country_specific, logger, True
+			)
+		elif cfg.level == 3:
+			groups = load_isic_groups(cfg.isic_flattened_file)
+			section_responses = _collect_group_responses(
+				client, cfg.model, groups, cfg.max_companies_per_industry, cfg.country, cfg.country_specific, logger, True
+			)
+		else:
+			raise ValueError(f"Unsupported level: {cfg.level}. Only levels 1 and 3 are supported.")
 		logger.info(f"Companies phase elapsed: {time.time() - companies_phase_start:.2f}s (dry run)")
 		# Gather company names from mock data
 		company_names = {
@@ -204,12 +256,22 @@ def main() -> int:
 		logger.info(f"CSV regenerated at {cfg.dataset_file}")
 		return 0
 	elif mode == "both":
-		logger.info("Mode=both: loading sections and generating companies")
-		sections = load_sections(cfg.industries_file)
 		companies_phase_start = time.time()
-		section_responses = _collect_section_responses(
-			client, cfg.model, sections, cfg.max_companies_per_industry, cfg.country, cfg.country_specific, logger, False
-		)
+		if cfg.level == 1:
+			logger.info("Mode=both, Level=1: loading sections and generating companies")
+			sections = load_sections(cfg.industries_file)
+			section_responses = _collect_section_responses(
+				client, cfg.model, sections, cfg.max_companies_per_industry, cfg.country, cfg.country_specific, logger, False
+			)
+		elif cfg.level == 3:
+			logger.info("Mode=both, Level=3: loading ISIC groups and generating companies")
+			groups = load_isic_groups(cfg.isic_flattened_file)
+			section_responses = _collect_group_responses(
+				client, cfg.model, groups, cfg.max_companies_per_industry, cfg.country, cfg.country_specific, logger, False
+			)
+		else:
+			raise ValueError(f"Unsupported level: {cfg.level}. Only levels 1 and 3 are supported.")
+		
 		logger.info(f"Companies phase elapsed: {time.time() - companies_phase_start:.2f}s")
 		companies_path.parent.mkdir(parents=True, exist_ok=True)
 		with companies_path.open("w", encoding="utf-8") as file:
