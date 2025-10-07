@@ -79,32 +79,6 @@ COUNTRY_SPECIFIC=True
 
 If limits are set (>0) lists are truncated after the API response, reducing token usage and CSV size. If `COUNTRY_SPECIFIC` is true and `COUNTRY` is non-empty, country-scoped templates are used; otherwise global templates are used.
 
-### Extending / API Usage
-
-Minimal example using the package programmatically:
-```python
-from brandgen import (
-	load_env, get_config, create_client,
-	build_prompt, build_companies_prompt, ask_companies
-)
-
-load_env()
-cfg = get_config()
-client = create_client(cfg.api_key)
-prompt = build_prompt(build_companies_prompt("Manufacturing", cfg.country, cfg.country_specific))
-companies = ask_companies(client, cfg.model, prompt)
-print(len(companies))
-```
-
-Customize prompts via `prompt.py` constants; adjust breadth with `MAX_*` env vars; extend
-CSV shape by editing `brandgen/flatten.py`.
-
-### Reliability & Validation
-
-- Required environment variables validated at startup.
-- Structured responses enforced using OpenAI `json_schema` format.
-- Deterministic(ish) output encouraged via low temperature (0.2).
-
 ### Versioning & Dependencies
 
 Dependencies pinned with upper bounds in `requirements.txt` for reproducibility.
