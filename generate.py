@@ -27,6 +27,7 @@ from brandgen import (
 	load_isic_groups,
 	configure_logger,
 )
+from brandgen.persist import incremental_update, save_json
 import logging
 from tqdm import tqdm
 import time
@@ -40,16 +41,20 @@ def _collect_group_responses(
 	country: str,
 	use_country: bool,
 	logger,
-	dry_run: bool,
+    dry_run: bool,
+    existing: dict[str, list[dict[str, str]]] | None = None,
+    save_path: Path | None = None,
 ) -> dict[str, list[dict[str, str]]]:
 	"""Fetch companies per ISIC group (level 3).
 
 	Logs progress and truncation events when limits are applied.
 	"""
-	responses: dict[str, list[dict[str, str]]] = {}
+	responses: dict[str, list[dict[str, str]]] = existing.copy() if existing else {}
 	total = len(groups)
 	logger.info(f"Starting company generation for {total} ISIC groups (limit={limit or 'none'})")
 	for idx, (group_name, group_data) in enumerate(tqdm(groups.items(), desc="Groups", unit="group"), start=1):
+		if group_name in responses and responses[group_name]:
+			continue  # already have data (resume)
 		if dry_run:
 			# Create 3 mock companies per group (or limit if smaller)
 			mock_count = 3 if limit == 0 else min(3, limit)
@@ -70,6 +75,8 @@ def _collect_group_responses(
 			companies = companies[:limit]
 			logger.debug(f"Truncated companies {original_count}->{len(companies)} for group {group_name}")
 		responses[group_name] = companies
+		if save_path:
+			incremental_update(str(save_path), lambda m: m.update({group_name: companies}))
 	logger.info("Company generation complete")
 	return responses
 
@@ -82,17 +89,21 @@ def _collect_section_responses(
 	country: str,
 	use_country: bool,
 	logger,
-	dry_run: bool,
+    dry_run: bool,
+    existing: dict[str, list[dict[str, str]]] | None = None,
+    save_path: Path | None = None,
 ) -> dict[str, list[dict[str, str]]]:
 	"""Fetch companies per section.
 
 	Logs progress and truncation events when limits are applied.
 	"""
-	responses: dict[str, list[dict[str, str]]] = {}
+	responses: dict[str, list[dict[str, str]]] = existing.copy() if existing else {}
 	total = len(sections)
 	logger.info(f"Starting company generation for {total} sections (limit={limit or 'none'})")
 	for idx, section_index in enumerate(tqdm(sorted(sections), desc="Sections", unit="section"), start=1):
 		label = sections[section_index]
+		if label in responses and responses[label]:
+			continue  # already have data (resume)
 		if dry_run:
 			# Create 3 mock companies per section (or limit if smaller)
 			mock_count = 3 if limit == 0 else min(3, limit)
@@ -113,6 +124,8 @@ def _collect_section_responses(
 			companies = companies[:limit]
 			logger.debug(f"Truncated companies {original_count}->{len(companies)} for section {label}")
 		responses[label] = companies
+		if save_path:
+			incremental_update(str(save_path), lambda m: m.update({label: companies}))
 	logger.info("Company generation complete")
 	return responses
 
@@ -124,13 +137,17 @@ def _collect_brand_responses(
 	country: str,
 	use_country: bool,
 	logger,
-	dry_run: bool,
+    dry_run: bool,
+    existing: dict[str, list[dict[str, str]]] | None = None,
+    save_path: Path | None = None,
 ) -> dict[str, list[dict[str, str]]]:
 	"""Fetch brand/product/service items for each company with logging."""
-	results: dict[str, list[dict[str, str]]] = {}
+	results: dict[str, list[dict[str, str]]] = existing.copy() if existing else {}
 	total = len(companies)
 	logger.info(f"Starting brand generation for {total} companies (limit={limit or 'none'})")
 	for name in tqdm(companies, desc="Brands", unit="company"):
+		if name in results and results[name]:
+			continue  # already processed
 		if dry_run:
 			mock_count = 2 if limit == 0 else min(2, limit)
 			items = [
@@ -153,6 +170,8 @@ def _collect_brand_responses(
 			items = items[:limit]
 			logger.debug(f"Truncated brands {original_count}->{len(items)} for company {name}")
 		results[name] = items
+		if save_path:
+			incremental_update(str(save_path), lambda m: m.update({name: items}))
 	logger.info("Brand generation complete")
 	return results
 
@@ -166,12 +185,13 @@ def ask_run_mode(companies_path: Path, brands_path: Path) -> str:
 	- 'csv'    : only regenerate CSV from existing companies + brands JSON
 	"""
 	print("Select run mode:")
-	print("  1) Generate companies then brands (full run)")
-	print("  2) Skip companies (brands only, requires companies file)")
-	print("  3) Skip API calls (CSV only, requires companies & brands files)")
-	print("  4) Dry run (no API calls, empty data structure scaffold)")
+	print("  1) Full run (companies -> brands -> CSV)")
+	print("  2) Brands only (requires companies file)")
+	print("  3) CSV only (requires companies & brands files)")
+	print("  4) Dry run (mock data, no API calls)")
+	print("  5) Resume (continue from partial companies/brands JSON)")
 	while True:
-		choice = input("Enter 1, 2 or 3: ").strip()
+		choice = input("Enter 1-5: ").strip()
 		if choice == "1":
 			return "both"
 		if choice == "2":
@@ -191,6 +211,11 @@ def ask_run_mode(companies_path: Path, brands_path: Path) -> str:
 			return "csv"
 		if choice == "4":
 			return "dry"
+		if choice == "5":
+			if not companies_path.exists() and not brands_path.exists():
+				print("Nothing to resume; companies or brands JSON missing.")
+				continue
+			return "resume"
 		print("Invalid selection. Please enter 1, 2 or 3.")
 
 
@@ -198,7 +223,7 @@ def main() -> int:
 	"""Execute the workflow across all sections and store the combined output."""
 	load_env()
 	cfg = get_config()
-	logger = configure_logger(level=logging.INFO)
+	logger = configure_logger(level=logging.INFO, log_file=cfg.log_file)
 	logger.info("Configuration loaded")
 	client = create_client(cfg.api_key)
 	logger.info(f"OpenAI client initialized (model={cfg.model})")
@@ -256,29 +281,28 @@ def main() -> int:
 		logger.info(f"Flatten phase elapsed: {time.time() - flatten_phase_start:.2f}s")
 		logger.info(f"CSV regenerated at {cfg.dataset_file}")
 		return 0
-	elif mode == "both":
+	elif mode == "both" or mode == "resume":
 		companies_phase_start = time.time()
+		existing_companies = load_companies(str(companies_path)) if companies_path.exists() else {}
 		if cfg.level == 1:
-			logger.info("Mode=both, Level=1: loading sections and generating companies")
+			logger.info(f"Mode={mode}, Level=1: loading sections and generating companies (resume entries={len(existing_companies)})")
 			sections = load_sections(cfg.industries_file)
 			section_responses = _collect_section_responses(
-				client, cfg.model, sections, cfg.max_companies_per_industry, cfg.country, cfg.country_specific, logger, False
+				client, cfg.model, sections, cfg.max_companies_per_industry, cfg.country, cfg.country_specific, logger, False, existing_companies, companies_path
 			)
 		elif cfg.level == 3:
-			logger.info("Mode=both, Level=3: loading ISIC groups and generating companies")
+			logger.info(f"Mode={mode}, Level=3: loading ISIC groups and generating companies (resume entries={len(existing_companies)})")
 			groups = load_isic_groups(cfg.isic_flattened_file)
 			section_responses = _collect_group_responses(
-				client, cfg.model, groups, cfg.max_companies_per_industry, cfg.country, cfg.country_specific, logger, False
+				client, cfg.model, groups, cfg.max_companies_per_industry, cfg.country, cfg.country_specific, logger, False, existing_companies, companies_path
 			)
 		else:
 			raise ValueError(f"Unsupported level: {cfg.level}. Only levels 1 and 3 are supported.")
 		
 		logger.info(f"Companies phase elapsed: {time.time() - companies_phase_start:.2f}s")
-		companies_path.parent.mkdir(parents=True, exist_ok=True)
-		logger.info(f"Writing output to {companies_path}...")
-		with companies_path.open("w", encoding="utf-8") as file:
-			json.dump(section_responses, file, ensure_ascii=False, indent=2)
-		logger.info(f"Saved companies JSON to {companies_path}")
+		# Already incrementally saved; ensure final snapshot pretty
+		save_json(str(companies_path), section_responses)
+		logger.info(f"Snapshot companies JSON to {companies_path}")
 	else:  # brands only
 		logger.info("Mode=brands: loading existing companies JSON")
 		section_responses = load_companies(str(companies_path))
@@ -292,15 +316,23 @@ def main() -> int:
 	}
 	logger.info(f"Generating brands for {len(company_names)} unique companies")
 	brands_phase_start = time.time()
+	existing_brands = {}
+	if mode == "resume" and brands_path.exists():
+		try:
+			with brands_path.open("r", encoding="utf-8") as fh:
+				existing_brands = json.load(fh)
+			if not isinstance(existing_brands, dict):
+				existing_brands = {}
+		except Exception:
+			existing_brands = {}
 	brands_data = _collect_brand_responses(
-		client, cfg.model, sorted(company_names), cfg.max_brands_per_company, cfg.country, cfg.country_specific, logger, False
+		client, cfg.model, sorted(company_names), cfg.max_brands_per_company, cfg.country, cfg.country_specific, logger, False, existing_brands, brands_path
 	)
 	logger.info(f"Brands phase elapsed: {time.time() - brands_phase_start:.2f}s")
 	brands_path.parent.mkdir(parents=True, exist_ok=True)
-	logger.info(f"Writing output to {brands_path}...")
-	with brands_path.open("w", encoding="utf-8") as file:
-		json.dump(brands_data, file, ensure_ascii=False, indent=2)
-	logger.info(f"Saved brands JSON to {brands_path}")
+	# Final snapshot
+	save_json(str(brands_path), brands_data)
+	logger.info(f"Snapshot brands JSON to {brands_path}")
 	flatten_phase_start = time.time()
 	flatten_to_csv(section_responses, brands_data, cfg.dataset_file)
 	logger.info(f"Flatten phase elapsed: {time.time() - flatten_phase_start:.2f}s")

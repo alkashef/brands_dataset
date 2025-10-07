@@ -26,6 +26,7 @@ class ChatGPTConfig:
     country_specific: bool
     level: int  # 1 = sections, 3 = groups
     isic_flattened_file: str
+    log_file: str | None
 
 
 def load_env(env_path: str = "config/.env") -> None:
@@ -71,6 +72,8 @@ def get_config() -> ChatGPTConfig:
     level = int(os.getenv("STARTING_ISIC_LEVEL", "1") or 1)  # Default to level 1 (sections)
     isic_flattened_file = os.getenv("ISIC_FLATTENED_FILE", "data/isic/ISIC5_Exp_Notes_11Mar2024_flattened.csv").strip()
 
+    log_file = os.getenv("LOG_FILE", "").strip() or None
+
     return ChatGPTConfig(
         api_key=api_key,
         model=model,
@@ -84,4 +87,5 @@ def get_config() -> ChatGPTConfig:
         country_specific=country_specific,
         level=level,
         isic_flattened_file=isic_flattened_file,
+        log_file=log_file,
     )

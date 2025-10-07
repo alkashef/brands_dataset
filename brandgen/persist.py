@@ -6,7 +6,8 @@ Responsibility: Minimal JSON file IO plus industries sections loader.
 from __future__ import annotations
 import json
 from pathlib import Path
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Callable
+import json as _json
 
 
 def load_json(path: str) -> Any:
@@ -19,8 +20,33 @@ def save_json(path: str, data: Any) -> None:
     """Persist Python data structure as pretty JSON to disk."""
     p = Path(path)
     p.parent.mkdir(parents=True, exist_ok=True)
-    with p.open("w", encoding="utf-8") as fh:
+    tmp = p.with_suffix(p.suffix + ".tmp")
+    with tmp.open("w", encoding="utf-8") as fh:
         json.dump(data, fh, indent=2, ensure_ascii=False)
+    tmp.replace(p)
+
+
+def incremental_update(
+    path: str,
+    mutate: Callable[[Dict[str, Any]], None],
+) -> Dict[str, Any]:
+    """Load (if exists), apply mutation, and atomically persist updated mapping.
+
+    Returns final mapping. Ensures partial progress durability.
+    """
+    store: Dict[str, Any] = {}
+    p = Path(path)
+    if p.exists():
+        try:
+            with p.open("r", encoding="utf-8") as fh:
+                store = _json.load(fh)  # type: ignore[assignment]
+            if not isinstance(store, dict):  # defensive
+                store = {}
+        except Exception:
+            store = {}
+    mutate(store)
+    save_json(path, store)
+    return store
 
 
 def load_sections(path: str) -> Dict[int, str]:

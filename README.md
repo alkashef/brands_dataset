@@ -110,6 +110,39 @@ When using level 1 (sections) in the environment configuration, the system uses 
 ### Regional Brand References
 - **Egyptian Brands**: See `Egyptian_Brands.md` for a comprehensive source table of Egyptian business directories, government registries, brand databases, and APIs for collecting Egyptian company and brand data
 
+### Logging & Resume Capability
+
+The generator supports durable progress and resumable runs:
+
+Environment additions (optional):
+```
+LOG_FILE=logs/run.log          # If set, all console logs also written to this file
+STARTING_ISIC_LEVEL=1          # 1 = sections, 3 = ISIC groups (Rev.5 flattened)
+ISIC_FLATTENED_FILE=data/isic/ISIC5_Exp_Notes_11Mar2024_flattened.csv
+```
+
+Run modes now include a fifth option:
+```
+5) Resume (continue from any partially generated companies / brands JSON)
+```
+
+How it works:
+- Companies and brands are written incrementally after each successful API call (atomic temp -> final file).
+- If the process stops (network error, CTRL+C), choose mode 5 to continue without re-querying completed entries.
+- Partial companies file: already generated sections/groups are skipped.
+- Partial brands file: already generated companies are skipped.
+
+Tips:
+- You can lower `MAX_COMPANIES_PER_INDUSTRY` / `MAX_BRANDS_PER_COMPANY` to test quickly, then resume with larger limits (new entries added for untouched sections/companies only).
+- Logs accumulate in `LOG_FILE`; rotate manually if desired.
+
+Failure recovery sequence:
+1. Investigate last lines in `logs/run.log` (or console) for the failure origin.
+2. Fix configuration or connectivity.
+3. Re-run `python generate.py` and pick option 5 (Resume).
+
+All JSON writes are atomic to prevent corruption on interruption.
+
 ### License
 
 Released under the MIT License. See `LICENSE` for details.
