@@ -1,0 +1,28 @@
+
+- Put all code into `generate.py`;
+- `prompt.py` includes constants and prompts *ONLY*.
+- Prioritize short, simple, readable code with minimal lines.
+- Avoid using try-except blocks unless absolutely necessary for flow.
+- When catching exceptions, keep the surface area small and log succinct, actionable messages. Don’t swallow errors that affect correctness.
+- Use Type Annotations.
+- Don't put import or from statements inside the code, only at the beginning of the script.
+- When printing lists, print each item in a new line.
+- Follow Pythonic style, but be pragmatic—clarity and speed over perfection.
+- Adhere to PEP 8 Standards.
+- Use f-Strings.
+- Employ Context Managers.
+- Use list comprehensions. 
+- Add comments and docstrings.
+- Reuse existing functions or classes when possible—don’t rewrite them unless the prompt says so.
+- Avoid redundency. 
+- Keep functions short and modular.
+- Always encapsulate new functionality in methods.
+- Avoid unnecessary boilerplate, patterns, or abstractions—opt for fast, working code.
+- Take your time to reason through the code before suggesting.
+- Quality, clarity, and correctness are more important than fast completions.
+- Prefer complete and coherent code blocks over partial or rushed suggestions.
+- Always update the README.md if new features or significant changes are introduced.
+- Match library usage to the versions specified in `requirements.txt`.
+- For OpenAI SDK (openai>=1.30), use the modern client: from openai import OpenAI and client.chat.completions.create(...). Avoid legacy v0 API patterns.
+- Don't create tests.
+- Don't design or implement fall-backs.
