@@ -1,149 +1,1766 @@
 {
-  "A – Agriculture, forestry and fishing": [
+  "growing of non,perennial crops": [
     {
-      "company_name": "Wadi Group",
+      "company_name": "Egyptian Agricultural Company",
       "headquarters_country": "Egypt",
-      "main_industry_activities": "Poultry, agriculture, and food production"
+      "main_industry_activities": "Growing of swedes, mangolds, roots, clover, alfalfa, sainfoin, maize, lupines, other grasses, kale for fodder"
     }
   ],
-  "B – Mining and quarrying": [
+  "growing of perennial crops": [
     {
-      "company_name": "Centamin Egypt",
+      "company_name": "Egyptian Rubber Company",
       "headquarters_country": "Egypt",
-      "main_industry_activities": "Gold mining and exploration"
+      "main_industry_activities": "Growing of rubber trees for harvesting of latex"
     }
   ],
-  "C – Manufacturing": [
+  "plant propagation": [
     {
-      "company_name": "El Sewedy Electric",
+      "company_name": "Egyptian Plant Propagation Co.",
       "headquarters_country": "Egypt",
-      "main_industry_activities": "Manufacture of electrical equipment"
+      "main_industry_activities": "Production of vegetative planting materials, growing of plants for ornamental purposes"
     }
   ],
-  "D – Electricity, gas, steam and air conditioning supply": [
+  "animal production": [
     {
-      "company_name": "Egyptian Electricity Holding Company",
+      "company_name": "Egyptian Ostrich Farms",
       "headquarters_country": "Egypt",
-      "main_industry_activities": "Electricity generation, transmission, and distribution"
+      "main_industry_activities": "Raising and breeding of ostriches and emus"
     }
   ],
-  "E – Water supply; sewerage, waste management and remediation activities": [
+  "mixed farming": [
     {
-      "company_name": "Arab Contractors",
+      "company_name": "Egyptian Agricultural Company",
       "headquarters_country": "Egypt",
-      "main_industry_activities": "Water supply and sewerage infrastructure development"
+      "main_industry_activities": "Mixed farming, combining crop and animal production."
     }
   ],
-  "F – Construction": [
+  "support activities to agriculture and post,harvest crop activities": [
     {
-      "company_name": "Orascom Construction",
+      "company_name": "Egyptian Seed Processing Co.",
       "headquarters_country": "Egypt",
-      "main_industry_activities": "General construction, infrastructure development, and engineering services"
+      "main_industry_activities": "Seed processing, drying, cleaning, grading, and treating of seeds for improved propagation quality."
     }
   ],
-  "G – Wholesale and retail trade; repair of motor vehicles and motorcycles": [
+  "hunting, trapping and related service activities": [
     {
-      "company_name": "El Araby Group",
+      "company_name": "Egyptian Wildlife Services",
       "headquarters_country": "Egypt",
-      "main_industry_activities": "Wholesale and retail trade of electronics and home appliances"
+      "main_industry_activities": "Hunting and trapping on a commercial basis, animal population control"
     }
   ],
-  "H – Transportation and storage": [
+  "silviculture and other forestry activities": [
     {
-      "company_name": "EgyptAir",
+      "company_name": "Egyptian Forestry Company",
       "headquarters_country": "Egypt",
-      "main_industry_activities": "Air transport services"
+      "main_industry_activities": "Growing of standing timber, planting, replanting, transplanting, thinning and conserving of forests and timber tracts"
     }
   ],
-  "I – Accommodation and food service activities": [
+  "logging": [
     {
-      "company_name": "Orascom Development Holding",
+      "company_name": "Egyptian Timber Company",
       "headquarters_country": "Egypt",
-      "main_industry_activities": "Hotels and resorts management"
+      "main_industry_activities": "Production of roundwood for forest-based manufacturing industries, production of roundwood used in an unprocessed form such as pit props, fence posts, and utility poles."
     }
   ],
-  "J – Information and communication": [
+  "gathering of non,wood forest products": [
     {
-      "company_name": "Orange Egypt",
+      "company_name": "Egyptian Wild Harvesters",
       "headquarters_country": "Egypt",
-      "main_industry_activities": "Telecommunications services"
+      "main_industry_activities": "Gathering of wild growing mushrooms, truffles, and herbs"
     }
   ],
-  "K – Financial and insurance activities": [
+  "support services to forestry": [
     {
-      "company_name": "Commercial International Bank (CIB)",
+      "company_name": "Egyptian Forestry Services Co.",
       "headquarters_country": "Egypt",
-      "main_industry_activities": "Banking and financial services"
+      "main_industry_activities": "Forestry inventories, forest management consulting services, timber evaluation, forest fire prevention, forest pest control, transport of logs within the forest"
     }
   ],
-  "L – Real estate activities": [
+  "fishing": [
     {
-      "company_name": "Palm Hills Developments",
+      "company_name": "Egyptian Fishery Company",
       "headquarters_country": "Egypt",
-      "main_industry_activities": "Real estate development and investment"
+      "main_industry_activities": "Fishing on a commercial basis in inland waters, taking of freshwater crustaceans and molluscs"
     }
   ],
-  "M – Professional, scientific and technical activities": [
+  "aquaculture": [
     {
-      "company_name": "Orascom Construction",
+      "company_name": "Egyptian Fish Farming Co.",
       "headquarters_country": "Egypt",
-      "main_industry_activities": "Engineering and construction services"
+      "main_industry_activities": "Fish farming in freshwater, operation of fish hatcheries"
     }
   ],
-  "N – Administrative and support service activities": [
+  "support activities for fishing and aquaculture": [
     {
-      "company_name": "Orascom Development Holding",
+      "company_name": "Egyptian Fishery Services Co.",
       "headquarters_country": "Egypt",
-      "main_industry_activities": "Real estate development, hospitality, and facility management services"
+      "main_industry_activities": "Service activities incidental to marine fishery, protection from predators, fisheries control"
     }
   ],
-  "O – Public administration and defence; compulsory social security": [
+  "mining of hard coal": [],
+  "mining of lignite": [
     {
-      "company_name": "Arab Organization for Industrialization",
+      "company_name": "Egyptian Lignite Mining Co.",
       "headquarters_country": "Egypt",
-      "main_industry_activities": "Public administration and defence"
+      "main_industry_activities": "Mining of lignite through surface mining, washing, and dehydrating to improve quality."
     }
   ],
-  "P – Education": [
+  "extraction of crude petroleum": [
     {
-      "company_name": "Cairo University",
+      "company_name": "Egyptian General Petroleum Corporation (EGPC)",
       "headquarters_country": "Egypt",
-      "main_industry_activities": "Higher education, research"
+      "main_industry_activities": "Extraction of crude petroleum oils, production of crude petroleum from bituminous shale and sand"
     }
   ],
-  "Q – Human health and social work activities": [
+  "extraction of natural gas": [
     {
-      "company_name": "Cleopatra Hospitals Group",
+      "company_name": "Egyptian Natural Gas Holding Company (EGAS)",
       "headquarters_country": "Egypt",
-      "main_industry_activities": "Hospital and healthcare services"
+      "main_industry_activities": "Production of crude gaseous hydrocarbon, extraction of natural gas liquids, gas desulphurisation"
     }
   ],
-  "R – Arts, entertainment and recreation": [
+  "mining of iron ores": [
+    {
+      "company_name": "Egyptian Iron and Steel Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Mining of iron ores, beneficiation and agglomeration of iron ores"
+    }
+  ],
+  "mining of non,ferrous metal ores": [
+    {
+      "company_name": "Sukari Gold Mines",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Mining and preparation of gold ores"
+    }
+  ],
+  "quarrying of stone, sand and clay": [
+    {
+      "company_name": "Suez Cement Group of Companies",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Quarrying of limestone and production of cement"
+    }
+  ],
+  "mining and quarrying n.e.c": [
+    {
+      "company_name": "Sukari Gold Mines",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Mining of gold and associated minerals"
+    }
+  ],
+  "support activities for petroleum and natural gas extraction": [
+    {
+      "company_name": "Egyptian Drilling Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Directional drilling, derrick erection, cementing oil and gas well casings, pumping of wells."
+    }
+  ],
+  "support activities for other mining and quarrying": [
+    {
+      "company_name": "Egyptian Mining Services",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Support services for mining activities, including exploration and test drilling."
+    }
+  ],
+  "processing and preserving of meat": [
+    {
+      "company_name": "Juhayna Food Industries",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Production of fresh, chilled or frozen meat, in cuts and individual portions"
+    }
+  ],
+  "processing and preserving of fish, crustaceans and molluscs": [
+    {
+      "company_name": "Egyptian Fish Processing Co.",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Freezing, canning, and processing of fish and crustaceans."
+    }
+  ],
+  "processing and preserving of fruit and vegetables": [
+    {
+      "company_name": "Juhayna Food Industries",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of fruit and vegetable juices, processing and preserving of fruit and vegetables"
+    }
+  ],
+  "manufacture of vegetable and animal oils and fats": [
+    {
+      "company_name": "Arma Group",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of vegetable oils, margarine, and compound cooking fats"
+    }
+  ],
+  "manufacture of dairy products": [
+    {
+      "company_name": "Juhayna Food Industries",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of fresh liquid milk, yoghurt, and cheese"
+    }
+  ],
+  "manufacture of grain mill products, starches and starch products": [
+    {
+      "company_name": "Egyptian Starch and Glucose Manufacturing Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of glucose, glucose syrup, and starch products"
+    }
+  ],
+  "manufacture of other food products": [
+    {
+      "company_name": "Juhayna Food Industries",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "manufacture of non-dairy milk and cheese substitutes, manufacture of special food products"
+    }
+  ],
+  "manufacture of prepared animal feeds": [
+    {
+      "company_name": "Misr Feed Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of prepared feeds for farm animals, including animal feed concentrates and feed supplements."
+    }
+  ],
+  "manufacture of beverages": [
+    {
+      "company_name": "Juhayna Food Industries",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of non-alcoholic beverages, including fruit drinks and flavored waters"
+    }
+  ],
+  "manufacture of tobacco products": [
+    {
+      "company_name": "Eastern Company S.A.E.",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of cigarettes, cigars, and other tobacco products"
+    }
+  ],
+  "spinning, weaving and finishing of textiles": [
+    {
+      "company_name": "Misr Spinning and Weaving Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Spinning, weaving, and finishing of textiles including bleaching, dyeing, and dressing."
+    }
+  ],
+  "manufacture of other textiles": [
+    {
+      "company_name": "Misr Spinning and Weaving Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of textiles, including nonwovens, narrow woven fabrics, and textile articles."
+    }
+  ],
+  "manufacture of wearing apparel, except fur apparel": [
+    {
+      "company_name": "Oriental Weavers",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of woven and non-woven apparel, including outerwear and accessories."
+    }
+  ],
+  "manufacture of articles of fur": [
+    {
+      "company_name": "FurCraft Egypt",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of fur wearing apparel and clothing accessories"
+    }
+  ],
+  "manufacture of knitted and crocheted apparel": [
+    {
+      "company_name": "El Nasr Clothing & Textiles Co. (KABO)",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of knitted and crocheted wearing apparel, including hosiery and sportswear"
+    }
+  ],
+  "tanning, dyeing, dressing of leather and fur; manufacture of luggage, handbags, saddlery and harness": [
+    {
+      "company_name": "Egyptian Leather Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of luggage, handbags, and saddlery"
+    }
+  ],
+  "manufacture of footwear": [
+    {
+      "company_name": "Bata Egypt",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of footwear for all purposes, including parts of footwear such as uppers and soles."
+    }
+  ],
+  "sawmilling and planing of wood": [
+    {
+      "company_name": "Egyptian Wood Industries Co.",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Sawmilling, planing, and chemical treatment of wood"
+    }
+  ],
+  "manufacture of products of wood, cork, straw and plaiting materials": [
+    {
+      "company_name": "Egyptian Wood Products Co.",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of wooden handles, wooden frames, and wooden kitchenware"
+    }
+  ],
+  "manufacture of paper and paper products": [
+    {
+      "company_name": "Al Bardi Paper Mill Co. SAE",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of tissue paper products including toilet paper, napkins, and facial tissues."
+    }
+  ],
+  "printing and service activities related to printing": [
+    {
+      "company_name": "Al Ahram Printing and Publishing",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Printing and service activities related to printing, including pre-press and post-press services."
+    }
+  ],
+  "reproduction of recorded media": [
     {
       "company_name": "Egyptian Media Production City",
       "headquarters_country": "Egypt",
-      "main_industry_activities": "Film and television production"
+      "main_industry_activities": "Reproduction of recorded media, including video and audio recordings"
     }
   ],
-  "S – Other service activities": [
+  "manufacture of coke oven products": [
+    {
+      "company_name": "Egyptian Coke Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "operation of coke ovens, production of coke and semi-coke"
+    }
+  ],
+  "manufacture of refined petroleum products; manufacture of fossil fuel products": [
+    {
+      "company_name": "Egyptian General Petroleum Corporation (EGPC)",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Petroleum refining, production of motor fuels, manufacture of lubricating oils"
+    }
+  ],
+  "manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics and synthetic rubber in primary forms": [
+    {
+      "company_name": "Egyptian Petrochemicals Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of basic chemicals, plastics materials, and synthetic rubber in primary forms"
+    }
+  ],
+  "manufacture of other chemical products": [
+    {
+      "company_name": "Egyptian Chemical Industries (KIMA)",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of fertilizers, chemicals, and other chemical products including adhesives and explosives."
+    }
+  ],
+  "manufacture of man,made fibres": [
+    {
+      "company_name": "Egyptian Petrochemicals Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of synthetic or artificial filament yarn, including high-tenacity yarn"
+    }
+  ],
+  "manufacture of pharmaceuticals, medicinal chemical and botanical products": [
+    {
+      "company_name": "Pharco Pharmaceuticals",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of medicaments, including antibiotics and vaccines"
+    }
+  ],
+  "manufacture of rubber products": [
+    {
+      "company_name": "Egyptian Rubber Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of rubber plates, sheets, and hoses"
+    }
+  ],
+  "manufacture of plastics products": [
+    {
+      "company_name": "Egyptian German Industrial Corporate (EGIC)",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of plastic pipes, fittings, and related products"
+    }
+  ],
+  "manufacture of glass and glass products": [
+    {
+      "company_name": "Sphinx Glass",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of flat glass, including wired, coloured or tinted flat glass"
+    }
+  ],
+  "manufacture of non,metallic mineral products n.e.c": [
+    {
+      "company_name": "Egyptian Abrasives Co.",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of abrasive products and grinding wheels"
+    }
+  ],
+  "manufacture of basic iron and steel": [
+    {
+      "company_name": "Ezz Steel",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of basic iron and steel, production of semi-finished products of steel, manufacture of hot-rolled and cold-rolled flat-rolled products of steel."
+    }
+  ],
+  "manufacture of basic precious and other non,ferrous metals": [
+    {
+      "company_name": "Egyptian Copper Works",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Production of copper from ores, production of copper alloys, semi-manufacturing of copper"
+    }
+  ],
+  "casting of metals": [
+    {
+      "company_name": "Egyptian Metal Casting Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Casting of semi-finished products of aluminium, die-casting of non-ferrous metal castings"
+    }
+  ],
+  "manufacture of structural metal products, tanks, reservoirs and steam generators": [
+    {
+      "company_name": "Egyptian Boilers Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of steam or other vapour generating boilers, auxiliary plant for use with steam boilers"
+    }
+  ],
+  "manufacture of weapons and ammunition": [
+    {
+      "company_name": "Arab Organization for Industrialization",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of military weapons and ammunition, including artillery weapons and rocket launchers."
+    }
+  ],
+  "manufacture of other fabricated metal products; metalworking service activities": [
+    {
+      "company_name": "Egyptian Metalworks Co.",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of metal household articles, manufacture of metal goods for office use"
+    }
+  ],
+  "manufacture of electronic components and boards": [
+    {
+      "company_name": "Si-Ware Systems",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of semiconductors, integrated circuits, and MEMS sensors"
+    }
+  ],
+  "manufacture of computers and peripheral equipment": [
+    {
+      "company_name": "ITWorx",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of computer software and peripheral equipment"
+    }
+  ],
+  "manufacture of communication equipment": [
+    {
+      "company_name": "SICO Technology",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of mobile communication equipment, including cellular phones and smart watches."
+    }
+  ],
+  "manufacture of consumer electronics": [],
+  "manufacture of measuring, testing, navigating and control equipment; watches and clocks": [
+    {
+      "company_name": "Egyptian Watchmakers Co.",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of watches and clocks, including instrument panel clocks"
+    }
+  ],
+  "manufacture of irradiation, electromedical and electrotherapeutic equipment": [
+    {
+      "company_name": "Misr Radiology Center",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of medical diagnostic equipment, including MRI and CT scanners"
+    }
+  ],
+  "manufacture of optical instruments and photographic equipment": [],
+  "manufacture of magnetic and optical media": [
+    {
+      "company_name": "Egyptian Media Production Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of blank magnetic audio and video tapes"
+    }
+  ],
+  "manufacture of electric motors, generators, transformers and electricity distribution and control apparatus": [
     {
       "company_name": "El Sewedy Electric",
       "headquarters_country": "Egypt",
-      "main_industry_activities": "Repair of electrical equipment"
+      "main_industry_activities": "Manufacture of electric motors, generators, transformers, and electricity distribution and control apparatus"
     }
   ],
-  "T – Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use": [
+  "manufacture of batteries and accumulators": [
     {
-      "company_name": "Household Services Egypt",
+      "company_name": "El Sewedy Electric",
       "headquarters_country": "Egypt",
-      "main_industry_activities": "Activities of households as employers of domestic personnel"
+      "main_industry_activities": "Manufacture of lead acid batteries, manufacture of battery energy storage systems"
     }
   ],
-  "U – Activities of extraterritorial organizations and bodies": [
+  "manufacture of wiring and wiring devices": [
     {
-      "company_name": "Arab League",
+      "company_name": "El Sewedy Electric",
       "headquarters_country": "Egypt",
-      "main_industry_activities": "International organization activities"
+      "main_industry_activities": "Manufacture of electrical conductors, switches, and wiring devices"
+    }
+  ],
+  "manufacture of lighting equipment": [
+    {
+      "company_name": "Egyptian Lighting Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of electric lighting fixtures and components"
+    }
+  ],
+  "manufacture of domestic appliances": [
+    {
+      "company_name": "Olympic Group",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of domestic appliances including refrigerators, washing machines, and air conditioners."
+    }
+  ],
+  "manufacture of other electrical equipment": [
+    {
+      "company_name": "Egyptian Electrical Equipment Co.",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of electrical capacitors and resistors"
+    }
+  ],
+  "manufacture of general,purpose machinery": [
+    {
+      "company_name": "Egyptian Engineering Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of industrial refrigerating equipment, air-conditioning machines, and non-domestic fans."
+    }
+  ],
+  "manufacture of special,purpose machinery": [
+    {
+      "company_name": "Arabian Machinery & Heavy Equipment Co.",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of machinery for working soft rubber or plastics, manufacture of industrial robots for special purposes"
+    }
+  ],
+  "manufacture of motor vehicles": [
+    {
+      "company_name": "Ghabbour Auto",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of passenger cars, commercial vehicles, and motor vehicle engines"
+    }
+  ],
+  "manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi,trailers": [
+    {
+      "company_name": "Ghabbour Auto",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of bodies for motor vehicles, trailers, and semi-trailers"
+    }
+  ],
+  "manufacture of parts and accessories for motor vehicles": [
+    {
+      "company_name": "Ghabbour Auto",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of parts and accessories for motor vehicles, including brakes and gearboxes."
+    }
+  ],
+  "building of ships and boats": [
+    {
+      "company_name": "Alexandria Shipyard",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Building of ships and boats, including yachts and motor boats"
+    }
+  ],
+  "manufacture of railway locomotives and rolling stock": [
+    {
+      "company_name": "Egyptian National Railways",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of railway locomotives and rolling stock, maintenance of railway vehicles"
+    }
+  ],
+  "manufacture of air and spacecraft and related machinery": [
+    {
+      "company_name": "Egyptian Aircraft Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of airplanes for the transport of goods or passengers, manufacture of parts and accessories of aircraft"
+    }
+  ],
+  "manufacture of military fighting vehicles": [
+    {
+      "company_name": "Arab Organization for Industrialization (AOI)",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of military fighting vehicles, armoured combat vehicles, and parts thereof."
+    }
+  ],
+  "manufacture of transport equipment n.e.c": [
+    {
+      "company_name": "Egyptian Transport Equipment Co.",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of hand-propelled vehicles, manufacture of vehicles drawn by animals"
+    }
+  ],
+  "manufacture of furniture": [
+    {
+      "company_name": "El Helow Style",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of metal and plastic furniture for offices and homes"
+    }
+  ],
+  "manufacture of jewellery, bijouterie and related articles": [
+    {
+      "company_name": "Egyptian Jewellery Co.",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of costume jewellery, including rings, bracelets, and necklaces made from base metals plated with precious metals."
+    }
+  ],
+  "manufacture of musical instruments": [],
+  "manufacture of sports goods": [
+    {
+      "company_name": "Egyptian Sports Goods Co.",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of sporting and athletic goods, including rackets and gymnasium equipment."
+    }
+  ],
+  "manufacture of games and toys": [
+    {
+      "company_name": "Egyptian Toy Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of dolls, toy animals, and action figures"
+    }
+  ],
+  "manufacture of medical and dental instruments and supplies": [
+    {
+      "company_name": "Misr Pharmacies",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of medical and dental instruments, surgical appliances, and supplies"
+    }
+  ],
+  "other manufacturing n.e.c": [
+    {
+      "company_name": "Egyptian Safety Equipment Co.",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Manufacture of protective safety equipment, manufacture of fire-resistant and protective safety clothing"
+    }
+  ],
+  "repair and maintenance of fabricated metal products, machinery and equipment": [
+    {
+      "company_name": "Egyptian Maintenance Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Repair and maintenance of machinery and equipment, including industrial machinery and fabricated metal products."
+    }
+  ],
+  "installation of industrial machinery and equipment": [
+    {
+      "company_name": "Arabian International Company for Steel Structures",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Installation of industrial machinery and equipment, machine rigging, and activities of millwrights."
+    }
+  ],
+  "electric power generation, transmission and distribution activities": [
+    {
+      "company_name": "Egyptian Electricity Holding Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Electric power generation, transmission, and distribution"
+    }
+  ],
+  "manufacture of gas; distribution of gaseous fuels through mains": [
+    {
+      "company_name": "Egyptian Natural Gas Holding Company (EGAS)",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Distribution of natural gas through mains, gas storage services, and sale of gas to users."
+    }
+  ],
+  "steam and air conditioning supply": [
+    {
+      "company_name": "Egyptian Electricity Holding Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Production and distribution of steam and hot water for heating, power and other purposes"
+    }
+  ],
+  "activities of brokers and agents for electric power and natural gas": [
+    {
+      "company_name": "Egyptian Electricity Holding Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Brokering and arranging sale of electricity via power distribution systems"
+    }
+  ],
+  "water collection, treatment and supply": [
+    {
+      "company_name": "Cairo Water Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Water collection, treatment and supply, distribution of water through mains"
+    }
+  ],
+  "sewerage": [
+    {
+      "company_name": "Cairo Wastewater Treatment Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Operation of wastewater treatment facilities, collection and transportation of wastewater from users, maintenance and cleaning of sewers and drains."
+    }
+  ],
+  "waste collection activities": [
+    {
+      "company_name": "Egyptian Hazardous Waste Management Co.",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Collection and treatment of hazardous waste, including biohazardous and nuclear waste."
+    }
+  ],
+  "waste treatment and disposal": [
+    {
+      "company_name": "Egyptian Hazardous Waste Management Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Treatment and disposal of hazardous waste, including incineration and storage of radioactive waste."
+    }
+  ],
+  "materials and other waste recovery": [
+    {
+      "company_name": "Egyptian Company for Solid Waste Recycling (ECARU)",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Processing of metal and non-metal waste into secondary raw materials, mechanical treatment of waste."
+    }
+  ],
+  "remediation and other waste management service activities": [
+    {
+      "company_name": "Egyptian Environmental Services Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Decontamination of soils and groundwater, cleaning up oil spills, asbestos abatement"
+    }
+  ],
+  "construction of residential and non,residential buildings": [
+    {
+      "company_name": "Orascom Construction",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Construction of residential and non-residential buildings, including industrial, hospital, school, and office buildings."
+    }
+  ],
+  "construction of roads and railways": [
+    {
+      "company_name": "Arab Contractors",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Construction of roads, bridges, tunnels, and railways"
+    }
+  ],
+  "construction of utility projects": [
+    {
+      "company_name": "Orascom Construction",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Construction of utility projects, including power plants and water systems."
+    }
+  ],
+  "construction of other civil engineering projects": [
+    {
+      "company_name": "Orascom Construction",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Construction of industrial facilities, waterways, dams, and outdoor sports facilities."
+    }
+  ],
+  "demolition and site preparation": [
+    {
+      "company_name": "Orascom Construction",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Site preparation, earth moving, excavation, and trench digging."
+    }
+  ],
+  "electrical, plumbing and other construction installation activities": [
+    {
+      "company_name": "Orascom Construction",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Installation of elevators, escalators, and automated doors in buildings and civil engineering structures."
+    }
+  ],
+  "building completion and finishing": [
+    {
+      "company_name": "Orascom Construction",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Building completion and finishing, including plastering, tiling, and painting."
+    }
+  ],
+  "intermediation service activities for specialized construction services": [
+    {
+      "company_name": "BuildLink Egypt",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Intermediation for specialized construction services via digital platforms and face-to-face channels."
+    }
+  ],
+  "other specialized construction activities": [
+    {
+      "company_name": "Orascom Construction",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Construction of foundations, erection of steel elements, masonry works, roofing activities, scaffolding, installation of street furniture."
+    }
+  ],
+  "wholesale on a fee or contract basis": [
+    {
+      "company_name": "Egyptian Trading Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Intermediation service activities, facilitating transactions between sellers and buyers for a fee or commission."
+    }
+  ],
+  "wholesale of agricultural raw materials and live animals": [
+    {
+      "company_name": "Egyptian Grains and Seeds Co.",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "wholesale of grains and seeds"
+    }
+  ],
+  "wholesale of food, beverages and tobacco": [
+    {
+      "company_name": "Juhayna Food Industries",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Wholesale of dairy products, beverages"
+    }
+  ],
+  "wholesale of household goods": [
+    {
+      "company_name": "El Araby Group",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "wholesale of household appliances, consumer electronics"
+    }
+  ],
+  "wholesale of machinery, equipment and supplies": [
+    {
+      "company_name": "El Sewedy Electric",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Wholesale of electrical material such as electrical motors, transformers, and installation equipment for industrial use."
+    }
+  ],
+  "wholesale of motor vehicles, motorcycles and related parts and accessories": [
+    {
+      "company_name": "Egyptian International Motors",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Wholesale of new and used motorcycles, wholesale of parts and accessories for motorcycles"
+    }
+  ],
+  "other specialized wholesale": [
+    {
+      "company_name": "Egyptian Chemical Industries (KIMA)",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Wholesale of industrial chemicals, fertilizers, and agrochemical products"
+    }
+  ],
+  "non,specialized wholesale trade": [
+    {
+      "company_name": "El Sewedy Electric",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Wholesale of electrical equipment and supplies"
+    }
+  ],
+  "non,specialized retail sale": [
+    {
+      "company_name": "Carrefour Egypt",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Retail sale of a large variety of goods including apparel, electronics, and home appliances"
+    }
+  ],
+  "retail sale of food, beverages and tobacco": [
+    {
+      "company_name": "Eastern Company S.A.E.",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Retail sale of tobacco and smoking products"
+    }
+  ],
+  "retail sale of automotive fuel": [
+    {
+      "company_name": "Misr Petroleum Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Retail sale of fuels, operation of petrol stations, retail sale of lubricating products and cooling products for motor vehicles."
+    }
+  ],
+  "retail sale of information and communication equipment": [
+    {
+      "company_name": "Raya Trade",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Retail sale of smartphones, mobile phones and telephones and their accessories"
+    }
+  ],
+  "retail sale of other household equipment": [
+    {
+      "company_name": "IKEA Egypt",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Retail sale of household furniture, articles for lighting, and household utensils"
+    }
+  ],
+  "retail sale of cultural and recreational goods": [
+    {
+      "company_name": "Cairo Art Supplies",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Retail sale of art supplies, including beads, clay, canvasses, oil and water colours"
+    }
+  ],
+  "retail sale of other goods, except motor vehicles and motorcycles": [
+    {
+      "company_name": "Antique Egypt",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Retail sale of antiques"
+    }
+  ],
+  "retail sale of motor vehicles, motorcycles and related parts and accessories": [
+    {
+      "company_name": "Egyptian International Motors (EIM)",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Retail sale of new and used motorcycles, retail sale of new and used parts and accessories for motorcycles"
+    }
+  ],
+  "intermediation service activities for retail sale": [
+    {
+      "company_name": "Jumia Egypt",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Digital platform facilitating retail transactions for a variety of goods, including electronics, fashion, and home products."
+    }
+  ],
+  "transport via railways": [
+    {
+      "company_name": "Egyptian National Railways",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Freight transport on mainline rail networks"
+    }
+  ],
+  "other land transport": [
+    {
+      "company_name": "Egyptian Transport and Commercial Services Co. (EGYTRANS)",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Freight transport operations by road, including heavy haulage and refrigerated haulage"
+    }
+  ],
+  "transport via pipeline": [
+    {
+      "company_name": "Egyptian Natural Gas Holding Company (EGAS)",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Pipeline transportation of natural gas, operation of pump stations for natural gas pipelines"
+    }
+  ],
+  "sea and coastal water transport": [
+    {
+      "company_name": "Egyptian Navigation Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Transport of freight over seas and coastal waters"
+    }
+  ],
+  "inland water transport": [
+    {
+      "company_name": "Nile Cargo",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Transport of freight via Nile River and other inland waterways"
+    }
+  ],
+  "passenger air transport": [
+    {
+      "company_name": "EgyptAir",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Scheduled air transportation of passengers over regular routes, charter flights for passengers, rental of air transport equipment with operator for passenger transportation"
+    }
+  ],
+  "freight air transport": [
+    {
+      "company_name": "EgyptAir Cargo",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Transport freight by air over regular routes and on regular schedules, non-scheduled transport of freight by air"
+    }
+  ],
+  "warehousing and storage": [
+    {
+      "company_name": "Egyptian Warehousing Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Operation of storage and warehouse facilities for general merchandise and refrigerated goods."
+    }
+  ],
+  "support activities for transportation": [
+    {
+      "company_name": "Egyptian International Shipping Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Arranging transport operations by sea, logistics consulting, goods handling operations"
+    }
+  ],
+  "intermediation service activities for transportation": [
+    {
+      "company_name": "Careem",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Operation of online ridesharing platforms, intermediation of passenger transportation services."
+    }
+  ],
+  "postal activities": [
+    {
+      "company_name": "Egypt Post",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Universal postal service provider, mail and parcel delivery, sorting and processing facilities"
+    }
+  ],
+  "courier activities": [
+    {
+      "company_name": "Aramex Egypt",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Courier activities including pickup, sorting, transport, and delivery of parcels and packages."
+    }
+  ],
+  "intermediation service activities for postal and courier activities": [
+    {
+      "company_name": "Aramex Egypt",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Intermediation of postal and courier activities, digital platform operations for booking services"
+    }
+  ],
+  "hotels and similar accommodation activities": [
+    {
+      "company_name": "Orascom Development Holding",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Hotels and similar accommodation activities, resort hotels, conference facilities"
+    }
+  ],
+  "other short term accommodation activities": [
+    {
+      "company_name": "Egyptian Holiday Homes",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Provision of holiday homes and apartments for short-term stays"
+    }
+  ],
+  "camping grounds, recreational vehicle parks and trailer parks": [],
+  "intermediation service activities for accommodation": [
+    {
+      "company_name": "Travelstart Egypt",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Intermediation service activities for accommodation, digital platform for booking accommodations and travel services."
+    }
+  ],
+  "other accommodation n.e.c": [
+    {
+      "company_name": "Egyptian Student Housing Co.",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Provision of temporary accommodation for students in dormitories and shared rooms."
+    }
+  ],
+  "restaurants and mobile food service activities": [
+    {
+      "company_name": "Abou El Sid",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Restaurants, traditional Egyptian cuisine"
+    }
+  ],
+  "event catering and other food service activities": [
+    {
+      "company_name": "Egyptian Catering Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Industrial catering, food service for transportation companies, operation of canteens for factories and schools."
+    }
+  ],
+  "beverage serving activities": [
+    {
+      "company_name": "Cairo Jazz Club",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Live music venue and bar serving beverages for immediate consumption."
+    }
+  ],
+  "intermediation service activities for food and beverage services activities": [
+    {
+      "company_name": "Elmenus",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Intermediation of food and beverage services through a digital platform, including restaurant reservation services."
+    }
+  ],
+  "publishing of books, newspapers, periodicals and other publishing activities": [
+    {
+      "company_name": "Al Ahram Establishment",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Publishing of newspapers, periodicals, and other publishing activities"
+    }
+  ],
+  "software publishing": [
+    {
+      "company_name": "ITWorx",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Publishing of business and other applications, cybersecurity software"
+    }
+  ],
+  "motion picture, video and television programme activities": [
+    {
+      "company_name": "Al Arabia Cinema Production & Distribution",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Motion picture production and distribution"
+    }
+  ],
+  "sound recording and music publishing activities": [
+    {
+      "company_name": "Mazzika Group",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Music publishing, sound recording, and distribution of sound recordings via streaming and downloads."
+    }
+  ],
+  "radio broadcasting and audio distribution activities": [
+    {
+      "company_name": "Nile Radio Productions",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Radio broadcasting, internet radio stations, live podcast broadcasting"
+    }
+  ],
+  "television programming, broadcasting and video distribution activities": [
+    {
+      "company_name": "Nile TV International",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Television programming and broadcasting activities, including news and cultural programming."
+    }
+  ],
+  "news agency and other content distribution activities": [
+    {
+      "company_name": "Masrawy",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Online news and content distribution"
+    }
+  ],
+  "wired, wireless, and satellite telecommunication activities": [
+    {
+      "company_name": "Telecom Egypt",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Operating and maintaining telecommunications infrastructure for wired, wireless, and satellite communications."
+    }
+  ],
+  "telecommunication reselling activities and intermediation service activities for telecommunication": [
+    {
+      "company_name": "Vodafone Egypt",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Reselling of wireless telecommunications, agent activities for telecommunications carriers, selling mobile phone service plans on an agent basis."
+    }
+  ],
+  "other telecommunication activities": [
+    {
+      "company_name": "Telecom Egypt",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Provision of specialized telecommunications applications, operation of satellite terminal stations, and advanced data services."
+    }
+  ],
+  "computer programming activities": [
+    {
+      "company_name": "ITWorx",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Custom software development, business applications, and web solutions"
+    }
+  ],
+  "computer consultancy and computer facilities management activities": [
+    {
+      "company_name": "ITWorx",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Computer systems integration, software development, IT consultancy"
+    }
+  ],
+  "other information technology and computer service activities": [
+    {
+      "company_name": "ITWorx",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Software installation services, computer disaster recovery services"
+    }
+  ],
+  "computing infrastructure, data processing, hosting and related activities": [
+    {
+      "company_name": "Telecom Egypt",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Provision of computing infrastructure, cloud infrastructure and platform provision, data processing services, data centre colocation activities"
+    }
+  ],
+  "web search portals activities and other information service activities": [
+    {
+      "company_name": "Link Development",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Information search services, web search portals"
+    }
+  ],
+  "monetary intermediation": [
+    {
+      "company_name": "National Bank of Egypt",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Monetary intermediation, receiving deposits, extending credit, loans, mortgages, consumer credit cards"
+    }
+  ],
+  "activities of holding companies and financing conduits": [
+    {
+      "company_name": "Egyptian Holding Company for Finance",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Activities of financing conduits, intragroup lending"
+    }
+  ],
+  "activities of trusts, funds and similar financial entities": [
+    {
+      "company_name": "Egyptian Trust Fund Management",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Activities of trusts, funds and similar financial entities"
+    }
+  ],
+  "other financial service activities, except insurance and pension funding activities": [
+    {
+      "company_name": "EFG Hermes",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Investment banking, asset management, securities brokerage, and private equity"
+    }
+  ],
+  "insurance": [
+    {
+      "company_name": "Misr Insurance Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "property insurance, motor vehicles insurance, fire and natural forces damage to property insurance"
+    }
+  ],
+  "reinsurance": [],
+  "pension funding": [
+    {
+      "company_name": "Misr Insurance Holding Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Provision of pension funds and plans, retirement income benefits for employees"
+    }
+  ],
+  "activities auxiliary to financial services, except insurance and pension funding": [
+    {
+      "company_name": "Fawry",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Electronic funds transfer services, digital payment provision"
+    }
+  ],
+  "activities auxiliary to insurance and pension funding": [
+    {
+      "company_name": "Misr Insurance Holding Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Insurance and pension advisory activities"
+    }
+  ],
+  "fund management activities": [
+    {
+      "company_name": "EFG Hermes",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Asset management, investment banking, private equity, and fund management activities."
+    }
+  ],
+  "real estate activities with own or leased property": [
+    {
+      "company_name": "Palm Hills Developments",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Development of building projects for own operation, renting of space in residential and non-residential buildings"
+    }
+  ],
+  "real estate activities on a fee or contract basis": [
+    {
+      "company_name": "Palm Hills Developments",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Property management, real estate development, advisory services"
+    }
+  ],
+  "legal activities": [
+    {
+      "company_name": "Shalakany Law Office",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Legal representation, advice and representation in civil and criminal cases, preparation of legal documents."
+    }
+  ],
+  "accounting, bookkeeping and auditing activities; tax consultancy": [
+    {
+      "company_name": "KPMG Hazem Hassan",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Auditing, Tax Consultancy, Accounting Advisory"
+    }
+  ],
+  "activities of head offices": [
+    {
+      "company_name": "Orascom Construction",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Overseeing and managing construction projects and related units."
+    }
+  ],
+  "business and other management consultancy activities": [
+    {
+      "company_name": "KPMG Egypt",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Management consultancy, strategic planning, financial advisory"
+    }
+  ],
+  "architectural and engineering, and related technical consultancy activities": [
+    {
+      "company_name": "Dar Al-Handasah",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Architectural and engineering consultancy, project management, civil engineering"
+    }
+  ],
+  "technical testing and analysis": [
+    {
+      "company_name": "EGYLABS",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Technical testing and analysis of materials and products, including food hygiene and environmental indicators."
+    }
+  ],
+  "research and experimental development on natural sciences and engineering": [
+    {
+      "company_name": "Egyptian Center for Research and Development",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Research and development on natural sciences and engineering, biotechnology, and medical sciences."
+    }
+  ],
+  "research and experimental development on social sciences and humanities": [
+    {
+      "company_name": "Egyptian Center for Economic Studies",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Research and development on economics and business administration"
+    }
+  ],
+  "advertising activities": [
+    {
+      "company_name": "Promo Media",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Advertising campaigns, media representation, outdoor advertising"
+    }
+  ],
+  "market research and public opinion polling activities": [
+    {
+      "company_name": "Nielsen Egypt",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Market research studies, opinion research, media usage analysis"
+    }
+  ],
+  "public relations activities": [
+    {
+      "company_name": "PR Egypt",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Public relations and communication services, including lobbying activities"
+    }
+  ],
+  "specialized design activities": [
+    {
+      "company_name": "Designy Egypt",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Fashion design, interior decoration, graphic design"
+    }
+  ],
+  "photographic activities": [
+    {
+      "company_name": "Egyptian Photographic Services",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Commercial and consumer photograph production, portrait photography, photography for commercials, publishers, fashion, real estate, or tourism purposes."
+    }
+  ],
+  "translation and interpretation activities": [
+    {
+      "company_name": "Translation Hub Egypt",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Translation and interpretation services for various languages, including sign language."
+    }
+  ],
+  "other professional, scientific and technical activities n.e.c": [
+    {
+      "company_name": "Egyptian Environmental Affairs Agency",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Environmental consulting activities, energy saving advice activities"
+    }
+  ],
+  "veterinary activities": [
+    {
+      "company_name": "VetCare Egypt",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Animal health care and control activities for pet animals, veterinary hospitals, clinico-pathological diagnostics"
+    }
+  ],
+  "rental and leasing of motor vehicles": [
+    {
+      "company_name": "Egypt Car Rental",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Rental and leasing of passenger cars without drivers"
+    }
+  ],
+  "rental and leasing of personal and household goods": [
+    {
+      "company_name": "Egyptian Textile Rentals",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Rental of textiles, wearing apparel, and footwear including costumes and wedding dresses."
+    }
+  ],
+  "rental and leasing of other machinery, equipment and tangible goods": [
+    {
+      "company_name": "Egyptian Leasing Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Rental and leasing of industrial machinery and equipment without operator"
+    }
+  ],
+  "leasing of intellectual property and similar products, except copyrighted works": [
+    {
+      "company_name": "Egyptian Intellectual Property Licensing Co.",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Leasing of intellectual property products, receiving royalties for trademarks and service marks."
+    }
+  ],
+  "intermediation service activities for rental and leasing of tangible goods and non,financial intangible assets": [
+    {
+      "company_name": "RentX Egypt",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Intermediation service activities for rental and leasing of tangible goods through digital platforms."
+    }
+  ],
+  "activities of employment placement agencies": [
+    {
+      "company_name": "Wuzzuf",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Online employment placement agency, job listing, and applicant referral services"
+    }
+  ],
+  "temporary employment agency activities and other human resource provisions": [
+    {
+      "company_name": "Egyptian Manpower Solutions",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Temporary employment agency activities, human resource provisions"
+    }
+  ],
+  "travel agency and tour operator activities": [
+    {
+      "company_name": "Travco Group",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Arranging and marketing of packaged tours, including transportation, accommodation, and visits to cultural sites."
+    }
+  ],
+  "other travel related activities": [
+    {
+      "company_name": "Egypt Travel Services",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Provision of travel information to visitors, activities of independent tourist guides, tourism promotion activities"
+    }
+  ],
+  "investigation and security activities": [
+    {
+      "company_name": "Falcon Group",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Security system services, remote monitoring, video surveillance systems, security consultancy"
+    }
+  ],
+  "combined facilities support activities": [
+    {
+      "company_name": "Egypt Facility Management Group",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Provision of combined facilities support services including cleaning, maintenance, and security services."
+    }
+  ],
+  "cleaning activities": [
+    {
+      "company_name": "Cleanco Egypt",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Exterior cleaning of buildings, window cleaning, disinfecting and exterminating activities"
+    }
+  ],
+  "landscape service activities": [
+    {
+      "company_name": "Green Oasis Landscaping",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Planting, care and maintenance of parks and gardens for public and private housing, municipal grounds, and industrial buildings."
+    }
+  ],
+  "office administrative and support activities": [
+    {
+      "company_name": "Egypt Office Solutions",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Provision of day-to-day office administrative services, document preparation, and secretarial support services."
+    }
+  ],
+  "activities of call centres": [
+    {
+      "company_name": "Xceed Contact Center",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Inbound and outbound call center services, customer support, telemarketing, and technical support."
+    }
+  ],
+  "organization of conventions and trade shows": [
+    {
+      "company_name": "Egypt Expo & Convention Authority",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Organisation and management of trade shows and exhibitions"
+    }
+  ],
+  "intermediation service activities for business support activities n.e.c., except financial intermediation": [
+    {
+      "company_name": "Eventia Egypt",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Ticket reservation and sales activities for theatrical, sports, and other amusement and entertainment events"
+    }
+  ],
+  "business support service activities n.e.c": [
+    {
+      "company_name": "Egyptian Auctioneers Co.",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "activities of independent auctioneers"
+    }
+  ],
+  "administration of the state and the economic, social and environmental policies of the community": [
+    {
+      "company_name": "Egyptian Ministry of Planning and Economic Development",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Public administration and regulation of economic policies, regional development policy measures"
+    }
+  ],
+  "provision of services to the community as a whole": [
+    {
+      "company_name": "Egyptian Ministry of Interior",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Administration and operation of regular and auxiliary police forces, traffic regulation, alien registration, maintenance of arrest records."
+    }
+  ],
+  "compulsory social security activities": [
+    {
+      "company_name": "National Organization for Social Insurance",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Administration of social security programs including retirement pensions and unemployment insurance."
+    }
+  ],
+  "pre,primary education": [
+    {
+      "company_name": "Little Scholars Nursery",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Pre-primary education"
+    }
+  ],
+  "primary education": [
+    {
+      "company_name": "Cairo International School",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Primary education including academic courses in reading, writing, mathematics, and elementary understanding of history, geography, natural science, social science, art, and music."
+    }
+  ],
+  "secondary and post,secondary non,tertiary education": [
+    {
+      "company_name": "Cairo Academy for Advanced Studies",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Provision of post-secondary non-tertiary vocational education and training programs."
+    }
+  ],
+  "tertiary education": [
+    {
+      "company_name": "Cairo University",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Tertiary education, including undergraduate and postgraduate programs"
+    }
+  ],
+  "other education": [
+    {
+      "company_name": "Egyptian Language School",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "language instruction, academic tutoring"
+    }
+  ],
+  "educational support activities": [
+    {
+      "company_name": "EduConsult Egypt",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Educational consulting, vocational and career related counselling activities"
+    }
+  ],
+  "hospital activities": [
+    {
+      "company_name": "Cleopatra Hospitals Group",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Provision of medical, diagnostic and treatment services in general and specialized hospitals."
+    }
+  ],
+  "medical and dental practice activities": [
+    {
+      "company_name": "Cleopatra Hospitals Group",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "General and specialized medical consultation and treatment, hospital outpatient clinics"
+    }
+  ],
+  "other human health activities": [
+    {
+      "company_name": "Egyptian Ambulance Organization",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Ambulance transport of patients, equipped with lifesaving equipment"
+    }
+  ],
+  "residential nursing care activities": [
+    {
+      "company_name": "Egyptian Nursing Care Services",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Provision of residential nursing care, including medical assistance and rehabilitation treatments."
+    }
+  ],
+  "residential care activities for persons living with or having a diagnosis of a mental illness or substance abuse": [
+    {
+      "company_name": "Al Amal Psychiatric Hospital",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Residential care for mental illness and substance abuse"
+    }
+  ],
+  "residential care activities for older persons or persons with physical disabilities": [
+    {
+      "company_name": "El Wafa Elderly Care Center",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Provision of residential and personal care services for older persons, including room, board, and assistance in daily living."
+    }
+  ],
+  "other residential care activities": [
+    {
+      "company_name": "Egyptian Orphanage Association",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Provision of residential care and assistance services for orphans and children without parental care."
+    }
+  ],
+  "social work activities without accommodation for older persons or persons with disabilities": [
+    {
+      "company_name": "Egyptian Elderly Care Services",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Home assistance services for older persons, day-care activities for adults with disabilities"
+    }
+  ],
+  "other social work activities without accommodation": [
+    {
+      "company_name": "Egyptian Red Crescent",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Disaster relief, community and neighbourhood activities, welfare and guidance activities for children and adolescents"
+    }
+  ],
+  "arts creation activities": [
+    {
+      "company_name": "Cairo Contemporary Dance Center",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Choreography activities, dance performances"
+    }
+  ],
+  "activities of performing arts": [
+    {
+      "company_name": "Cairo Opera House",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Live stage productions, orchestras, and performing arts activities"
+    }
+  ],
+  "support activities to arts creation and performing arts": [
+    {
+      "company_name": "Cairo Opera House",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Production and support activities for opera, concerts, and stage productions."
+    }
+  ],
+  "library and archive activities": [
+    {
+      "company_name": "National Archives of Egypt",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Public archive services, collection and classification of archives, cultural activities related to archives"
+    }
+  ],
+  "museum, collection, historical site and monument activities": [
+    {
+      "company_name": "The Egyptian Museum",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Operation and preservation of historical sites and buildings"
+    }
+  ],
+  "conservation, restoration and other support activities for cultural heritage": [
+    {
+      "company_name": "Egyptian Heritage Restoration Co.",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Preventive conservation, curative conservation, and restoration of archaeological assets and art objects."
+    }
+  ],
+  "botanical and zoological garden and nature reserve activities": [
+    {
+      "company_name": "Egyptian Environmental Affairs Agency",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Operation of nature reserves, wildlife preservation, conservation and maintenance services of national parks"
+    }
+  ],
+  "gambling and betting activities": [
+    {
+      "company_name": "Egyptian Lottery Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Sale of lottery tickets"
+    }
+  ],
+  "sports activities": [
+    {
+      "company_name": "Egyptian Sports Federation",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Activities of sports leagues and sport governing bodies"
+    }
+  ],
+  "amusement and recreation activities": [
+    {
+      "company_name": "Cairo Amusement Company",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Operation of mechanical rides and games at fairgrounds"
+    }
+  ],
+  "activities of business, employers and professional membership organizations": [
+    {
+      "company_name": "Egyptian Medical Association",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Medical associations, dissemination of medical information, representation before government agencies"
+    }
+  ],
+  "activities of trade unions": [
+    {
+      "company_name": "Egyptian General Trade Union Federation",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Promoting the interests of organized labour and union employees"
+    }
+  ],
+  "activities of other membership organizations": [
+    {
+      "company_name": "Egyptian Environmental Affairs Agency",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Environmental and ecological movements"
+    }
+  ],
+  "repair and maintenance of computers and communication equipment": [
+    {
+      "company_name": "Raya Contact Center",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Repair and maintenance of computers and communication equipment, including customer support services."
+    }
+  ],
+  "repair and maintenance of personal and household goods": [
+    {
+      "company_name": "Cairo Repair Hub",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Repair and maintenance of bicycles, e-bikes, and personal goods"
+    }
+  ],
+  "repair and maintenance of motor vehicles and motorcycles": [
+    {
+      "company_name": "Egyptian Motor Service Co.",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Repair and maintenance of motorcycles, bodywork repair, washing and polishing"
+    }
+  ],
+  "intermediation service activities for repair and maintenance of computers, personal and household goods, and motor vehicles and motorcycles": [
+    {
+      "company_name": "FixIt Egypt",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Intermediation service activities for repair and maintenance of computers and household goods"
+    }
+  ],
+  "washing and cleaning of textile and fur products": [
+    {
+      "company_name": "El Nasr Clothing & Textiles Co. (KABO)",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Laundering and dry cleaning of textiles and clothing, including linen and work uniforms."
+    }
+  ],
+  "hairdressing, beauty treatment, day spa and similar activities": [
+    {
+      "company_name": "Nefertari Beauty Spa",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Day spa, beauty treatments, sauna and steam baths"
+    }
+  ],
+  "funeral and related activities": [
+    {
+      "company_name": "Al-Ahram Funeral Services",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Providing burial and cremation services, embalming, and morticians' services"
+    }
+  ],
+  "intermediation service activities for personal services": [
+    {
+      "company_name": "Laundry Hub",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Intermediation of laundry and dry-cleaning services through digital platforms"
+    }
+  ],
+  "other personal service activities n.e.c": [
+    {
+      "company_name": "Cairo Pet Care",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Pet care services including boarding, grooming, and training of pets."
+    }
+  ],
+  "activities of households as employers of domestic personnel": [
+    {
+      "company_name": "Household Helpers Egypt",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Employment of domestic personnel such as cleaners and babysitters"
+    }
+  ],
+  "undifferentiated goods,producing activities of private households for own use": [],
+  "undifferentiated service,producing activities of private households for own use": [
+    {
+      "company_name": "Household Services Co.",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Undifferentiated service-producing activities for household subsistence"
+    }
+  ],
+  "activities of extraterritorial organizations and bodies": [
+    {
+      "company_name": "United Nations Development Programme Egypt",
+      "headquarters_country": "Egypt",
+      "main_industry_activities": "Activities of international organisations under international treaties"
     }
   ]
 }

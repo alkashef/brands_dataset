@@ -1,57 +1,365 @@
 {
+  "Abou El Sid": [
+    {
+      "name": "Koshari",
+      "type": "Food",
+      "invoice_example": "Koshari - Large",
+      "gpc_segment": "Food/Beverage/Tobacco",
+      "gpc_family": "Prepared/Preserved Foods",
+      "gpc_class": "Prepared Meals",
+      "gpc_brick": "Koshari"
+    }
+  ],
+  "Al Ahram Establishment": [
+    {
+      "name": "Al Ahram Newspaper",
+      "type": "Media",
+      "invoice_example": "Al Ahram Newspaper Subscription",
+      "gpc_segment": "Media & Entertainment",
+      "gpc_family": "Publishing",
+      "gpc_class": "Newspapers",
+      "gpc_brick": "Daily Newspapers"
+    }
+  ],
+  "Al Ahram Printing and Publishing": [
+    {
+      "name": "Al Ahram Newspaper",
+      "type": "Publication",
+      "invoice_example": "Al Ahram Newspaper Subscription",
+      "gpc_segment": "Media",
+      "gpc_family": "Print Media",
+      "gpc_class": "Newspapers",
+      "gpc_brick": "Daily Newspapers"
+    }
+  ],
+  "Al Amal Psychiatric Hospital": [
+    {
+      "name": "Psychiatric Consultation",
+      "type": "Service",
+      "invoice_example": "Consultation Fee",
+      "gpc_segment": "Healthcare Services",
+      "gpc_family": "Medical Services",
+      "gpc_class": "Mental Health Services",
+      "gpc_brick": "Psychiatric Services"
+    }
+  ],
+  "Al Arabia Cinema Production & Distribution": [
+    {
+      "name": "Film Production",
+      "type": "Service",
+      "invoice_example": "Film production services for 'Movie Title'",
+      "gpc_segment": "Media",
+      "gpc_family": "Film",
+      "gpc_class": "Production",
+      "gpc_brick": "Film Production Services"
+    }
+  ],
+  "Al Bardi Paper Mill Co. SAE": [
+    {
+      "name": "Al Bardi Premium Paper",
+      "type": "Product",
+      "invoice_example": "Al Bardi Premium Paper - A4",
+      "gpc_segment": "Paper Products",
+      "gpc_family": "Office Paper",
+      "gpc_class": "Copy Paper",
+      "gpc_brick": "A4 Copy Paper"
+    }
+  ],
+  "Al-Ahram Funeral Services": [
+    {
+      "name": "Coffin",
+      "type": "Product",
+      "invoice_example": "Coffin - Mahogany",
+      "gpc_segment": "Funeral Services",
+      "gpc_family": "Caskets & Urns",
+      "gpc_class": "Coffins",
+      "gpc_brick": "Wooden Coffins"
+    }
+  ],
+  "Alexandria Shipyard": [
+    {
+      "name": "Shipbuilding Services",
+      "type": "Service",
+      "invoice_example": "Shipbuilding Services for Cargo Vessel",
+      "gpc_segment": "Services",
+      "gpc_family": "Construction Services",
+      "gpc_class": "Shipbuilding Services",
+      "gpc_brick": "Ship Construction"
+    }
+  ],
+  "Antique Egypt": [
+    {
+      "name": "Egyptian Papyrus",
+      "type": "Product",
+      "invoice_example": "Papyrus Scroll",
+      "gpc_segment": "Arts & Crafts",
+      "gpc_family": "Craft Supplies",
+      "gpc_class": "Paper & Boards",
+      "gpc_brick": "Papyrus"
+    }
+  ],
   "Arab Contractors": [
     {
       "name": "Construction Services",
       "type": "Service",
-      "invoice_example": "Construction of residential buildings",
-      "gpc_segment": "Building and Construction",
-      "gpc_family": "Construction Services",
-      "gpc_class": "General Construction",
-      "gpc_brick": "Residential Building Construction"
-    }
-  ],
-  "Arab League": [
-    {
-      "name": "Egyptian Cotton",
-      "type": "Textile",
-      "invoice_example": "Egyptian Cotton Bed Sheet Set",
-      "gpc_segment": "Textiles",
-      "gpc_family": "Fabrics & Linens",
-      "gpc_class": "Bed Linens",
-      "gpc_brick": "Bed Sheets"
+      "invoice_example": "Building construction services",
+      "gpc_segment": "Business & Industrial",
+      "gpc_family": "Construction & Building",
+      "gpc_class": "Construction Services",
+      "gpc_brick": "General Contracting Services"
     }
   ],
   "Arab Organization for Industrialization": [
     {
+      "name": "Kader Factory",
+      "type": "Manufacturing",
+      "invoice_example": "Kader Factory - Railcars",
+      "gpc_segment": "Transportation",
+      "gpc_family": "Rail Vehicles",
+      "gpc_class": "Passenger Rail Vehicles",
+      "gpc_brick": "Passenger Rail Cars"
+    }
+  ],
+  "Arab Organization for Industrialization (AOI)": [
+    {
       "name": "Kader Factory for Developed Industries",
-      "type": "Defense Equipment",
-      "invoice_example": "Kader Armored Vehicle",
+      "type": "Manufacturing",
+      "invoice_example": "Kader Factory - Military Equipment",
       "gpc_segment": "Defense",
-      "gpc_family": "Military Vehicles",
-      "gpc_class": "Armored Vehicles",
-      "gpc_brick": "Tanks and Armored Vehicles"
+      "gpc_family": "Military Equipment",
+      "gpc_class": "Military Vehicles",
+      "gpc_brick": "Armored Vehicles"
+    }
+  ],
+  "Arabian International Company for Steel Structures": [
+    {
+      "name": "Steel Beams",
+      "type": "Product",
+      "invoice_example": "Steel Beam 20ft",
+      "gpc_segment": "Building and Construction",
+      "gpc_family": "Structural Building Products",
+      "gpc_class": "Structural Steel",
+      "gpc_brick": "Steel Beams"
+    }
+  ],
+  "Arabian Machinery & Heavy Equipment Co.": [
+    {
+      "name": "Caterpillar Excavators",
+      "type": "Heavy Machinery",
+      "invoice_example": "CAT320D2L",
+      "gpc_segment": "Machinery & Tools",
+      "gpc_family": "Construction Equipment",
+      "gpc_class": "Excavators",
+      "gpc_brick": "Tracked Excavators"
+    }
+  ],
+  "Aramex Egypt": [
+    {
+      "name": "Express Parcel Delivery",
+      "type": "Service",
+      "invoice_example": "EXPRESS DELIVERY - CAIRO TO ALEXANDRIA",
+      "gpc_segment": "Transportation Services",
+      "gpc_family": "Courier Services",
+      "gpc_class": "Parcel Delivery",
+      "gpc_brick": "Express Delivery"
+    }
+  ],
+  "Arma Group": [
+    {
+      "name": "Arma Cooking Oil",
+      "type": "Product",
+      "invoice_example": "Arma Cooking Oil 1L",
+      "gpc_segment": "Food/Beverage/Tobacco",
+      "gpc_family": "Edible Oils",
+      "gpc_class": "Cooking Oils",
+      "gpc_brick": "Vegetable Oils"
+    }
+  ],
+  "Bata Egypt": [
+    {
+      "name": "Bata Shoes",
+      "type": "Footwear",
+      "invoice_example": "Bata Shoes - Men's Casual",
+      "gpc_segment": "Footwear",
+      "gpc_family": "Shoes",
+      "gpc_class": "Casual Shoes",
+      "gpc_brick": "Men's Casual Shoes"
+    }
+  ],
+  "BuildLink Egypt": [
+    {
+      "name": "BuildLink Cement",
+      "type": "Construction Material",
+      "invoice_example": "BuildLink Cement 50kg",
+      "gpc_segment": "Building Materials",
+      "gpc_family": "Cement & Concrete",
+      "gpc_class": "Cement",
+      "gpc_brick": "Portland Cement"
+    }
+  ],
+  "Cairo Academy for Advanced Studies": [
+    {
+      "name": "Advanced Business Management Course",
+      "type": "Educational Service",
+      "invoice_example": "Invoice #12345 - Advanced Business Management Course",
+      "gpc_segment": "Education & Training",
+      "gpc_family": "Professional Training",
+      "gpc_class": "Business & Management",
+      "gpc_brick": "Business Management Courses"
+    }
+  ],
+  "Cairo Amusement Company": [
+    {
+      "name": "Cairo Ferris Wheel",
+      "type": "Amusement Ride",
+      "invoice_example": "Ferris Wheel Rental",
+      "gpc_segment": "Recreational Goods",
+      "gpc_family": "Amusement Equipment",
+      "gpc_class": "Rides",
+      "gpc_brick": "Ferris Wheels"
+    }
+  ],
+  "Cairo Art Supplies": [
+    {
+      "name": "Nile Paints",
+      "type": "Acrylic Paint",
+      "invoice_example": "Nile Paints - 250ml",
+      "gpc_segment": "Arts & Crafts",
+      "gpc_family": "Paints",
+      "gpc_class": "Acrylic Paints",
+      "gpc_brick": "Acrylic Paints for Artists"
+    }
+  ],
+  "Cairo Contemporary Dance Center": [
+    {
+      "name": "Dance Classes",
+      "type": "Service",
+      "invoice_example": "Contemporary Dance Class",
+      "gpc_segment": "Educational Services",
+      "gpc_family": "Arts Education",
+      "gpc_class": "Dance Instruction",
+      "gpc_brick": "Dance Classes"
+    }
+  ],
+  "Cairo International School": [
+    {
+      "name": "School Uniforms",
+      "type": "Product",
+      "invoice_example": "Uniform Set - Cairo International School",
+      "gpc_segment": "Apparel",
+      "gpc_family": "Uniforms",
+      "gpc_class": "School Uniforms",
+      "gpc_brick": "School Uniform Sets"
+    }
+  ],
+  "Cairo Jazz Club": [
+    {
+      "name": "Cairo Jazz Club Entry Fee",
+      "type": "Service",
+      "invoice_example": "Entry fee for live music event",
+      "gpc_segment": "Services",
+      "gpc_family": "Entertainment",
+      "gpc_class": "Live Entertainment",
+      "gpc_brick": "Concerts"
+    }
+  ],
+  "Cairo Opera House": [
+    {
+      "name": "Opera Tickets",
+      "type": "Service",
+      "invoice_example": "Cairo Opera House - Ticket Purchase",
+      "gpc_segment": "Entertainment",
+      "gpc_family": "Event Tickets",
+      "gpc_class": "Theater Tickets",
+      "gpc_brick": "Opera Tickets"
+    }
+  ],
+  "Cairo Pet Care": [
+    {
+      "name": "Cairo Pet Food",
+      "type": "Product",
+      "invoice_example": "Cairo Pet Food - 5kg bag",
+      "gpc_segment": "Pet Care",
+      "gpc_family": "Pet Food",
+      "gpc_class": "Dry Pet Food",
+      "gpc_brick": "Dog Food"
+    }
+  ],
+  "Cairo Repair Hub": [
+    {
+      "name": "Cairo Repair Hub Service Package",
+      "type": "Service",
+      "invoice_example": "Service Package - Basic Repair",
+      "gpc_segment": "Business & Industrial",
+      "gpc_family": "Business Services",
+      "gpc_class": "Repair Services",
+      "gpc_brick": "General Repair Services"
     }
   ],
   "Cairo University": [
     {
-      "name": "Cairo University Tuition Fees",
-      "type": "Service",
-      "invoice_example": "Tuition Fees for Fall Semester",
-      "gpc_segment": "Education",
-      "gpc_family": "Higher Education",
-      "gpc_class": "University",
-      "gpc_brick": "Tuition Fees"
+      "name": "Cairo University Textbooks",
+      "type": "Educational Material",
+      "invoice_example": "CU-TXT-001",
+      "gpc_segment": "Media",
+      "gpc_family": "Printed Media",
+      "gpc_class": "Books",
+      "gpc_brick": "Textbooks"
     }
   ],
-  "Centamin Egypt": [
+  "Cairo Wastewater Treatment Company": [
     {
-      "name": "Sukari Gold",
-      "type": "Mineral",
-      "invoice_example": "Sukari Gold Ore",
-      "gpc_segment": "Metals & Minerals",
-      "gpc_family": "Precious Metals",
-      "gpc_class": "Gold",
-      "gpc_brick": "Gold Ore"
+      "name": "Sewage Treatment Service",
+      "type": "Service",
+      "invoice_example": "Monthly sewage treatment fee",
+      "gpc_segment": "Utilities",
+      "gpc_family": "Water Utilities",
+      "gpc_class": "Wastewater Services",
+      "gpc_brick": "Sewage Treatment Services"
+    }
+  ],
+  "Cairo Water Company": [
+    {
+      "name": "Cairo Pure",
+      "type": "Bottled Water",
+      "invoice_example": "Cairo Pure 500ml",
+      "gpc_segment": "Beverages",
+      "gpc_family": "Water",
+      "gpc_class": "Bottled Water",
+      "gpc_brick": "Bottled Still Water"
+    }
+  ],
+  "Careem": [
+    {
+      "name": "Careem Ride",
+      "type": "Service",
+      "invoice_example": "Ride from Downtown to Airport",
+      "gpc_segment": "Transportation Services",
+      "gpc_family": "Passenger Transport",
+      "gpc_class": "Taxi Services",
+      "gpc_brick": "Ride Hailing Services"
+    }
+  ],
+  "Carrefour Egypt": [
+    {
+      "name": "Carrefour Fresh Milk",
+      "type": "Dairy Product",
+      "invoice_example": "Carrefour Fresh Milk 1L",
+      "gpc_segment": "Food/Beverage/Tobacco",
+      "gpc_family": "Dairy Products",
+      "gpc_class": "Milk",
+      "gpc_brick": "Fresh Milk"
+    }
+  ],
+  "Cleanco Egypt": [
+    {
+      "name": "Cleanco Detergent",
+      "type": "Product",
+      "invoice_example": "Cleanco Detergent 1L",
+      "gpc_segment": "Cleaning Products",
+      "gpc_family": "Household Cleaners",
+      "gpc_class": "All-Purpose Cleaners",
+      "gpc_brick": "Liquid Cleaners"
     }
   ],
   "Cleopatra Hospitals Group": [
@@ -61,30 +369,338 @@
       "invoice_example": "Consultation Fee",
       "gpc_segment": "Healthcare Services",
       "gpc_family": "Medical Services",
-      "gpc_class": "Consultation",
-      "gpc_brick": "General Medical Consultation"
+      "gpc_class": "General Medical Services",
+      "gpc_brick": "Consultation Services"
     }
   ],
-  "Commercial International Bank (CIB)": [
+  "Dar Al-Handasah": [
     {
-      "name": "CIB Personal Loan",
-      "type": "Financial Service",
-      "invoice_example": "CIB Personal Loan Payment",
+      "name": "Architectural Design Services",
+      "type": "Service",
+      "invoice_example": "Architectural Design Services for Cairo Metro",
+      "gpc_segment": "Professional Services",
+      "gpc_family": "Architectural Services",
+      "gpc_class": "Design Services",
+      "gpc_brick": "Architectural Design"
+    }
+  ],
+  "Designy Egypt": [
+    {
+      "name": "Designy Furniture",
+      "type": "Product",
+      "invoice_example": "Designy Furniture - Sofa Set",
+      "gpc_segment": "Furniture",
+      "gpc_family": "Living Room Furniture",
+      "gpc_class": "Sofas",
+      "gpc_brick": "Sofa Sets"
+    }
+  ],
+  "EFG Hermes": [
+    {
+      "name": "EFG Hermes Brokerage",
+      "type": "Service",
+      "invoice_example": "Brokerage fees for stock trading",
       "gpc_segment": "Financial Services",
-      "gpc_family": "Loans",
-      "gpc_class": "Personal Loans",
-      "gpc_brick": "Personal Loan Services"
+      "gpc_family": "Investment Services",
+      "gpc_class": "Brokerage Services",
+      "gpc_brick": "Stock Brokerage"
+    }
+  ],
+  "EGYLABS": [
+    {
+      "name": "EGYLABS Solar Panels",
+      "type": "Product",
+      "invoice_example": "EGYLABS Solar Panel Model X",
+      "gpc_segment": "Electronics",
+      "gpc_family": "Energy",
+      "gpc_class": "Solar Energy",
+      "gpc_brick": "Solar Panels"
+    }
+  ],
+  "Eastern Company S.A.E.": [
+    {
+      "name": "Cleopatra Cigarettes",
+      "type": "Tobacco Product",
+      "invoice_example": "Cleopatra King Size",
+      "gpc_segment": "Tobacco",
+      "gpc_family": "Cigarettes",
+      "gpc_class": "Filtered Cigarettes",
+      "gpc_brick": "King Size Cigarettes"
+    }
+  ],
+  "EduConsult Egypt": [
+    {
+      "name": "EduConsult Training Program",
+      "type": "Service",
+      "invoice_example": "Invoice #12345 - EduConsult Training Program",
+      "gpc_segment": "Education & Training",
+      "gpc_family": "Training Services",
+      "gpc_class": "Professional Training",
+      "gpc_brick": "Corporate Training Services"
+    }
+  ],
+  "Egypt Car Rental": [
+    {
+      "name": "Toyota Corolla Rental",
+      "type": "Car Rental",
+      "invoice_example": "Rental of Toyota Corolla for 3 days",
+      "gpc_segment": "Transportation",
+      "gpc_family": "Vehicle Rental",
+      "gpc_class": "Car Rental",
+      "gpc_brick": "Sedan Rental"
+    }
+  ],
+  "Egypt Expo & Convention Authority": [
+    {
+      "name": "Exhibition Space Rental",
+      "type": "Service",
+      "invoice_example": "Rental of 100 sqm exhibition space",
+      "gpc_segment": "Business Services",
+      "gpc_family": "Event Management",
+      "gpc_class": "Exhibition Services",
+      "gpc_brick": "Exhibition Space Rental"
+    }
+  ],
+  "Egypt Facility Management Group": [
+    {
+      "name": "Cleaning Services",
+      "type": "Service",
+      "invoice_example": "Monthly cleaning service for office premises",
+      "gpc_segment": "Business & Industrial",
+      "gpc_family": "Facility Management",
+      "gpc_class": "Cleaning Services",
+      "gpc_brick": "Commercial Cleaning Services"
+    }
+  ],
+  "Egypt Office Solutions": [
+    {
+      "name": "Canon Printers",
+      "type": "Office Equipment",
+      "invoice_example": "Canon PIXMA MG3620",
+      "gpc_segment": "Electronics",
+      "gpc_family": "Printers & Scanners",
+      "gpc_class": "Printers",
+      "gpc_brick": "Inkjet Printers"
+    }
+  ],
+  "Egypt Post": [
+    {
+      "name": "Postal Delivery Service",
+      "type": "Service",
+      "invoice_example": "Standard Mail Delivery",
+      "gpc_segment": "Logistics",
+      "gpc_family": "Postal Services",
+      "gpc_class": "Mail Delivery",
+      "gpc_brick": "Standard Mail"
+    }
+  ],
+  "Egypt Travel Services": [
+    {
+      "name": "Cairo City Tour",
+      "type": "Service",
+      "invoice_example": "Cairo City Tour - Full Day",
+      "gpc_segment": "Travel & Tourism",
+      "gpc_family": "Tourism Services",
+      "gpc_class": "City Tours",
+      "gpc_brick": "Guided Tours"
     }
   ],
   "EgyptAir": [
     {
-      "name": "Economy Class Ticket",
+      "name": "EgyptAir Economy Class Ticket",
       "type": "Service",
-      "invoice_example": "Economy Class Ticket - Cairo to London",
+      "invoice_example": "Flight ticket from Cairo to London",
       "gpc_segment": "Travel & Transportation",
       "gpc_family": "Air Travel",
       "gpc_class": "Commercial Flights",
-      "gpc_brick": "Passenger Air Transport"
+      "gpc_brick": "Economy Class"
+    }
+  ],
+  "EgyptAir Cargo": [
+    {
+      "name": "Air Freight Service",
+      "type": "Service",
+      "invoice_example": "Air Freight Service - Cairo to London",
+      "gpc_segment": "Transportation Services",
+      "gpc_family": "Air Transport",
+      "gpc_class": "Air Cargo Services",
+      "gpc_brick": "Air Freight Services"
+    }
+  ],
+  "Egyptian Abrasives Co.": [
+    {
+      "name": "Abrasive Discs",
+      "type": "Product",
+      "invoice_example": "Abrasive Disc 100mm",
+      "gpc_segment": "Hardware",
+      "gpc_family": "Abrasives",
+      "gpc_class": "Abrasive Discs",
+      "gpc_brick": "Abrasive Discs"
+    }
+  ],
+  "Egyptian Agricultural Company": [
+    {
+      "name": "Nile Fertilizer",
+      "type": "Agricultural Product",
+      "invoice_example": "Nile Fertilizer 50kg",
+      "gpc_segment": "Fertilizers & Soil Enhancers",
+      "gpc_family": "Fertilizers",
+      "gpc_class": "Chemical Fertilizers",
+      "gpc_brick": "Fertilizer"
+    }
+  ],
+  "Egyptian Aircraft Company": [
+    {
+      "name": "Cairo Jet",
+      "type": "Aircraft",
+      "invoice_example": "Cairo Jet Model A320",
+      "gpc_segment": "Transportation",
+      "gpc_family": "Aircraft",
+      "gpc_class": "Commercial Aircraft",
+      "gpc_brick": "Passenger Aircraft"
+    }
+  ],
+  "Egyptian Ambulance Organization": [
+    {
+      "name": "Ambulance Vehicle",
+      "type": "Product",
+      "invoice_example": "Ambulance Vehicle Model X",
+      "gpc_segment": "Healthcare",
+      "gpc_family": "Medical Equipment",
+      "gpc_class": "Emergency Vehicles",
+      "gpc_brick": "Ambulances"
+    }
+  ],
+  "Egyptian Auctioneers Co.": [
+    {
+      "name": "Antique Furniture",
+      "type": "Product",
+      "invoice_example": "Antique Victorian Chair",
+      "gpc_segment": "Furniture",
+      "gpc_family": "Home Furnishings",
+      "gpc_class": "Antiques",
+      "gpc_brick": "Antique Furniture"
+    }
+  ],
+  "Egyptian Boilers Company": [
+    {
+      "name": "Industrial Boilers",
+      "type": "Product",
+      "invoice_example": "Industrial Boiler Model X200",
+      "gpc_segment": "Machinery & Equipment",
+      "gpc_family": "Industrial Machinery",
+      "gpc_class": "Boilers",
+      "gpc_brick": "Industrial Boilers"
+    }
+  ],
+  "Egyptian Catering Company": [
+    {
+      "name": "Egyptian Catering Meal Service",
+      "type": "Service",
+      "invoice_example": "Catering Service for Corporate Event",
+      "gpc_segment": "Food/Beverage/Tobacco",
+      "gpc_family": "Foodservice",
+      "gpc_class": "Catering",
+      "gpc_brick": "Catering Services"
+    }
+  ],
+  "Egyptian Center for Economic Studies": [
+    {
+      "name": "Egyptian Cotton Sheets",
+      "type": "Product",
+      "invoice_example": "Egyptian Cotton Sheets - King Size",
+      "gpc_segment": "Textiles",
+      "gpc_family": "Home Textiles",
+      "gpc_class": "Bedding",
+      "gpc_brick": "Sheets"
+    }
+  ],
+  "Egyptian Center for Research and Development": [
+    {
+      "name": "Agricultural Research Services",
+      "type": "Service",
+      "invoice_example": "Agricultural research consultation",
+      "gpc_segment": "Business & Industrial",
+      "gpc_family": "Professional Services",
+      "gpc_class": "Research Services",
+      "gpc_brick": "Research & Development Services"
+    }
+  ],
+  "Egyptian Chemical Industries (KIMA)": [
+    {
+      "name": "Ammonium Nitrate",
+      "type": "Chemical",
+      "invoice_example": "Ammonium Nitrate 50kg Bag",
+      "gpc_segment": "Chemicals",
+      "gpc_family": "Industrial Chemicals",
+      "gpc_class": "Fertilizers",
+      "gpc_brick": "Ammonium Nitrate"
+    }
+  ],
+  "Egyptian Coke Company": [
+    {
+      "name": "Coca-Cola Egypt",
+      "type": "Beverage",
+      "invoice_example": "Coca-Cola 330ml Can",
+      "gpc_segment": "10000000",
+      "gpc_family": "10000001",
+      "gpc_class": "10000002",
+      "gpc_brick": "10000003"
+    }
+  ],
+  "Egyptian Company for Solid Waste Recycling (ECARU)": [
+    {
+      "name": "Recycled Plastic Pellets",
+      "type": "Product",
+      "invoice_example": "Recycled Plastic Pellets - 500kg",
+      "gpc_segment": "Raw Materials",
+      "gpc_family": "Plastics",
+      "gpc_class": "Recycled Plastics",
+      "gpc_brick": "Plastic Pellets"
+    }
+  ],
+  "Egyptian Copper Works": [
+    {
+      "name": "Copper Rods",
+      "type": "Product",
+      "invoice_example": "Copper Rods 8mm",
+      "gpc_segment": "Metals",
+      "gpc_family": "Non-Ferrous Metals",
+      "gpc_class": "Copper",
+      "gpc_brick": "Copper Rods"
+    }
+  ],
+  "Egyptian Drilling Company": [
+    {
+      "name": "Drilling Rig Rental",
+      "type": "Service",
+      "invoice_example": "Rental of drilling rig for 30 days",
+      "gpc_segment": "Business Services",
+      "gpc_family": "Industrial Services",
+      "gpc_class": "Drilling Services",
+      "gpc_brick": "Drilling Equipment Rental"
+    }
+  ],
+  "Egyptian Elderly Care Services": [
+    {
+      "name": "Home Nursing Services",
+      "type": "Service",
+      "invoice_example": "Home Nursing Services - 10 hours",
+      "gpc_segment": "Healthcare Services",
+      "gpc_family": "Home Healthcare",
+      "gpc_class": "Nursing Services",
+      "gpc_brick": "Home Nursing Services"
+    }
+  ],
+  "Egyptian Electrical Equipment Co.": [
+    {
+      "name": "Power Transformers",
+      "type": "Product",
+      "invoice_example": "Power Transformer Model PT-500",
+      "gpc_segment": "Electrical",
+      "gpc_family": "Power Distribution",
+      "gpc_class": "Transformers",
+      "gpc_brick": "Power Transformers"
     }
   ],
   "Egyptian Electricity Holding Company": [
@@ -93,70 +709,1269 @@
       "type": "Service",
       "invoice_example": "Monthly electricity bill",
       "gpc_segment": "Utilities",
-      "gpc_family": "Energy",
-      "gpc_class": "Electricity",
-      "gpc_brick": "Electricity Supply Services"
+      "gpc_family": "Electricity",
+      "gpc_class": "Electricity Supply",
+      "gpc_brick": "Electricity Supply Service"
+    }
+  ],
+  "Egyptian Engineering Company": [
+    {
+      "name": "Cairo Electric Motors",
+      "type": "Product",
+      "invoice_example": "Cairo Electric Motor Model X",
+      "gpc_segment": "Electrical",
+      "gpc_family": "Motors",
+      "gpc_class": "Electric Motors",
+      "gpc_brick": "AC Motors"
+    }
+  ],
+  "Egyptian Environmental Affairs Agency": [
+    {
+      "name": "Environmental Impact Assessment",
+      "type": "Service",
+      "invoice_example": "EIA Report Preparation",
+      "gpc_segment": "Professional Services",
+      "gpc_family": "Consulting Services",
+      "gpc_class": "Environmental Consulting",
+      "gpc_brick": "Environmental Impact Assessment Services"
+    }
+  ],
+  "Egyptian Environmental Services Company": [
+    {
+      "name": "Waste Collection Service",
+      "type": "Service",
+      "invoice_example": "Monthly waste collection fee",
+      "gpc_segment": "Environmental Services",
+      "gpc_family": "Waste Management",
+      "gpc_class": "Waste Collection",
+      "gpc_brick": "Residential Waste Collection"
+    }
+  ],
+  "Egyptian Fish Farming Co.": [
+    {
+      "name": "Tilapia Fish",
+      "type": "Product",
+      "invoice_example": "Tilapia Fish - 500kg",
+      "gpc_segment": "Food/Beverage/Tobacco",
+      "gpc_family": "Fresh Foods",
+      "gpc_class": "Fresh Fish",
+      "gpc_brick": "Tilapia"
+    }
+  ],
+  "Egyptian Fish Processing Co.": [
+    {
+      "name": "Nile Perch Fillets",
+      "type": "Seafood",
+      "invoice_example": "Nile Perch Fillets - 500g",
+      "gpc_segment": "Food/Beverage/Tobacco",
+      "gpc_family": "Fresh Fish/Seafood",
+      "gpc_class": "Fresh Fish",
+      "gpc_brick": "Fresh Fish Fillets"
+    }
+  ],
+  "Egyptian Fishery Company": [
+    {
+      "name": "Nile Perch Fillets",
+      "type": "Seafood",
+      "invoice_example": "Nile Perch Fillets - 500kg",
+      "gpc_segment": "Food/Beverage/Tobacco",
+      "gpc_family": "Fresh Foods",
+      "gpc_class": "Fish",
+      "gpc_brick": "Fresh Fish"
+    }
+  ],
+  "Egyptian Fishery Services Co.": [
+    {
+      "name": "Nile Perch Fillets",
+      "type": "Product",
+      "invoice_example": "Nile Perch Fillets - 10kg",
+      "gpc_segment": "Food/Beverage/Tobacco",
+      "gpc_family": "Fish/Seafood",
+      "gpc_class": "Fresh Fish",
+      "gpc_brick": "Fresh Fish Fillets"
+    }
+  ],
+  "Egyptian Forestry Company": [
+    {
+      "name": "Egyptian Timber",
+      "type": "Product",
+      "invoice_example": "Invoice #1234 - Egyptian Timber",
+      "gpc_segment": "Building and Construction",
+      "gpc_family": "Wood Products",
+      "gpc_class": "Lumber",
+      "gpc_brick": "Sawn Timber"
+    }
+  ],
+  "Egyptian Forestry Services Co.": [
+    {
+      "name": "Egyptian Timber",
+      "type": "Product",
+      "invoice_example": "Egyptian Timber - 100 cubic meters",
+      "gpc_segment": "Wood Products",
+      "gpc_family": "Lumber",
+      "gpc_class": "Sawn Wood",
+      "gpc_brick": "Softwood Lumber"
+    }
+  ],
+  "Egyptian General Petroleum Corporation (EGPC)": [
+    {
+      "name": "Petrol",
+      "type": "Fuel",
+      "invoice_example": "Petrol - 95 Octane",
+      "gpc_segment": "Petroleum Products",
+      "gpc_family": "Fuels",
+      "gpc_class": "Motor Fuels",
+      "gpc_brick": "Gasoline"
+    }
+  ],
+  "Egyptian General Trade Union Federation": [
+    {
+      "name": "Cairo Cotton",
+      "type": "Textile",
+      "invoice_example": "Cairo Cotton - 1000 meters",
+      "gpc_segment": "Apparel & Accessories",
+      "gpc_family": "Clothing",
+      "gpc_class": "Fabrics",
+      "gpc_brick": "Cotton Fabrics"
+    }
+  ],
+  "Egyptian German Industrial Corporate (EGIC)": [
+    {
+      "name": "EGIC Pipes",
+      "type": "Product",
+      "invoice_example": "EGIC Pipes - 50mm x 4m",
+      "gpc_segment": "Building Materials",
+      "gpc_family": "Plumbing",
+      "gpc_class": "Pipes",
+      "gpc_brick": "Plastic Pipes"
+    }
+  ],
+  "Egyptian Grains and Seeds Co.": [
+    {
+      "name": "Egyptian Wheat",
+      "type": "Grain",
+      "invoice_example": "100 kg Egyptian Wheat",
+      "gpc_segment": "Grains",
+      "gpc_family": "Cereal Grains",
+      "gpc_class": "Wheat",
+      "gpc_brick": "Wheat Grain"
+    }
+  ],
+  "Egyptian Hazardous Waste Management Co.": [
+    {
+      "name": "Hazardous Waste Collection",
+      "type": "Service",
+      "invoice_example": "Collection of industrial hazardous waste",
+      "gpc_segment": "Business Services",
+      "gpc_family": "Waste Management",
+      "gpc_class": "Hazardous Waste Services",
+      "gpc_brick": "Hazardous Waste Collection Services"
+    }
+  ],
+  "Egyptian Hazardous Waste Management Company": [
+    {
+      "name": "Hazardous Waste Collection",
+      "type": "Service",
+      "invoice_example": "Collection of industrial hazardous waste",
+      "gpc_segment": "Environmental Services",
+      "gpc_family": "Waste Management",
+      "gpc_class": "Hazardous Waste Services",
+      "gpc_brick": "Hazardous Waste Collection Services"
+    }
+  ],
+  "Egyptian Heritage Restoration Co.": [
+    {
+      "name": "Pharaonic Stone Restoration",
+      "type": "Service",
+      "invoice_example": "Restoration of ancient stone structures",
+      "gpc_segment": "Building and Construction",
+      "gpc_family": "Construction Services",
+      "gpc_class": "Restoration Services",
+      "gpc_brick": "Stone Restoration"
+    }
+  ],
+  "Egyptian Holding Company for Finance": [
+    {
+      "name": "Cairo Financial Services",
+      "type": "Service",
+      "invoice_example": "Financial advisory service fee",
+      "gpc_segment": "Business Services",
+      "gpc_family": "Financial Services",
+      "gpc_class": "Financial Advisory",
+      "gpc_brick": "Financial Consulting Services"
+    }
+  ],
+  "Egyptian Holiday Homes": [
+    {
+      "name": "Luxor Villa Rental",
+      "type": "Service",
+      "invoice_example": "Luxor Villa Rental - 3 nights",
+      "gpc_segment": "Travel & Transportation",
+      "gpc_family": "Lodging & Accommodation",
+      "gpc_class": "Vacation Rentals",
+      "gpc_brick": "Holiday Homes"
+    }
+  ],
+  "Egyptian Intellectual Property Licensing Co.": [
+    {
+      "name": "Egyptian Cotton Textiles",
+      "type": "Product",
+      "invoice_example": "Cotton Bed Sheets",
+      "gpc_segment": "Textiles",
+      "gpc_family": "Home Textiles",
+      "gpc_class": "Bedding",
+      "gpc_brick": "Bed Sheets"
+    }
+  ],
+  "Egyptian International Motors": [
+    {
+      "name": "Renault Cars",
+      "type": "Automobile",
+      "invoice_example": "Renault Duster 2023",
+      "gpc_segment": "Vehicles & Parts",
+      "gpc_family": "Passenger Vehicles",
+      "gpc_class": "Cars",
+      "gpc_brick": "Sedans"
+    }
+  ],
+  "Egyptian International Motors (EIM)": [
+    {
+      "name": "Renault Cars",
+      "type": "Automobile",
+      "invoice_example": "Renault Duster 2023",
+      "gpc_segment": "Transportation",
+      "gpc_family": "Passenger Vehicles",
+      "gpc_class": "Cars",
+      "gpc_brick": "Sedans"
+    }
+  ],
+  "Egyptian International Shipping Company": [
+    {
+      "name": "Suez Canal Transit",
+      "type": "Service",
+      "invoice_example": "Suez Canal Transit Fee",
+      "gpc_segment": "Transportation Services",
+      "gpc_family": "Water Transport",
+      "gpc_class": "Water Freight Transport",
+      "gpc_brick": "Canal Transit Services"
+    }
+  ],
+  "Egyptian Iron and Steel Company": [
+    {
+      "name": "Steel Rebars",
+      "type": "Product",
+      "invoice_example": "Steel Rebars - 10mm x 12m",
+      "gpc_segment": "Raw Materials",
+      "gpc_family": "Metals",
+      "gpc_class": "Ferrous Metals",
+      "gpc_brick": "Steel Rebars"
+    }
+  ],
+  "Egyptian Jewellery Co.": [
+    {
+      "name": "Pharaoh's Gold Necklace",
+      "type": "Jewellery",
+      "invoice_example": "Pharaoh's Gold Necklace - 18K",
+      "gpc_segment": "Fashion Accessories",
+      "gpc_family": "Jewellery",
+      "gpc_class": "Necklaces",
+      "gpc_brick": "Gold Necklaces"
+    }
+  ],
+  "Egyptian Language School": [
+    {
+      "name": "Tuition Fee",
+      "type": "Service",
+      "invoice_example": "Tuition Fee for Grade 10",
+      "gpc_segment": "Education",
+      "gpc_family": "Schooling",
+      "gpc_class": "Primary and Secondary Education",
+      "gpc_brick": "School Tuition"
+    }
+  ],
+  "Egyptian Leasing Company": [
+    {
+      "name": "Toyota Corolla",
+      "type": "Vehicle",
+      "invoice_example": "Lease payment for Toyota Corolla",
+      "gpc_segment": "Transportation",
+      "gpc_family": "Passenger Vehicles",
+      "gpc_class": "Cars",
+      "gpc_brick": "Sedans"
+    }
+  ],
+  "Egyptian Leather Company": [
+    {
+      "name": "Egyptian Leather Wallet",
+      "type": "Product",
+      "invoice_example": "Leather Wallet - Brown",
+      "gpc_segment": "Fashion",
+      "gpc_family": "Accessories",
+      "gpc_class": "Wallets",
+      "gpc_brick": "Leather Wallets"
+    }
+  ],
+  "Egyptian Lighting Company": [
+    {
+      "name": "LED Bulbs",
+      "type": "Lighting Product",
+      "invoice_example": "LED Bulbs - 10W",
+      "gpc_segment": "Lighting",
+      "gpc_family": "Lamps",
+      "gpc_class": "Light Bulbs",
+      "gpc_brick": "LED Bulbs"
+    }
+  ],
+  "Egyptian Lignite Mining Co.": [
+    {
+      "name": "Lignite Coal",
+      "type": "Raw Material",
+      "invoice_example": "Lignite Coal - 500 tons",
+      "gpc_segment": "Mining",
+      "gpc_family": "Coal",
+      "gpc_class": "Lignite",
+      "gpc_brick": "Coal Products"
+    }
+  ],
+  "Egyptian Lottery Company": [
+    {
+      "name": "Egyptian Lottery Ticket",
+      "type": "Product",
+      "invoice_example": "Lottery Ticket Purchase",
+      "gpc_segment": "Recreational Goods",
+      "gpc_family": "Games",
+      "gpc_class": "Lottery",
+      "gpc_brick": "Lottery Tickets"
+    }
+  ],
+  "Egyptian Maintenance Company": [
+    {
+      "name": "Maintenance Services",
+      "type": "Service",
+      "invoice_example": "Monthly maintenance service fee",
+      "gpc_segment": "Business & Industrial",
+      "gpc_family": "Business Services",
+      "gpc_class": "Maintenance Services",
+      "gpc_brick": "General Maintenance Services"
+    }
+  ],
+  "Egyptian Manpower Solutions": [
+    {
+      "name": "Temporary Staffing Services",
+      "type": "Service",
+      "invoice_example": "Invoice #12345 for Temporary Staffing Services",
+      "gpc_segment": "Business Services",
+      "gpc_family": "Human Resources",
+      "gpc_class": "Staffing Services",
+      "gpc_brick": "Temporary Staffing"
     }
   ],
   "Egyptian Media Production City": [
     {
       "name": "Studio Rental",
       "type": "Service",
-      "invoice_example": "Studio Rental Fee for Production",
+      "invoice_example": "Studio Rental - 4 hours",
       "gpc_segment": "Business & Industrial",
-      "gpc_family": "Professional Services",
+      "gpc_family": "Business Services",
       "gpc_class": "Media Production Services",
-      "gpc_brick": "Film & Video Production Services"
+      "gpc_brick": "Studio Rental Services"
+    }
+  ],
+  "Egyptian Media Production Company": [
+    {
+      "name": "Studio Rental",
+      "type": "Service",
+      "invoice_example": "Studio Rental - 3 hours",
+      "gpc_segment": "Media",
+      "gpc_family": "Production Services",
+      "gpc_class": "Studio Services",
+      "gpc_brick": "Studio Rental"
+    }
+  ],
+  "Egyptian Medical Association": [
+    {
+      "name": "Stethoscope",
+      "type": "Medical Equipment",
+      "invoice_example": "Stethoscope Model X",
+      "gpc_segment": "Healthcare",
+      "gpc_family": "Medical Equipment",
+      "gpc_class": "Diagnostic Instruments",
+      "gpc_brick": "Stethoscopes"
+    }
+  ],
+  "Egyptian Metal Casting Company": [
+    {
+      "name": "Aluminum Ingots",
+      "type": "Raw Material",
+      "invoice_example": "Aluminum Ingot 99.7% Pure",
+      "gpc_segment": "Metals",
+      "gpc_family": "Non-Ferrous Metal",
+      "gpc_class": "Aluminum",
+      "gpc_brick": "Aluminum Ingots"
+    }
+  ],
+  "Egyptian Metalworks Co.": [
+    {
+      "name": "Steel Beams",
+      "type": "Product",
+      "invoice_example": "Steel Beams - 10 tons",
+      "gpc_segment": "Building and Construction",
+      "gpc_family": "Structural Materials",
+      "gpc_class": "Metal Structures",
+      "gpc_brick": "Steel Beams"
+    }
+  ],
+  "Egyptian Mining Services": [
+    {
+      "name": "Phosphate Rock",
+      "type": "Raw Material",
+      "invoice_example": "Phosphate Rock - 1000 tons",
+      "gpc_segment": "Mining",
+      "gpc_family": "Minerals",
+      "gpc_class": "Non-Metallic Minerals",
+      "gpc_brick": "Phosphate"
+    }
+  ],
+  "Egyptian Ministry of Interior": [
+    {
+      "name": "National ID Card",
+      "type": "Government Document",
+      "invoice_example": "National ID Card issuance fee",
+      "gpc_segment": "Government Services",
+      "gpc_family": "Identification Services",
+      "gpc_class": "Personal Identification",
+      "gpc_brick": "ID Cards"
+    }
+  ],
+  "Egyptian Ministry of Planning and Economic Development": [
+    {
+      "name": "Economic Development Reports",
+      "type": "Service",
+      "invoice_example": "Economic Development Report - Q1 2023",
+      "gpc_segment": "Business Services",
+      "gpc_family": "Consulting Services",
+      "gpc_class": "Economic Consulting",
+      "gpc_brick": "Economic Analysis Services"
+    }
+  ],
+  "Egyptian Motor Service Co.": [
+    {
+      "name": "Cairo Auto Parts",
+      "type": "Product",
+      "invoice_example": "Auto parts for Toyota",
+      "gpc_segment": "Vehicle Parts & Accessories",
+      "gpc_family": "Vehicle Parts",
+      "gpc_class": "Engine Parts",
+      "gpc_brick": "Engine Components"
+    }
+  ],
+  "Egyptian National Railways": [
+    {
+      "name": "Train Tickets",
+      "type": "Service",
+      "invoice_example": "Cairo to Alexandria Ticket",
+      "gpc_segment": "Travel",
+      "gpc_family": "Passenger Transport",
+      "gpc_class": "Rail Transport",
+      "gpc_brick": "Train Tickets"
+    }
+  ],
+  "Egyptian Natural Gas Holding Company (EGAS)": [
+    {
+      "name": "Natural Gas Supply",
+      "type": "Service",
+      "invoice_example": "Supply of natural gas for industrial use",
+      "gpc_segment": "Utilities",
+      "gpc_family": "Energy",
+      "gpc_class": "Natural Gas",
+      "gpc_brick": "Natural Gas Supply"
+    }
+  ],
+  "Egyptian Navigation Company": [
+    {
+      "name": "Cargo Shipping",
+      "type": "Service",
+      "invoice_example": "Shipping of goods from Alexandria to Jeddah",
+      "gpc_segment": "Transportation Services",
+      "gpc_family": "Freight Transport",
+      "gpc_class": "Sea Freight",
+      "gpc_brick": "Cargo Shipping Services"
+    }
+  ],
+  "Egyptian Nursing Care Services": [
+    {
+      "name": "Home Nursing Service",
+      "type": "Service",
+      "invoice_example": "Home Nursing Service - 5 hours",
+      "gpc_segment": "Healthcare Services",
+      "gpc_family": "Home Healthcare",
+      "gpc_class": "Nursing Services",
+      "gpc_brick": "Home Nursing Services"
+    }
+  ],
+  "Egyptian Orphanage Association": [
+    {
+      "name": "Cairo Textiles",
+      "type": "Product",
+      "invoice_example": "Cairo Textiles - 100 meters",
+      "gpc_segment": "Textiles",
+      "gpc_family": "Fabrics",
+      "gpc_class": "Cotton Fabrics",
+      "gpc_brick": "Cotton Woven Fabrics"
+    }
+  ],
+  "Egyptian Ostrich Farms": [
+    {
+      "name": "Ostrich Meat",
+      "type": "Product",
+      "invoice_example": "Ostrich Meat - 5kg",
+      "gpc_segment": "Meat, Poultry, and Seafood",
+      "gpc_family": "Poultry",
+      "gpc_class": "Ostrich",
+      "gpc_brick": "Ostrich Meat"
+    }
+  ],
+  "Egyptian Petrochemicals Company": [
+    {
+      "name": "Polyethylene",
+      "type": "Product",
+      "invoice_example": "Polyethylene 500 kg",
+      "gpc_segment": "Chemicals",
+      "gpc_family": "Plastics",
+      "gpc_class": "Polyolefins",
+      "gpc_brick": "Polyethylene"
+    }
+  ],
+  "Egyptian Photographic Services": [
+    {
+      "name": "Camera Rentals",
+      "type": "Service",
+      "invoice_example": "Rental of Canon DSLR for 3 days",
+      "gpc_segment": "Rental Services",
+      "gpc_family": "Equipment Rental",
+      "gpc_class": "Camera Rental",
+      "gpc_brick": "Digital Camera Rental"
+    }
+  ],
+  "Egyptian Plant Propagation Co.": [
+    {
+      "name": "Egyptian Date Palms",
+      "type": "Agricultural Product",
+      "invoice_example": "1000 Date Palm Saplings",
+      "gpc_segment": "Farming",
+      "gpc_family": "Plants",
+      "gpc_class": "Trees",
+      "gpc_brick": "Date Palm Trees"
+    }
+  ],
+  "Egyptian Red Crescent": [
+    {
+      "name": "First Aid Kits",
+      "type": "Product",
+      "invoice_example": "First Aid Kit - Basic",
+      "gpc_segment": "Healthcare",
+      "gpc_family": "Medical Supplies",
+      "gpc_class": "First Aid",
+      "gpc_brick": "First Aid Kits"
+    }
+  ],
+  "Egyptian Rubber Company": [
+    {
+      "name": "Rubber Gaskets",
+      "type": "Product",
+      "invoice_example": "Rubber Gasket - 10 units",
+      "gpc_segment": "Industrial & Commercial",
+      "gpc_family": "Industrial Components",
+      "gpc_class": "Seals & Gaskets",
+      "gpc_brick": "Rubber Gaskets"
+    }
+  ],
+  "Egyptian Safety Equipment Co.": [
+    {
+      "name": "Fire Extinguishers",
+      "type": "Product",
+      "invoice_example": "Fire Extinguisher ABC 5kg",
+      "gpc_segment": "Safety & Security",
+      "gpc_family": "Fire Protection",
+      "gpc_class": "Fire Extinguishers",
+      "gpc_brick": "Portable Fire Extinguishers"
+    }
+  ],
+  "Egyptian Seed Processing Co.": [
+    {
+      "name": "Egyptian Hybrid Seeds",
+      "type": "Agricultural Product",
+      "invoice_example": "Hybrid Seed Pack",
+      "gpc_segment": "Farming & Agriculture",
+      "gpc_family": "Seeds",
+      "gpc_class": "Hybrid Seeds",
+      "gpc_brick": "Hybrid Seed Packs"
+    }
+  ],
+  "Egyptian Sports Federation": [
+    {
+      "name": "Football Equipment",
+      "type": "Product",
+      "invoice_example": "Football",
+      "gpc_segment": "Sporting Goods",
+      "gpc_family": "Team Sports",
+      "gpc_class": "Football",
+      "gpc_brick": "Football Equipment"
+    }
+  ],
+  "Egyptian Sports Goods Co.": [
+    {
+      "name": "Cairo Sportswear",
+      "type": "Apparel",
+      "invoice_example": "Cairo Sportswear T-shirt",
+      "gpc_segment": "Sports & Outdoors",
+      "gpc_family": "Clothing",
+      "gpc_class": "Activewear",
+      "gpc_brick": "T-Shirts"
+    }
+  ],
+  "Egyptian Starch and Glucose Manufacturing Company": [
+    {
+      "name": "Corn Starch",
+      "type": "Product",
+      "invoice_example": "Corn Starch 25kg",
+      "gpc_segment": "Food/Beverage",
+      "gpc_family": "Ingredients",
+      "gpc_class": "Starches",
+      "gpc_brick": "Corn Starch"
+    }
+  ],
+  "Egyptian Student Housing Co.": [
+    {
+      "name": "Student Dormitory Rental",
+      "type": "Service",
+      "invoice_example": "Monthly dormitory rental fee",
+      "gpc_segment": "Accommodation",
+      "gpc_family": "Residential",
+      "gpc_class": "Student Housing",
+      "gpc_brick": "Dormitory Services"
+    }
+  ],
+  "Egyptian Textile Rentals": [
+    {
+      "name": "Luxor Linen",
+      "type": "Product",
+      "invoice_example": "Luxor Linen Set",
+      "gpc_segment": "Textiles & Fabrics",
+      "gpc_family": "Linen",
+      "gpc_class": "Linen Products",
+      "gpc_brick": "Linen Sets"
+    }
+  ],
+  "Egyptian Timber Company": [
+    {
+      "name": "Egyptian Pine Timber",
+      "type": "Product",
+      "invoice_example": "Egyptian Pine Timber - 100 units",
+      "gpc_segment": "Building and Construction",
+      "gpc_family": "Wood Products",
+      "gpc_class": "Timber",
+      "gpc_brick": "Softwood Timber"
+    }
+  ],
+  "Egyptian Toy Company": [
+    {
+      "name": "Pharaoh's Adventure Set",
+      "type": "Toy",
+      "invoice_example": "Pharaoh's Adventure Set - 1 unit",
+      "gpc_segment": "Toys & Games",
+      "gpc_family": "Toys",
+      "gpc_class": "Playsets",
+      "gpc_brick": "Building Sets"
+    }
+  ],
+  "Egyptian Trading Company": [
+    {
+      "name": "Egyptian Cotton Sheets",
+      "type": "Product",
+      "invoice_example": "Egyptian Cotton Sheets - Queen Size",
+      "gpc_segment": "Home & Garden",
+      "gpc_family": "Bedding",
+      "gpc_class": "Sheets",
+      "gpc_brick": "Cotton Sheets"
+    }
+  ],
+  "Egyptian Transport Equipment Co.": [
+    {
+      "name": "Cairo Buses",
+      "type": "Public Transport",
+      "invoice_example": "Cairo Buses - 50 units",
+      "gpc_segment": "Transportation",
+      "gpc_family": "Public Transport",
+      "gpc_class": "Buses",
+      "gpc_brick": "City Buses"
+    }
+  ],
+  "Egyptian Transport and Commercial Services Co. (EGYTRANS)": [
+    {
+      "name": "Freight Forwarding",
+      "type": "Service",
+      "invoice_example": "Freight Forwarding Charges",
+      "gpc_segment": "Transportation Services",
+      "gpc_family": "Freight Transportation",
+      "gpc_class": "Freight Forwarding Services",
+      "gpc_brick": "Freight Forwarding"
+    }
+  ],
+  "Egyptian Trust Fund Management": [
+    {
+      "name": "Egyptian Mutual Fund A",
+      "type": "Financial Product",
+      "invoice_example": "Investment in Egyptian Mutual Fund A",
+      "gpc_segment": "Financial Services",
+      "gpc_family": "Investment Services",
+      "gpc_class": "Mutual Funds",
+      "gpc_brick": "Equity Funds"
+    }
+  ],
+  "Egyptian Warehousing Company": [
+    {
+      "name": "Cairo Cement",
+      "type": "Construction Material",
+      "invoice_example": "Cairo Cement 50kg Bag",
+      "gpc_segment": "Building and Construction",
+      "gpc_family": "Cement and Concrete",
+      "gpc_class": "Cement",
+      "gpc_brick": "Portland Cement"
+    }
+  ],
+  "Egyptian Watchmakers Co.": [
+    {
+      "name": "Pharaoh Timepieces",
+      "type": "Wristwatch",
+      "invoice_example": "Pharaoh Timepieces - Model PT123",
+      "gpc_segment": "Watches",
+      "gpc_family": "Timepieces",
+      "gpc_class": "Wristwatches",
+      "gpc_brick": "Analog Watches"
+    }
+  ],
+  "Egyptian Wild Harvesters": [
+    {
+      "name": "Egyptian Dates",
+      "type": "Product",
+      "invoice_example": "100kg Egyptian Dates",
+      "gpc_segment": "Food/Beverage/Tobacco",
+      "gpc_family": "Fruits",
+      "gpc_class": "Dried Fruits",
+      "gpc_brick": "Dried Dates"
+    }
+  ],
+  "Egyptian Wildlife Services": [
+    {
+      "name": "Safari Tours",
+      "type": "Service",
+      "invoice_example": "Safari Tour Package",
+      "gpc_segment": "Travel & Tourism",
+      "gpc_family": "Tourism",
+      "gpc_class": "Tour Packages",
+      "gpc_brick": "Safari Tours"
+    }
+  ],
+  "Egyptian Wood Industries Co.": [
+    {
+      "name": "Egyptian Plywood",
+      "type": "Product",
+      "invoice_example": "PLY-001",
+      "gpc_segment": "Wood Products",
+      "gpc_family": "Plywood",
+      "gpc_class": "Standard Plywood",
+      "gpc_brick": "Plywood Sheets"
+    }
+  ],
+  "Egyptian Wood Products Co.": [
+    {
+      "name": "Egyptian Plywood",
+      "type": "Product",
+      "invoice_example": "Plywood Sheet 4x8",
+      "gpc_segment": "Building and Construction",
+      "gpc_family": "Wood Products",
+      "gpc_class": "Plywood",
+      "gpc_brick": "Plywood Sheets"
     }
   ],
   "El Araby Group": [
     {
       "name": "Tornado",
       "type": "Electronics",
-      "invoice_example": "Tornado LED TV 43 inch",
+      "invoice_example": "Tornado LED TV 32 inch",
       "gpc_segment": "Consumer Electronics",
-      "gpc_family": "Televisions & Video Displays",
-      "gpc_class": "Televisions",
-      "gpc_brick": "LED Televisions"
+      "gpc_family": "Televisions",
+      "gpc_class": "Flat Panel TVs",
+      "gpc_brick": "LED TVs"
+    }
+  ],
+  "El Helow Style": [
+    {
+      "name": "Office Chair",
+      "type": "Furniture",
+      "invoice_example": "Office Chair Model X",
+      "gpc_segment": "Furniture",
+      "gpc_family": "Office Furniture",
+      "gpc_class": "Office Seating",
+      "gpc_brick": "Office Chairs"
+    }
+  ],
+  "El Nasr Clothing & Textiles Co. (KABO)": [
+    {
+      "name": "KABO Men's T-Shirts",
+      "type": "Apparel",
+      "invoice_example": "KABO Men's T-Shirt - Size M",
+      "gpc_segment": "Clothing",
+      "gpc_family": "Men's Clothing",
+      "gpc_class": "Tops",
+      "gpc_brick": "T-Shirts"
     }
   ],
   "El Sewedy Electric": [
     {
       "name": "Power Cables",
       "type": "Product",
-      "invoice_example": "1000 meters of XLPE Power Cable",
+      "invoice_example": "El Sewedy Electric Power Cable 500m",
       "gpc_segment": "Electrical",
       "gpc_family": "Cables & Wires",
       "gpc_class": "Power Cables",
       "gpc_brick": "High Voltage Cables"
     }
   ],
-  "Household Services Egypt": [
+  "El Wafa Elderly Care Center": [
     {
-      "name": "Cairo Clean",
-      "type": "Cleaning Service",
-      "invoice_example": "Cairo Clean - Monthly Cleaning",
-      "gpc_segment": "Cleaning Services",
-      "gpc_family": "Home Services",
-      "gpc_class": "Residential Cleaning",
-      "gpc_brick": "House Cleaning"
+      "name": "Elderly Care Service",
+      "type": "Service",
+      "invoice_example": "Monthly Elderly Care Service",
+      "gpc_segment": "Healthcare Services",
+      "gpc_family": "Elderly Care",
+      "gpc_class": "Residential Care Services",
+      "gpc_brick": "Elderly Care Facilities"
     }
   ],
-  "Orange Egypt": [
+  "Elmenus": [
     {
-      "name": "Orange Mobile Plan",
+      "name": "Elmenus Premium Subscription",
       "type": "Service",
-      "invoice_example": "Monthly subscription fee",
-      "gpc_segment": "Telecommunications",
-      "gpc_family": "Mobile Services",
-      "gpc_class": "Mobile Plans",
-      "gpc_brick": "Postpaid Plans"
+      "invoice_example": "Elmenus Premium Subscription - Monthly",
+      "gpc_segment": "Services",
+      "gpc_family": "Subscription Services",
+      "gpc_class": "Online Services",
+      "gpc_brick": "Digital Content Subscription"
+    }
+  ],
+  "Eventia Egypt": [
+    {
+      "name": "Eventia Conference Package",
+      "type": "Service",
+      "invoice_example": "Conference Package - 3 Days",
+      "gpc_segment": "Business Services",
+      "gpc_family": "Event Management",
+      "gpc_class": "Conference Services",
+      "gpc_brick": "Conference Planning"
+    }
+  ],
+  "Ezz Steel": [
+    {
+      "name": "Ezz Steel Rebars",
+      "type": "Product",
+      "invoice_example": "Ezz Steel Rebars 12mm x 6m",
+      "gpc_segment": "Construction Materials",
+      "gpc_family": "Metal Products",
+      "gpc_class": "Steel Products",
+      "gpc_brick": "Rebars"
+    }
+  ],
+  "Falcon Group": [
+    {
+      "name": "Falcon Security Services",
+      "type": "Service",
+      "invoice_example": "Security Services for Event",
+      "gpc_segment": "Business Services",
+      "gpc_family": "Security Services",
+      "gpc_class": "Security Guards",
+      "gpc_brick": "Event Security Services"
+    }
+  ],
+  "Fawry": [
+    {
+      "name": "FawryPay",
+      "type": "Payment Service",
+      "invoice_example": "FawryPay transaction fee",
+      "gpc_segment": "Financial Services",
+      "gpc_family": "Payment Services",
+      "gpc_class": "Electronic Payment Services",
+      "gpc_brick": "Payment Processing Services"
+    }
+  ],
+  "FixIt Egypt": [
+    {
+      "name": "FixIt Plumbing Services",
+      "type": "Service",
+      "invoice_example": "Plumbing repair service",
+      "gpc_segment": "Services",
+      "gpc_family": "Repair Services",
+      "gpc_class": "Plumbing Services",
+      "gpc_brick": "Plumbing Repair"
+    }
+  ],
+  "FurCraft Egypt": [
+    {
+      "name": "FurCraft Sofa",
+      "type": "Furniture",
+      "invoice_example": "FurCraft Sofa Model X",
+      "gpc_segment": "Furniture",
+      "gpc_family": "Seating",
+      "gpc_class": "Sofas",
+      "gpc_brick": "Sofa"
+    }
+  ],
+  "Ghabbour Auto": [
+    {
+      "name": "Hyundai Elantra",
+      "type": "Vehicle",
+      "invoice_example": "Hyundai Elantra 2023",
+      "gpc_segment": "Automotive",
+      "gpc_family": "Passenger Vehicles",
+      "gpc_class": "Sedans",
+      "gpc_brick": "Compact Sedans"
+    }
+  ],
+  "Green Oasis Landscaping": [
+    {
+      "name": "Garden Design Service",
+      "type": "Service",
+      "invoice_example": "Garden Design Consultation",
+      "gpc_segment": "Professional Services",
+      "gpc_family": "Design Services",
+      "gpc_class": "Landscape Design",
+      "gpc_brick": "Garden Design"
+    }
+  ],
+  "Household Helpers Egypt": [
+    {
+      "name": "Cleaning Supplies",
+      "type": "Product",
+      "invoice_example": "Cleaning Supplies - 10 units",
+      "gpc_segment": "Cleaning",
+      "gpc_family": "Household Cleaning",
+      "gpc_class": "Cleaning Products",
+      "gpc_brick": "Cleaning Supplies"
+    }
+  ],
+  "Household Services Co.": [
+    {
+      "name": "CleanPro Detergent",
+      "type": "Cleaning Product",
+      "invoice_example": "CleanPro Detergent 1L",
+      "gpc_segment": "Cleaning",
+      "gpc_family": "Household Cleaning",
+      "gpc_class": "Cleaning Agents",
+      "gpc_brick": "Laundry Detergent"
+    }
+  ],
+  "IKEA Egypt": [
+    {
+      "name": "Billy Bookcase",
+      "type": "Furniture",
+      "invoice_example": "Billy Bookcase, White",
+      "gpc_segment": "Furniture",
+      "gpc_family": "Home Furniture",
+      "gpc_class": "Bookcases",
+      "gpc_brick": "Bookcases"
+    }
+  ],
+  "ITWorx": [
+    {
+      "name": "ITWorx Education Platform",
+      "type": "Software",
+      "invoice_example": "ITWorx Education Platform License",
+      "gpc_segment": "Software",
+      "gpc_family": "Educational Software",
+      "gpc_class": "Learning Management Systems",
+      "gpc_brick": "Educational/Training Software"
+    }
+  ],
+  "Juhayna Food Industries": [
+    {
+      "name": "Juhayna Pure Milk",
+      "type": "Dairy Product",
+      "invoice_example": "Juhayna Pure Milk 1L",
+      "gpc_segment": "Beverages",
+      "gpc_family": "Dairy",
+      "gpc_class": "Milk",
+      "gpc_brick": "Liquid Milk"
+    }
+  ],
+  "Jumia Egypt": [
+    {
+      "name": "Samsung Galaxy A12",
+      "type": "Smartphone",
+      "invoice_example": "Samsung Galaxy A12 - 64GB",
+      "gpc_segment": "Electronics",
+      "gpc_family": "Communications",
+      "gpc_class": "Mobile Phones",
+      "gpc_brick": "Smartphones"
+    }
+  ],
+  "KPMG Egypt": [
+    {
+      "name": "Audit Services",
+      "type": "Service",
+      "invoice_example": "Audit Services for Q1 2023",
+      "gpc_segment": "Business Services",
+      "gpc_family": "Professional Services",
+      "gpc_class": "Audit Services",
+      "gpc_brick": "Financial Audit Services"
+    }
+  ],
+  "KPMG Hazem Hassan": [
+    {
+      "name": "Audit Services",
+      "type": "Service",
+      "invoice_example": "Audit of financial statements",
+      "gpc_segment": "Business Services",
+      "gpc_family": "Financial Services",
+      "gpc_class": "Audit Services",
+      "gpc_brick": "Financial Audit Services"
+    }
+  ],
+  "Laundry Hub": [
+    {
+      "name": "Laundry Detergent",
+      "type": "Product",
+      "invoice_example": "Laundry Detergent 1L",
+      "gpc_segment": "Cleaning Products",
+      "gpc_family": "Laundry Care",
+      "gpc_class": "Laundry Detergents",
+      "gpc_brick": "Liquid Laundry Detergents"
+    }
+  ],
+  "Link Development": [
+    {
+      "name": "Link CRM",
+      "type": "Software",
+      "invoice_example": "Link CRM License",
+      "gpc_segment": "Information Technology",
+      "gpc_family": "Software",
+      "gpc_class": "Business Software",
+      "gpc_brick": "Customer Relationship Management Software"
+    }
+  ],
+  "Little Scholars Nursery": [
+    {
+      "name": "Nursery Enrollment Fee",
+      "type": "Service",
+      "invoice_example": "Enrollment Fee for 2023",
+      "gpc_segment": "Education",
+      "gpc_family": "Early Childhood Education",
+      "gpc_class": "Nursery Services",
+      "gpc_brick": "Preschool Services"
+    }
+  ],
+  "Masrawy": [
+    {
+      "name": "Masrawy News Subscription",
+      "type": "Service",
+      "invoice_example": "Monthly subscription fee for Masrawy News",
+      "gpc_segment": "Media",
+      "gpc_family": "News",
+      "gpc_class": "Online News",
+      "gpc_brick": "Digital News Subscription"
+    }
+  ],
+  "Mazzika Group": [
+    {
+      "name": "Mazzika Music Streaming",
+      "type": "Service",
+      "invoice_example": "Mazzika Music Streaming Subscription",
+      "gpc_segment": "Media",
+      "gpc_family": "Digital Media",
+      "gpc_class": "Streaming Services",
+      "gpc_brick": "Music Streaming"
+    }
+  ],
+  "Misr Feed Company": [
+    {
+      "name": "Poultry Feed",
+      "type": "Product",
+      "invoice_example": "Poultry Feed 50kg",
+      "gpc_segment": "Agricultural",
+      "gpc_family": "Animal Feed",
+      "gpc_class": "Poultry Feed",
+      "gpc_brick": "Poultry Feed"
+    }
+  ],
+  "Misr Insurance Company": [
+    {
+      "name": "Car Insurance",
+      "type": "Service",
+      "invoice_example": "Car Insurance Premium",
+      "gpc_segment": "Financial Services",
+      "gpc_family": "Insurance",
+      "gpc_class": "Vehicle Insurance",
+      "gpc_brick": "Car Insurance"
+    }
+  ],
+  "Misr Insurance Holding Company": [
+    {
+      "name": "Comprehensive Car Insurance",
+      "type": "Insurance Service",
+      "invoice_example": "Comprehensive Car Insurance Premium",
+      "gpc_segment": "Financial & Insurance Services",
+      "gpc_family": "Insurance Services",
+      "gpc_class": "Vehicle Insurance",
+      "gpc_brick": "Comprehensive Car Insurance"
+    }
+  ],
+  "Misr Petroleum Company": [
+    {
+      "name": "Misr Gasoline",
+      "type": "Fuel",
+      "invoice_example": "1000 liters of Misr Gasoline",
+      "gpc_segment": "Petroleum Products",
+      "gpc_family": "Fuels",
+      "gpc_class": "Gasoline",
+      "gpc_brick": "Regular Gasoline"
+    }
+  ],
+  "Misr Pharmacies": [
+    {
+      "name": "Panadol",
+      "type": "Pharmaceutical",
+      "invoice_example": "Panadol 500mg Tablets",
+      "gpc_segment": "Healthcare",
+      "gpc_family": "Medicines",
+      "gpc_class": "Pain Relief",
+      "gpc_brick": "Analgesics"
+    }
+  ],
+  "Misr Radiology Center": [
+    {
+      "name": "MRI Scan",
+      "type": "Service",
+      "invoice_example": "MRI Scan - Abdomen",
+      "gpc_segment": "Healthcare Services",
+      "gpc_family": "Diagnostic Services",
+      "gpc_class": "Imaging Services",
+      "gpc_brick": "Magnetic Resonance Imaging"
+    }
+  ],
+  "Misr Spinning and Weaving Company": [
+    {
+      "name": "Cotton Yarn",
+      "type": "Product",
+      "invoice_example": "Cotton Yarn - 100kg",
+      "gpc_segment": "Textiles",
+      "gpc_family": "Yarns & Threads",
+      "gpc_class": "Cotton Yarns",
+      "gpc_brick": "Cotton Yarn"
+    }
+  ],
+  "National Archives of Egypt": [
+    {
+      "name": "Archival Document Reproduction",
+      "type": "Service",
+      "invoice_example": "Reproduction of historical documents",
+      "gpc_segment": "Services",
+      "gpc_family": "Professional Services",
+      "gpc_class": "Document Management Services",
+      "gpc_brick": "Document Reproduction Services"
+    }
+  ],
+  "National Bank of Egypt": [
+    {
+      "name": "NBE Visa Debit Card",
+      "type": "Financial Service",
+      "invoice_example": "NBE Visa Debit Card Annual Fee",
+      "gpc_segment": "Financial Services",
+      "gpc_family": "Banking",
+      "gpc_class": "Debit Cards",
+      "gpc_brick": "Visa Debit Cards"
+    }
+  ],
+  "National Organization for Social Insurance": [
+    {
+      "name": "Social Security Contributions",
+      "type": "Service",
+      "invoice_example": "Monthly Social Security Contribution",
+      "gpc_segment": "Financial & Insurance Services",
+      "gpc_family": "Insurance Services",
+      "gpc_class": "Social Insurance",
+      "gpc_brick": "Social Security Services"
+    }
+  ],
+  "Nefertari Beauty Spa": [
+    {
+      "name": "Nefertari Essential Oils",
+      "type": "Product",
+      "invoice_example": "Nefertari Essential Oils - Lavender 50ml",
+      "gpc_segment": "Health & Beauty",
+      "gpc_family": "Personal Care",
+      "gpc_class": "Aromatherapy",
+      "gpc_brick": "Essential Oils"
+    }
+  ],
+  "Nielsen Egypt": [
+    {
+      "name": "Nielsen Audience Measurement",
+      "type": "Service",
+      "invoice_example": "Audience Measurement Service Fee",
+      "gpc_segment": "Business Services",
+      "gpc_family": "Market Research",
+      "gpc_class": "Audience Measurement",
+      "gpc_brick": "Audience Measurement Services"
+    }
+  ],
+  "Nile Cargo": [
+    {
+      "name": "Nile Cargo Shipping Service",
+      "type": "Service",
+      "invoice_example": "Shipping Service Fee",
+      "gpc_segment": "Transportation Services",
+      "gpc_family": "Freight Services",
+      "gpc_class": "Cargo Transportation",
+      "gpc_brick": "Freight Shipping"
+    }
+  ],
+  "Nile Radio Productions": [
+    {
+      "name": "Nogoum FM",
+      "type": "Radio Station",
+      "invoice_example": "Advertising Slot on Nogoum FM",
+      "gpc_segment": "Media",
+      "gpc_family": "Broadcasting",
+      "gpc_class": "Radio",
+      "gpc_brick": "Radio Stations"
+    }
+  ],
+  "Nile TV International": [
+    {
+      "name": "Nile TV International Subscription",
+      "type": "Service",
+      "invoice_example": "Monthly subscription fee for Nile TV International",
+      "gpc_segment": "Media",
+      "gpc_family": "Television",
+      "gpc_class": "Broadcasting Services",
+      "gpc_brick": "Television Subscription Services"
+    }
+  ],
+  "Olympic Group": [
+    {
+      "name": "Olympic Electric Water Heater",
+      "type": "Product",
+      "invoice_example": "Olympic Electric Water Heater 50L",
+      "gpc_segment": "Home Appliances",
+      "gpc_family": "Water Heaters",
+      "gpc_class": "Electric Water Heaters",
+      "gpc_brick": "Standard Electric Water Heaters"
     }
   ],
   "Orascom Construction": [
     {
-      "name": "Orascom Cement",
-      "type": "Product",
+      "name": "Cement",
+      "type": "Material",
       "invoice_example": "Cement bags",
       "gpc_segment": "Building Materials",
       "gpc_family": "Cement & Concrete",
@@ -167,34 +1982,276 @@
   "Orascom Development Holding": [
     {
       "name": "El Gouna",
-      "type": "Tourism Destination",
-      "invoice_example": "Accommodation at El Gouna Resort",
+      "type": "Destination",
+      "invoice_example": "El Gouna Resort Stay",
       "gpc_segment": "Travel & Tourism",
-      "gpc_family": "Tourism",
-      "gpc_class": "Tourist Destinations",
-      "gpc_brick": "Resorts"
+      "gpc_family": "Accommodation",
+      "gpc_class": "Resorts",
+      "gpc_brick": "Luxury Resorts"
+    }
+  ],
+  "Oriental Weavers": [
+    {
+      "name": "Kilim Rugs",
+      "type": "Product",
+      "invoice_example": "Kilim Rug 5x7",
+      "gpc_segment": "Home & Garden",
+      "gpc_family": "Home Decor",
+      "gpc_class": "Rugs",
+      "gpc_brick": "Kilim Rugs"
+    }
+  ],
+  "PR Egypt": [
+    {
+      "name": "Cleopatra Cigarettes",
+      "type": "Tobacco Product",
+      "invoice_example": "Cleopatra Cigarettes - 20 Pack",
+      "gpc_segment": "Tobacco",
+      "gpc_family": "Cigarettes",
+      "gpc_class": "Filtered Cigarettes",
+      "gpc_brick": "Cigarettes"
     }
   ],
   "Palm Hills Developments": [
     {
-      "name": "Golf Views",
-      "type": "Residential Development",
-      "invoice_example": "Golf Views Villa Purchase",
+      "name": "Palm Hills Katameya",
+      "type": "Real Estate Development",
+      "invoice_example": "Purchase of unit in Palm Hills Katameya",
       "gpc_segment": "Real Estate",
-      "gpc_family": "Residential Properties",
-      "gpc_class": "Luxury Homes",
-      "gpc_brick": "Villas"
+      "gpc_family": "Residential",
+      "gpc_class": "Housing",
+      "gpc_brick": "Apartments"
     }
   ],
-  "Wadi Group": [
+  "Pharco Pharmaceuticals": [
     {
-      "name": "Wadi Poultry",
+      "name": "Paracetamol Tablets",
+      "type": "Pharmaceutical",
+      "invoice_example": "Paracetamol Tablets 500mg",
+      "gpc_segment": "Healthcare",
+      "gpc_family": "Pharmaceuticals",
+      "gpc_class": "Analgesics",
+      "gpc_brick": "Pain Relief"
+    }
+  ],
+  "Promo Media": [
+    {
+      "name": "Promo Billboard Ads",
+      "type": "Service",
+      "invoice_example": "Billboard Ad Campaign - Cairo",
+      "gpc_segment": "Advertising & Marketing Services",
+      "gpc_family": "Outdoor Advertising",
+      "gpc_class": "Billboards",
+      "gpc_brick": "Billboard Advertising Services"
+    }
+  ],
+  "Raya Contact Center": [
+    {
+      "name": "Raya Call Center Services",
+      "type": "Service",
+      "invoice_example": "Call Center Support",
+      "gpc_segment": "Business Services",
+      "gpc_family": "Customer Support",
+      "gpc_class": "Call Centers",
+      "gpc_brick": "Inbound Call Centers"
+    }
+  ],
+  "Raya Trade": [
+    {
+      "name": "Samsung Smartphones",
+      "type": "Electronics",
+      "invoice_example": "Samsung Galaxy S21",
+      "gpc_segment": "Electronics",
+      "gpc_family": "Communications",
+      "gpc_class": "Mobile Phones",
+      "gpc_brick": "Smartphones"
+    }
+  ],
+  "RentX Egypt": [
+    {
+      "name": "Car Rental",
+      "type": "Service",
+      "invoice_example": "Toyota Corolla Rental",
+      "gpc_segment": "Transportation Services",
+      "gpc_family": "Vehicle Rental",
+      "gpc_class": "Car Rental",
+      "gpc_brick": "Passenger Car Rental"
+    }
+  ],
+  "SICO Technology": [
+    {
+      "name": "SICO Nile X",
+      "type": "Smartphone",
+      "invoice_example": "SICO Nile X - 64GB",
+      "gpc_segment": "Electronics",
+      "gpc_family": "Communications",
+      "gpc_class": "Mobile Phones",
+      "gpc_brick": "Smartphones"
+    }
+  ],
+  "Shalakany Law Office": [
+    {
+      "name": "Legal Consultation",
+      "type": "Service",
+      "invoice_example": "Consultation Fee",
+      "gpc_segment": "Business Services",
+      "gpc_family": "Legal Services",
+      "gpc_class": "Consultation Services",
+      "gpc_brick": "Legal Consultation Services"
+    }
+  ],
+  "Si-Ware Systems": [
+    {
+      "name": "NeoSpectra Micro",
       "type": "Product",
-      "invoice_example": "Wadi Poultry - 1000 units",
-      "gpc_segment": "Food/Beverage/Tobacco",
-      "gpc_family": "Meat/Seafood/Poultry",
-      "gpc_class": "Poultry",
-      "gpc_brick": "Fresh Poultry"
+      "invoice_example": "NeoSpectra Micro Sensor",
+      "gpc_segment": "Electronics",
+      "gpc_family": "Sensors",
+      "gpc_class": "Optical Sensors",
+      "gpc_brick": "Spectroscopy Sensors"
+    }
+  ],
+  "Sphinx Glass": [
+    {
+      "name": "Clear Float Glass",
+      "type": "Product",
+      "invoice_example": "Clear Float Glass 6mm",
+      "gpc_segment": "Building Materials",
+      "gpc_family": "Glass",
+      "gpc_class": "Flat Glass",
+      "gpc_brick": "Float Glass"
+    }
+  ],
+  "Suez Cement Group of Companies": [
+    {
+      "name": "Helwan Cement",
+      "type": "Cement",
+      "invoice_example": "Helwan Cement - 50kg Bag",
+      "gpc_segment": "Building Materials",
+      "gpc_family": "Cement & Concrete",
+      "gpc_class": "Cement",
+      "gpc_brick": "Portland Cement"
+    }
+  ],
+  "Sukari Gold Mines": [
+    {
+      "name": "Gold Bullion",
+      "type": "Product",
+      "invoice_example": "Gold Bullion 1kg",
+      "gpc_segment": "Metals",
+      "gpc_family": "Precious Metals",
+      "gpc_class": "Gold",
+      "gpc_brick": "Gold Bullion"
+    }
+  ],
+  "Telecom Egypt": [
+    {
+      "name": "TE Data Internet Service",
+      "type": "Service",
+      "invoice_example": "Monthly Internet Subscription",
+      "gpc_segment": "Telecommunications",
+      "gpc_family": "Internet Services",
+      "gpc_class": "Broadband",
+      "gpc_brick": "Internet Service Providers"
+    }
+  ],
+  "The Egyptian Museum": [
+    {
+      "name": "Pharaoh Statues",
+      "type": "Souvenir",
+      "invoice_example": "Pharaoh Statue - Small",
+      "gpc_segment": "Arts & Entertainment",
+      "gpc_family": "Collectibles",
+      "gpc_class": "Figurines",
+      "gpc_brick": "Statues & Sculptures"
+    }
+  ],
+  "Translation Hub Egypt": [
+    {
+      "name": "Translation Services",
+      "type": "Service",
+      "invoice_example": "Translation of legal documents",
+      "gpc_segment": "Business Services",
+      "gpc_family": "Translation Services",
+      "gpc_class": "Document Translation",
+      "gpc_brick": "Legal Document Translation"
+    }
+  ],
+  "Travco Group": [
+    {
+      "name": "Jaz Hotels",
+      "type": "Hospitality",
+      "invoice_example": "Jaz Hotel Stay - 3 Nights",
+      "gpc_segment": "Travel & Tourism",
+      "gpc_family": "Accommodation",
+      "gpc_class": "Hotels",
+      "gpc_brick": "Hotel Rooms"
+    }
+  ],
+  "Travelstart Egypt": [
+    {
+      "name": "Flight Booking",
+      "type": "Service",
+      "invoice_example": "Cairo to Dubai Flight Booking",
+      "gpc_segment": "Travel Services",
+      "gpc_family": "Air Travel",
+      "gpc_class": "Flight Booking",
+      "gpc_brick": "Commercial Flights"
+    }
+  ],
+  "United Nations Development Programme Egypt": [
+    {
+      "name": "Solar Energy Systems",
+      "type": "Service",
+      "invoice_example": "Installation of solar panels",
+      "gpc_segment": "Utilities",
+      "gpc_family": "Energy",
+      "gpc_class": "Renewable Energy",
+      "gpc_brick": "Solar Energy Systems"
+    }
+  ],
+  "VetCare Egypt": [
+    {
+      "name": "VetCare Premium Dog Food",
+      "type": "Product",
+      "invoice_example": "VetCare Premium Dog Food - 10kg",
+      "gpc_segment": "Pet Care",
+      "gpc_family": "Pet Food",
+      "gpc_class": "Dog Food",
+      "gpc_brick": "Dry Dog Food"
+    }
+  ],
+  "Vodafone Egypt": [
+    {
+      "name": "Vodafone Red",
+      "type": "Mobile Plan",
+      "invoice_example": "Vodafone Red Monthly Subscription",
+      "gpc_segment": "Telecommunications",
+      "gpc_family": "Mobile Services",
+      "gpc_class": "Mobile Plans",
+      "gpc_brick": "Postpaid Mobile Plans"
+    }
+  ],
+  "Wuzzuf": [
+    {
+      "name": "Wuzzuf Premium Job Posting",
+      "type": "Service",
+      "invoice_example": "Premium Job Posting - 1 Month",
+      "gpc_segment": "Business Services",
+      "gpc_family": "Human Resources",
+      "gpc_class": "Recruitment Services",
+      "gpc_brick": "Job Posting Services"
+    }
+  ],
+  "Xceed Contact Center": [
+    {
+      "name": "Xceed Call Management",
+      "type": "Service",
+      "invoice_example": "Call Management Service Fee",
+      "gpc_segment": "Business Services",
+      "gpc_family": "Customer Support Services",
+      "gpc_class": "Call Center Services",
+      "gpc_brick": "Call Management Services"
     }
   ]
 }
