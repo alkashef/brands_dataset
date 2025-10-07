@@ -1,0 +1,343 @@
+{
+  "A – Agriculture, forestry and fishing": [
+    {
+      "company_name": "Saudi Agricultural and Livestock Investment Company (SALIC)",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Agriculture, Livestock Investment"
+    },
+    {
+      "company_name": "Almarai Company",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Dairy Farming, Agriculture"
+    },
+    {
+      "company_name": "National Agricultural Development Company (NADEC)",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Agriculture, Dairy Farming"
+    }
+  ],
+  "B – Mining and quarrying": [
+    {
+      "company_name": "Saudi Arabian Mining Company (Ma'aden)",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Mining of gold, phosphate, aluminum, and industrial minerals"
+    },
+    {
+      "company_name": "Saudi Aramco",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Oil and gas extraction, mining of associated minerals"
+    },
+    {
+      "company_name": "Al Masane Al Kobra Mining Company",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Mining of copper, zinc, gold, and silver"
+    }
+  ],
+  "C – Manufacturing": [
+    {
+      "company_name": "Saudi Basic Industries Corporation (SABIC)",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Petrochemicals, Chemicals, Plastics, Fertilizers, Metals"
+    },
+    {
+      "company_name": "Saudi Arabian Oil Company (Saudi Aramco)",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Petrochemicals, Refining, Chemicals"
+    },
+    {
+      "company_name": "Saudi Arabian Mining Company (Ma'aden)",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Mining, Metals, Fertilizers"
+    }
+  ],
+  "D – Electricity, gas, steam and air conditioning supply": [
+    {
+      "company_name": "Saudi Electricity Company",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Electricity generation, transmission, and distribution"
+    },
+    {
+      "company_name": "ACWA Power",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Power generation and desalinated water production"
+    },
+    {
+      "company_name": "National Grid SA",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Electricity transmission"
+    }
+  ],
+  "E – Water supply; sewerage, waste management and remediation activities": [
+    {
+      "company_name": "Saudi Water Partnership Company",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Water supply and management"
+    },
+    {
+      "company_name": "National Water Company",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Water supply and sewerage services"
+    },
+    {
+      "company_name": "Saudi Investment Recycling Company",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Waste management and recycling"
+    }
+  ],
+  "F – Construction": [
+    {
+      "company_name": "Saudi Binladin Group",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "General construction, civil engineering, and infrastructure projects"
+    },
+    {
+      "company_name": "Al Rashid Trading & Contracting Co.",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Building construction, civil engineering, and infrastructure development"
+    },
+    {
+      "company_name": "Al Harbi Trading & Contracting Co.",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Construction of buildings, roads, and bridges"
+    }
+  ],
+  "G – Wholesale and retail trade; repair of motor vehicles and motorcycles": [
+    {
+      "company_name": "Abdullah Al Othaim Markets",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Retail trade of food and beverages"
+    },
+    {
+      "company_name": "Jarir Marketing Company",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Retail trade of books, office supplies, and electronics"
+    },
+    {
+      "company_name": "Almarai Company",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Wholesale trade of dairy products and beverages"
+    }
+  ],
+  "H – Transportation and storage": [
+    {
+      "company_name": "Saudi Arabian Airlines",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Air transport services"
+    },
+    {
+      "company_name": "Bahri",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Shipping and logistics services"
+    },
+    {
+      "company_name": "Saudi Railway Company (SAR)",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Rail transport services"
+    }
+  ],
+  "I – Accommodation and food service activities": [
+    {
+      "company_name": "Almarai Company",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Food service activities"
+    },
+    {
+      "company_name": "Saudi Airlines Catering Company",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Catering services"
+    },
+    {
+      "company_name": "Herfy Food Services Co.",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Fast food and restaurant services"
+    }
+  ],
+  "J – Information and communication": [
+    {
+      "company_name": "Saudi Telecom Company (STC)",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Telecommunications services, digital solutions, and information technology services"
+    },
+    {
+      "company_name": "Mobily",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Mobile telecommunications services and digital solutions"
+    },
+    {
+      "company_name": "Zain Saudi Arabia",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Mobile telecommunications services and broadband internet"
+    }
+  ],
+  "K – Financial and insurance activities": [
+    {
+      "company_name": "Saudi Arabian Monetary Authority",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Central banking, financial regulation"
+    },
+    {
+      "company_name": "Al Rajhi Bank",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Banking, financial services"
+    },
+    {
+      "company_name": "National Commercial Bank",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Banking, financial services"
+    }
+  ],
+  "L – Real estate activities": [
+    {
+      "company_name": "Saudi Real Estate Company (Al Akaria)",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Real estate development and management"
+    },
+    {
+      "company_name": "Jabal Omar Development Company",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Real estate development and investment"
+    },
+    {
+      "company_name": "Dar Al Arkan Real Estate Development Company",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Real estate development and sales"
+    }
+  ],
+  "M – Professional, scientific and technical activities": [
+    {
+      "company_name": "Saudi Aramco",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Engineering and technical consultancy services"
+    },
+    {
+      "company_name": "SABIC",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Scientific research and development services"
+    },
+    {
+      "company_name": "Almarai",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Veterinary services"
+    }
+  ],
+  "N – Administrative and support service activities": [
+    {
+      "company_name": "Saudi Oger Ltd.",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Facilities management, construction, and maintenance services"
+    },
+    {
+      "company_name": "Almarai Company",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Support services for agriculture and food production"
+    },
+    {
+      "company_name": "Al Khodari Sons Company",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Construction and infrastructure support services"
+    }
+  ],
+  "O – Public administration and defence; compulsory social security": [
+    {
+      "company_name": "Saudi Arabian Military Industries (SAMI)",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Defense manufacturing and services"
+    },
+    {
+      "company_name": "Advanced Electronics Company (AEC)",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Defense electronics and systems integration"
+    },
+    {
+      "company_name": "Al Salam Aerospace Industries",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Aircraft maintenance and defense services"
+    }
+  ],
+  "P – Education": [
+    {
+      "company_name": "Saudi Electronic University",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Higher education, online learning"
+    },
+    {
+      "company_name": "Alfaisal University",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Higher education, research"
+    },
+    {
+      "company_name": "Prince Sultan University",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Higher education, engineering, business studies"
+    }
+  ],
+  "Q – Human health and social work activities": [
+    {
+      "company_name": "Saudi German Hospital Group",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Hospital activities, healthcare services"
+    },
+    {
+      "company_name": "Dr. Sulaiman Al Habib Medical Group",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Healthcare services, hospital management"
+    },
+    {
+      "company_name": "National Medical Care Company",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Hospital activities, healthcare services"
+    }
+  ],
+  "R – Arts, entertainment and recreation": [
+    {
+      "company_name": "Saudi Entertainment Ventures (SEVEN)",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Entertainment and leisure development"
+    },
+    {
+      "company_name": "AMC Cinemas Saudi Arabia",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Cinema operations and film exhibition"
+    },
+    {
+      "company_name": "Al Hokair Group",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Amusement parks and leisure facilities"
+    }
+  ],
+  "S – Other service activities": [
+    {
+      "company_name": "Al Rajhi Bank",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Financial services, including personal and corporate banking, investment banking, and insurance."
+    },
+    {
+      "company_name": "Saudi Telecom Company (STC)",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Telecommunications services, including mobile, fixed line, and internet services."
+    },
+    {
+      "company_name": "Saudi Arabian Airlines",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Airline services, including passenger and cargo transportation."
+    }
+  ],
+  "T – Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use": [],
+  "U – Activities of extraterritorial organizations and bodies": [
+    {
+      "company_name": "Islamic Development Bank",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Multilateral development financing"
+    },
+    {
+      "company_name": "Gulf Cooperation Council (GCC)",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Regional political and economic union activities"
+    },
+    {
+      "company_name": "Organization of Islamic Cooperation (OIC)",
+      "headquarters_country": "Saudi Arabia",
+      "main_industry_activities": "Intergovernmental organization activities"
+    }
+  ]
+}

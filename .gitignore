@@ -11,10 +11,6 @@ venv/
 config/.env
 config/.env.local
 
-# Data outputs
-data/*.json
-data/*.csv
-
 # Jupyter
 .ipynb_checkpoints/
 

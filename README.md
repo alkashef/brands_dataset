@@ -83,6 +83,30 @@ If limits are set (>0) lists are truncated after the API response, reducing toke
 
 Dependencies pinned with upper bounds in `requirements.txt` for reproducibility.
 
+### Data Sources
+
+#### Wikidata
+The project includes utilities for collecting company and brand data from Wikidata:
+- SPARQL queries to extract structured company information
+- Resulting CSV datasets with company classifications and metadata
+- Located in `data/` directory
+
+#### ISIC Classification
+The project uses the ISIC Rev.5 standard for industry classification:
+- **Source**: `data/isic/ISIC5_Exp_Notes_11Mar2024.xlsx` - Official ISIC Rev.5 explanatory notes
+- **Flattening Script**: `scripts/flatten_isic.py` - Converts hierarchical Excel structure to flat CSV
+- **Output**: `data/isic/ISIC5_Exp_Notes_11Mar2024_flattened.csv` - Analytics-ready format with columns:
+  - `section_name`, `division_name`, `group_name`, `class_name`
+  - `includes`, `excludes` - Activity descriptions and exclusions
+
+To regenerate the flattened ISIC data:
+```
+python scripts/flatten_isic.py
+```
+
+### ISIC Sections
+When using level 1 (sections) in the environment configuration, the system uses ISIC Rev.4 sections from `data/industries.json`. For more detailed classifications, use the ISIC Rev.5 data described in the Data Sources section above.
+
 ### License
 
 Released under the MIT License. See `LICENSE` for details.

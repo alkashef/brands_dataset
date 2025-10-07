@@ -1,0 +1,22 @@
+SELECT ?brand ?brandLabel
+       (GROUP_CONCAT(DISTINCT ?brandAltEn; separator="|") AS ?brandAlt_en)
+       ?owner ?ownerLabel
+       (GROUP_CONCAT(DISTINCT ?industryLabel; separator="|") AS ?industries)
+       (GROUP_CONCAT(DISTINCT ?isicLabel;     separator="|") AS ?isic_codes)
+       ?country ?countryLabel
+WHERE {
+  ?brand wdt:P31 wd:Q431289;
+         wdt:P127 ?owner.
+  ?owner wdt:P31/wdt:P279* wd:Q4830453.
+
+  OPTIONAL { ?owner wdt:P452  ?industry. }
+  OPTIONAL { ?owner wdt:P1796 ?isic. }
+  OPTIONAL { ?owner wdt:P17   ?country. }
+  OPTIONAL {
+    ?brand skos:altLabel ?brandAltEn.
+    FILTER(LANG(?brandAltEn) = "en")
+  }
+
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
+GROUP BY ?brand ?brandLabel ?owner ?ownerLabel ?country ?countryLabel
